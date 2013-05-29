@@ -20,13 +20,14 @@ public class BaseBrowser implements IBrowser {
     private WebDriver driver;
     private CurrentPage currentPage;
 
-    private BaseBrowser(Browser browser){
-         new Browser.IE
+    public final ICurrentPage createBrowser(Browser browser){
+        this.driver=browser.browser();
+        return this.currentPage;
     }
 
     @Override
     public ICurrentPage open() {
-
+        return this.currentPage;
     }
 
     @Override

@@ -8,4 +8,5 @@ package com.github.lmm.browser;
  * To change this template use File | Settings | File Templates.
  */
 public class HttpBrowser extends BaseBrowser {
+
 }
