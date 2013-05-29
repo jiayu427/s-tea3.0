@@ -2,12 +2,244 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="2633.0" y="2159.0">com.github.lmm.runner.JUnitBaseRunner</node>
+    <node x="0.0" y="3182.0">com.github.lmm.runner.TestNGRunner</node>
+    <node x="2501.0" y="2159.0">com.github.lmm.result.Result</node>
+    <node x="451.0" y="2051.0">com.github.lmm.element.Table</node>
+    <node x="1459.25" y="1005.0">com.github.lmm.element.PageElement</node>
+    <node x="977.75" y="0.0">com.github.lmm.element.IElement</node>
+    <node x="1125.0" y="2051.0">com.github.lmm.element.Form</node>
+    <node x="2175.0" y="2261.0">com.github.lmm.source.XMLSource</node>
+    <node x="1059.0" y="2159.0">com.github.lmm.report.IReport</node>
+    <node x="447.0" y="3040.5">com.github.lmm.browser.IE</node>
+    <node x="179.70000000000005" y="2159.0">com.github.lmm.browser.IBrowser</node>
+    <node x="860.0" y="3040.5">com.github.lmm.browser.Firefox</node>
+    <node x="280.0" y="3040.5">com.github.lmm.browser.Opera</node>
+    <node x="1888.0" y="2261.0">com.github.lmm.source.TXTSource</node>
+    <node x="317.0" y="2051.0">com.github.lmm.element.Image</node>
+    <node x="3110.0" y="2159.0">com.github.lmm.listener.RunnerListener</node>
+    <node x="1888.0" y="2159.0">com.github.lmm.source.Source</node>
+    <node x="677.0" y="2062.0">com.github.lmm.element.RichTextField</node>
+    <node x="1601.0" y="2261.0">com.github.lmm.source.ExcelSource</node>
+    <node x="816.0" y="2062.0">com.github.lmm.element.SelfConfigElement</node>
+    <node x="1377.0" y="2062.0">com.github.lmm.element.Select</node>
+    <node x="1763.0" y="2062.0">com.github.lmm.element.TextField</node>
+    <node x="3397.25" y="543.5">com.github.lmm.page.IFrame</node>
+    <node x="1059.0" y="2327.0">com.github.lmm.report.Report</node>
+    <node x="564.0" y="3040.5">com.github.lmm.browser.Safari</node>
+    <node x="2447.25" y="888.0">com.github.lmm.page.CurrentPage</node>
+    <node x="328.0" y="3182.0">com.github.lmm.source.xml</node>
+    <node x="705.0" y="3040.5">com.github.lmm.browser.Chrome</node>
+    <node x="1468.0" y="2040.0">com.github.lmm.element.RadioButton</node>
+    <node x="496.25" y="1005.0">com.github.lmm.element.Element</node>
+    <node x="169.0" y="3182.0">com.github.lmm.element.ListElements</node>
+    <node x="185.0" y="2062.0">com.github.lmm.element.AjaxElement</node>
+    <node x="3188.25" y="521.5">com.github.lmm.page.TypePage</node>
+    <node x="1362.0" y="2159.0">com.github.lmm.element.Locator</node>
+    <node x="3283.0" y="2159.0">com.github.lmm.listener.ActionListener</node>
+    <node x="985.0" y="2051.0">com.github.lmm.element.Link</node>
+    <node x="486.0" y="3182.0">com.github.lmm.source.txt</node>
+    <node x="2488.25" y="279.0">com.github.lmm.page.ICurrentPage</node>
+    <node x="3103.25" y="0.0">com.github.lmm.page.IPage</node>
+    <node x="1668.0" y="2062.0">com.github.lmm.element.Button</node>
+    <node x="87.20000000000005" y="2526.0">com.github.lmm.browser.BaseBrowser</node>
+    <node x="2905.0" y="2159.0">com.github.lmm.proxy.ActionListenerProxy</node>
+    <node x="0.0" y="3018.0">com.github.lmm.browser.HtmlUnit</node>
+    <node x="74.5" y="2938.0">com.github.lmm.browser.HttpBrowser</node>
+    <node x="0.0" y="2040.0">com.github.lmm.element.CheckBox</node>
+    <node x="559.5" y="2938.0">com.github.lmm.browser.RemoteBrowser</node>
+    <node x="2487.0" y="2239.0">com.github.lmm.result.ResultImpl</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="com.github.lmm.browser.Firefox" target="com.github.lmm.browser.RemoteBrowser">
+      <point x="0.0" y="-37.0" />
+      <point x="937.0" y="2988.0" />
+      <point x="676.5" y="2988.0" />
+      <point x="52.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.element.AjaxElement" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="241.0" y="1990.0" />
+      <point x="614.125" y="1990.0" />
+      <point x="-353.625" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.RadioButton" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-37.0" />
+      <point x="1558.0" y="2000.0" />
+      <point x="1242.7916666666665" y="2000.0" />
+      <point x="275.0416666666665" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.Button" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="1705.5" y="1990.0" />
+      <point x="1321.3749999999998" y="1990.0" />
+      <point x="353.6249999999998" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.page.ICurrentPage" target="com.github.lmm.page.IPage">
+      <point x="0.0" y="-279.5" />
+      <point x="2828.25" y="254.0" />
+      <point x="3163.0833333333335" y="254.0" />
+      <point x="-119.66666666666652" y="114.5" />
+    </edge>
+    <edge source="com.github.lmm.element.Select" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="1412.5" y="2010.0" />
+      <point x="1164.2083333333333" y="2010.0" />
+      <point x="196.45833333333326" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.TextField" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="1809.0" y="1980.0" />
+      <point x="1399.958333333333" y="1980.0" />
+      <point x="432.20833333333303" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.browser.IE" target="com.github.lmm.browser.RemoteBrowser">
+      <point x="0.0" y="-37.0" />
+      <point x="495.5" y="2998.0" />
+      <point x="598.5" y="2998.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.element.Form" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-26.0" />
+      <point x="1241.0" y="2020.0" />
+      <point x="1085.625" y="2020.0" />
+      <point x="117.875" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.Element" target="com.github.lmm.element.IElement">
+      <point x="0.0" y="-477.5" />
+      <point x="967.75" y="980.0" />
+      <point x="1213.5" y="980.0" />
+      <point x="-235.75" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.browser.BaseBrowser" target="com.github.lmm.browser.IBrowser">
+      <point x="0.0" y="-181.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.github.lmm.page.TypePage" target="com.github.lmm.page.IPage">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="com.github.lmm.element.Image" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-26.0" />
+      <point x="374.0" y="2000.0" />
+      <point x="692.7083333333333" y="2000.0" />
+      <point x="-275.04166666666674" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.SelfConfigElement" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="890.5" y="2020.0" />
+      <point x="928.4583333333333" y="2020.0" />
+      <point x="-39.29166666666674" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.browser.RemoteBrowser" target="com.github.lmm.browser.BaseBrowser">
+      <point x="0.0" y="-15.0" />
+      <point x="624.5" y="2913.0" />
+      <point x="538.7" y="2913.0" />
+      <point x="150.5" y="181.0" />
+    </edge>
+    <edge source="com.github.lmm.element.Link" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-26.0" />
+      <point x="1045.0" y="2020.0" />
+      <point x="1007.0416666666665" y="2020.0" />
+      <point x="39.291666666666515" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.PageElement" target="com.github.lmm.element.IElement">
+      <point x="0.0" y="-477.5" />
+      <point x="1930.75" y="980.0" />
+      <point x="1685.0" y="980.0" />
+      <point x="235.75" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.element.RichTextField" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="736.5" y="2020.0" />
+      <point x="849.875" y="2020.0" />
+      <point x="-117.875" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.browser.Safari" target="com.github.lmm.browser.RemoteBrowser">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.browser.Opera" target="com.github.lmm.browser.RemoteBrowser">
+      <point x="0.0" y="-37.0" />
+      <point x="353.5" y="2988.0" />
+      <point x="572.5" y="2988.0" />
+      <point x="-52.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.page.IFrame" target="com.github.lmm.page.IPage">
+      <point x="0.0" y="-15.0" />
+      <point x="3435.25" y="254.0" />
+      <point x="3402.4166666666665" y="254.0" />
+      <point x="119.66666666666652" y="114.5" />
+    </edge>
+    <edge source="com.github.lmm.page.CurrentPage" target="com.github.lmm.page.ICurrentPage">
+      <point x="0.0" y="-368.0" />
+      <point x="0.0" y="279.5" />
+    </edge>
+    <edge source="com.github.lmm.source.ExcelSource" target="com.github.lmm.source.Source">
+      <point x="0.0" y="-26.0" />
+      <point x="1734.5" y="2236.0" />
+      <point x="1932.5" y="2236.0" />
+      <point x="-89.0" y="26.0" />
+    </edge>
+    <edge source="com.github.lmm.element.Table" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-26.0" />
+      <point x="554.0" y="2010.0" />
+      <point x="771.2916666666666" y="2010.0" />
+      <point x="-196.45833333333337" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.browser.Chrome" target="com.github.lmm.browser.RemoteBrowser">
+      <point x="0.0" y="-37.0" />
+      <point x="772.5" y="2998.0" />
+      <point x="650.5" y="2998.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.source.XMLSource" target="com.github.lmm.source.Source">
+      <point x="0.0" y="-26.0" />
+      <point x="2308.5" y="2236.0" />
+      <point x="2110.5" y="2236.0" />
+      <point x="89.0" y="26.0" />
+    </edge>
+    <edge source="com.github.lmm.browser.HtmlUnit" target="com.github.lmm.browser.HttpBrowser">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.lmm.source.TXTSource" target="com.github.lmm.source.Source">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.github.lmm.element.CheckBox" target="com.github.lmm.element.Element">
+      <point x="0.0" y="-37.0" />
+      <point x="82.5" y="1980.0" />
+      <point x="535.5416666666667" y="1980.0" />
+      <point x="-432.20833333333326" y="477.5" />
+    </edge>
+    <edge source="com.github.lmm.report.Report" target="com.github.lmm.report.IReport">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.github.lmm.browser.HttpBrowser" target="com.github.lmm.browser.BaseBrowser">
+      <point x="0.0" y="-15.0" />
+      <point x="130.0" y="2913.0" />
+      <point x="237.70000000000005" y="2913.0" />
+      <point x="-150.5" y="181.0" />
+    </edge>
+    <edge source="com.github.lmm.result.ResultImpl" target="com.github.lmm.result.Result">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3187759816735303" x="1089.9926095837488" y="922.8732880255324" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

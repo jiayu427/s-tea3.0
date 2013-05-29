@@ -2,116 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc45414f-20e9-4951-add6-2fc7863b0e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/listener/ActionListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/proxy/ActionListenerProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/AjaxElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Button.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/CheckBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Chrome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/source/ExcelSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Firefox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Form.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/HtmlUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/HttpBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/ICurrentPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/IE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/IElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/IFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/IPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/report/IReport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Image.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Link.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/ListElements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Little.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Locator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_tools_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_9_v20130131.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_9_v20130131.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_9_v20130131.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_9_v20130131.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_android_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_33_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Opera.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/PageElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/RadioButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/RemoteBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/report/Report.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/result/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/result/ResultImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/RichTextField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/listener/RunnerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Safari.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Select.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/SelfConfigElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/source/Source.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/source/TXTSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Table.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/TestNGRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/TextField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/TypePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/source/XMLSource.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/IBrowser.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/IBrowser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LittleMM.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369814748179" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369814999935" ignored="false" />
     <file path="/fragment.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369814303896" ignored="false" />
     <file path="/Page.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369796301769" ignored="false" />
     <file path="/pom.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369797255930" ignored="false" />
@@ -215,7 +111,259 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="littlemm.uml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="2633.0" y="2159.0">com.github.lmm.runner.JUnitBaseRunner</node>
+                <node x="0.0" y="3182.0">com.github.lmm.runner.TestNGRunner</node>
+                <node x="2501.0" y="2159.0">com.github.lmm.result.Result</node>
+                <node x="451.0" y="2051.0">com.github.lmm.element.Table</node>
+                <node x="1459.25" y="1005.0">com.github.lmm.element.PageElement</node>
+                <node x="977.75" y="0.0">com.github.lmm.element.IElement</node>
+                <node x="1125.0" y="2051.0">com.github.lmm.element.Form</node>
+                <node x="2175.0" y="2261.0">com.github.lmm.source.XMLSource</node>
+                <node x="1059.0" y="2159.0">com.github.lmm.report.IReport</node>
+                <node x="447.0" y="3040.5">com.github.lmm.browser.IE</node>
+                <node x="179.70000000000005" y="2159.0">com.github.lmm.browser.IBrowser</node>
+                <node x="860.0" y="3040.5">com.github.lmm.browser.Firefox</node>
+                <node x="280.0" y="3040.5">com.github.lmm.browser.Opera</node>
+                <node x="1888.0" y="2261.0">com.github.lmm.source.TXTSource</node>
+                <node x="317.0" y="2051.0">com.github.lmm.element.Image</node>
+                <node x="3110.0" y="2159.0">com.github.lmm.listener.RunnerListener</node>
+                <node x="1888.0" y="2159.0">com.github.lmm.source.Source</node>
+                <node x="677.0" y="2062.0">com.github.lmm.element.RichTextField</node>
+                <node x="1601.0" y="2261.0">com.github.lmm.source.ExcelSource</node>
+                <node x="816.0" y="2062.0">com.github.lmm.element.SelfConfigElement</node>
+                <node x="1377.0" y="2062.0">com.github.lmm.element.Select</node>
+                <node x="1763.0" y="2062.0">com.github.lmm.element.TextField</node>
+                <node x="1059.0" y="2327.0">com.github.lmm.report.Report</node>
+                <node x="3397.25" y="543.5">com.github.lmm.page.IFrame</node>
+                <node x="564.0" y="3040.5">com.github.lmm.browser.Safari</node>
+                <node x="2447.25" y="888.0">com.github.lmm.page.CurrentPage</node>
+                <node x="328.0" y="3182.0">com.github.lmm.source.xml</node>
+                <node x="705.0" y="3040.5">com.github.lmm.browser.Chrome</node>
+                <node x="1468.0" y="2040.0">com.github.lmm.element.RadioButton</node>
+                <node x="496.25" y="1005.0">com.github.lmm.element.Element</node>
+                <node x="169.0" y="3182.0">com.github.lmm.element.ListElements</node>
+                <node x="185.0" y="2062.0">com.github.lmm.element.AjaxElement</node>
+                <node x="3188.25" y="521.5">com.github.lmm.page.TypePage</node>
+                <node x="1362.0" y="2159.0">com.github.lmm.element.Locator</node>
+                <node x="3283.0" y="2159.0">com.github.lmm.listener.ActionListener</node>
+                <node x="985.0" y="2051.0">com.github.lmm.element.Link</node>
+                <node x="486.0" y="3182.0">com.github.lmm.source.txt</node>
+                <node x="2488.25" y="279.0">com.github.lmm.page.ICurrentPage</node>
+                <node x="3103.25" y="0.0">com.github.lmm.page.IPage</node>
+                <node x="1668.0" y="2062.0">com.github.lmm.element.Button</node>
+                <node x="87.20000000000005" y="2526.0">com.github.lmm.browser.BaseBrowser</node>
+                <node x="2905.0" y="2159.0">com.github.lmm.proxy.ActionListenerProxy</node>
+                <node x="0.0" y="3018.0">com.github.lmm.browser.HtmlUnit</node>
+                <node x="74.5" y="2938.0">com.github.lmm.browser.HttpBrowser</node>
+                <node x="0.0" y="2040.0">com.github.lmm.element.CheckBox</node>
+                <node x="559.5" y="2938.0">com.github.lmm.browser.RemoteBrowser</node>
+                <node x="2487.0" y="2239.0">com.github.lmm.result.ResultImpl</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.github.lmm.browser.Firefox" target="com.github.lmm.browser.RemoteBrowser">
+                  <point x="0.0" y="-37.0" />
+                  <point x="937.0" y="2988.0" />
+                  <point x="676.5" y="2988.0" />
+                  <point x="52.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.element.AjaxElement" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="241.0" y="1990.0" />
+                  <point x="614.125" y="1990.0" />
+                  <point x="-353.625" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.RadioButton" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-37.0" />
+                  <point x="1558.0" y="2000.0" />
+                  <point x="1242.7916666666665" y="2000.0" />
+                  <point x="275.0416666666665" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Button" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1705.5" y="1990.0" />
+                  <point x="1321.3749999999998" y="1990.0" />
+                  <point x="353.6249999999998" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.page.ICurrentPage" target="com.github.lmm.page.IPage">
+                  <point x="0.0" y="-279.5" />
+                  <point x="2828.25" y="254.0" />
+                  <point x="3163.0833333333335" y="254.0" />
+                  <point x="-119.66666666666652" y="114.5" />
+                </edge>
+                <edge source="com.github.lmm.browser.IE" target="com.github.lmm.browser.RemoteBrowser">
+                  <point x="0.0" y="-37.0" />
+                  <point x="495.5" y="2998.0" />
+                  <point x="598.5" y="2998.0" />
+                  <point x="-26.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.element.TextField" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1809.0" y="1980.0" />
+                  <point x="1399.958333333333" y="1980.0" />
+                  <point x="432.20833333333303" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Select" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1412.5" y="2010.0" />
+                  <point x="1164.2083333333333" y="2010.0" />
+                  <point x="196.45833333333326" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Form" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-26.0" />
+                  <point x="1241.0" y="2020.0" />
+                  <point x="1085.625" y="2020.0" />
+                  <point x="117.875" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Element" target="com.github.lmm.element.IElement">
+                  <point x="0.0" y="-477.5" />
+                  <point x="967.75" y="980.0" />
+                  <point x="1213.5" y="980.0" />
+                  <point x="-235.75" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.browser.BaseBrowser" target="com.github.lmm.browser.IBrowser">
+                  <point x="0.0" y="-181.0" />
+                  <point x="0.0" y="158.5" />
+                </edge>
+                <edge source="com.github.lmm.page.TypePage" target="com.github.lmm.page.IPage">
+                  <point x="0.0" y="-37.0" />
+                  <point x="0.0" y="114.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Image" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-26.0" />
+                  <point x="374.0" y="2000.0" />
+                  <point x="692.7083333333333" y="2000.0" />
+                  <point x="-275.04166666666674" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.SelfConfigElement" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="890.5" y="2020.0" />
+                  <point x="928.4583333333333" y="2020.0" />
+                  <point x="-39.29166666666674" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.browser.RemoteBrowser" target="com.github.lmm.browser.BaseBrowser">
+                  <point x="0.0" y="-15.0" />
+                  <point x="624.5" y="2913.0" />
+                  <point x="538.7" y="2913.0" />
+                  <point x="150.5" y="181.0" />
+                </edge>
+                <edge source="com.github.lmm.element.PageElement" target="com.github.lmm.element.IElement">
+                  <point x="0.0" y="-477.5" />
+                  <point x="1930.75" y="980.0" />
+                  <point x="1685.0" y="980.0" />
+                  <point x="235.75" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.RichTextField" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-15.0" />
+                  <point x="736.5" y="2020.0" />
+                  <point x="849.875" y="2020.0" />
+                  <point x="-117.875" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.element.Link" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-26.0" />
+                  <point x="1045.0" y="2020.0" />
+                  <point x="1007.0416666666665" y="2020.0" />
+                  <point x="39.291666666666515" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.browser.Safari" target="com.github.lmm.browser.RemoteBrowser">
+                  <point x="0.0" y="-37.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.browser.Opera" target="com.github.lmm.browser.RemoteBrowser">
+                  <point x="0.0" y="-37.0" />
+                  <point x="353.5" y="2988.0" />
+                  <point x="572.5" y="2988.0" />
+                  <point x="-52.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.page.IFrame" target="com.github.lmm.page.IPage">
+                  <point x="0.0" y="-15.0" />
+                  <point x="3435.25" y="254.0" />
+                  <point x="3402.4166666666665" y="254.0" />
+                  <point x="119.66666666666652" y="114.5" />
+                </edge>
+                <edge source="com.github.lmm.page.CurrentPage" target="com.github.lmm.page.ICurrentPage">
+                  <point x="0.0" y="-368.0" />
+                  <point x="0.0" y="279.5" />
+                </edge>
+                <edge source="com.github.lmm.source.ExcelSource" target="com.github.lmm.source.Source">
+                  <point x="0.0" y="-26.0" />
+                  <point x="1734.5" y="2236.0" />
+                  <point x="1932.5" y="2236.0" />
+                  <point x="-89.0" y="26.0" />
+                </edge>
+                <edge source="com.github.lmm.element.Table" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-26.0" />
+                  <point x="554.0" y="2010.0" />
+                  <point x="771.2916666666666" y="2010.0" />
+                  <point x="-196.45833333333337" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.browser.Chrome" target="com.github.lmm.browser.RemoteBrowser">
+                  <point x="0.0" y="-37.0" />
+                  <point x="772.5" y="2998.0" />
+                  <point x="650.5" y="2998.0" />
+                  <point x="26.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.source.XMLSource" target="com.github.lmm.source.Source">
+                  <point x="0.0" y="-26.0" />
+                  <point x="2308.5" y="2236.0" />
+                  <point x="2110.5" y="2236.0" />
+                  <point x="89.0" y="26.0" />
+                </edge>
+                <edge source="com.github.lmm.browser.HtmlUnit" target="com.github.lmm.browser.HttpBrowser">
+                  <point x="0.0" y="-59.5" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.github.lmm.source.TXTSource" target="com.github.lmm.source.Source">
+                  <point x="0.0" y="-26.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="com.github.lmm.element.CheckBox" target="com.github.lmm.element.Element">
+                  <point x="0.0" y="-37.0" />
+                  <point x="82.5" y="1980.0" />
+                  <point x="535.5416666666667" y="1980.0" />
+                  <point x="-432.20833333333326" y="477.5" />
+                </edge>
+                <edge source="com.github.lmm.report.Report" target="com.github.lmm.report.IReport">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="com.github.lmm.browser.HttpBrowser" target="com.github.lmm.browser.BaseBrowser">
+                  <point x="0.0" y="-15.0" />
+                  <point x="130.0" y="2913.0" />
+                  <point x="237.70000000000005" y="2913.0" />
+                  <point x="-150.5" y="181.0" />
+                </edge>
+                <edge source="com.github.lmm.result.ResultImpl" target="com.github.lmm.result.Result">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.39810770332519263" x="937.8391573292977" y="1491.3086395899927" />
+              <SelectedNodes>
+                <node>com.github.lmm.runner.JUnitBaseRunner</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -291,6 +439,42 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Little" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Little" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LittleMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Little" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LittleMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -436,6 +620,11 @@
       <created>1369790210774</created>
       <updated>1369790210774</updated>
     </task>
+    <task id="LOCAL-00001" summary="提交了项目">
+      <created>1369815014419</created>
+      <updated>1369815014419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,14 +643,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24473257" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20745543" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -643,17 +832,316 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/com.github.lmm">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.github.lmm</OriginalElement>
+          <nodes>
+            <node x="" y="">com.github.lmm.runner.JUnitBaseRunner</node>
+            <node x="" y="">com.github.lmm.runner.TestNGRunner</node>
+            <node x="" y="">com.github.lmm.result.Result</node>
+            <node x="" y="">com.github.lmm.element.Table</node>
+            <node x="" y="">com.github.lmm.element.PageElement</node>
+            <node x="" y="">com.github.lmm.element.IElement</node>
+            <node x="" y="">com.github.lmm.element.Form</node>
+            <node x="" y="">com.github.lmm.source.XMLSource</node>
+            <node x="" y="">com.github.lmm.report.IReport</node>
+            <node x="" y="">com.github.lmm.browser.IE</node>
+            <node x="" y="">com.github.lmm.browser.Firefox</node>
+            <node x="" y="">com.github.lmm.browser.IBrowser</node>
+            <node x="" y="">com.github.lmm.browser.Opera</node>
+            <node x="" y="">com.github.lmm.source.TXTSource</node>
+            <node x="" y="">com.github.lmm.element.Image</node>
+            <node x="" y="">com.github.lmm.listener.RunnerListener</node>
+            <node x="" y="">com.github.lmm.source.Source</node>
+            <node x="" y="">com.github.lmm.element.RichTextField</node>
+            <node x="" y="">com.github.lmm.source.ExcelSource</node>
+            <node x="" y="">com.github.lmm.element.SelfConfigElement</node>
+            <node x="" y="">com.github.lmm.element.Select</node>
+            <node x="" y="">com.github.lmm.element.TextField</node>
+            <node x="" y="">com.github.lmm.report.Report</node>
+            <node x="" y="">com.github.lmm.page.IFrame</node>
+            <node x="" y="">com.github.lmm.browser.Safari</node>
+            <node x="" y="">com.github.lmm.page.CurrentPage</node>
+            <node x="" y="">com.github.lmm.source.xml</node>
+            <node x="" y="">com.github.lmm.browser.Chrome</node>
+            <node x="" y="">com.github.lmm.element.RadioButton</node>
+            <node x="" y="">com.github.lmm.element.ListElements</node>
+            <node x="" y="">com.github.lmm.element.Element</node>
+            <node x="" y="">com.github.lmm.element.AjaxElement</node>
+            <node x="" y="">com.github.lmm.page.TypePage</node>
+            <node x="" y="">com.github.lmm.element.Locator</node>
+            <node x="" y="">com.github.lmm.listener.ActionListener</node>
+            <node x="" y="">com.github.lmm.element.Link</node>
+            <node x="" y="">com.github.lmm.source.txt</node>
+            <node x="" y="">com.github.lmm.page.ICurrentPage</node>
+            <node x="" y="">com.github.lmm.page.IPage</node>
+            <node x="" y="">com.github.lmm.element.Button</node>
+            <node x="" y="">com.github.lmm.browser.BaseBrowser</node>
+            <node x="" y="">com.github.lmm.browser.HtmlUnit</node>
+            <node x="" y="">com.github.lmm.proxy.ActionListenerProxy</node>
+            <node x="" y="">com.github.lmm.browser.HttpBrowser</node>
+            <node x="" y="">com.github.lmm.element.CheckBox</node>
+            <node x="" y="">com.github.lmm.browser.RemoteBrowser</node>
+            <node x="" y="">com.github.lmm.result.ResultImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5185039738195419" x="1313.7394957983192" y="1333.0500775417463" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement />
-          <nodes />
+          <nodes>
+            <node x="2633.0" y="2159.0">com.github.lmm.runner.JUnitBaseRunner</node>
+            <node x="0.0" y="3182.0">com.github.lmm.runner.TestNGRunner</node>
+            <node x="2501.0" y="2159.0">com.github.lmm.result.Result</node>
+            <node x="451.0" y="2051.0">com.github.lmm.element.Table</node>
+            <node x="1459.25" y="1005.0">com.github.lmm.element.PageElement</node>
+            <node x="977.75" y="0.0">com.github.lmm.element.IElement</node>
+            <node x="1125.0" y="2051.0">com.github.lmm.element.Form</node>
+            <node x="2175.0" y="2261.0">com.github.lmm.source.XMLSource</node>
+            <node x="1059.0" y="2159.0">com.github.lmm.report.IReport</node>
+            <node x="447.0" y="3040.5">com.github.lmm.browser.IE</node>
+            <node x="179.70000000000005" y="2159.0">com.github.lmm.browser.IBrowser</node>
+            <node x="860.0" y="3040.5">com.github.lmm.browser.Firefox</node>
+            <node x="280.0" y="3040.5">com.github.lmm.browser.Opera</node>
+            <node x="1888.0" y="2261.0">com.github.lmm.source.TXTSource</node>
+            <node x="317.0" y="2051.0">com.github.lmm.element.Image</node>
+            <node x="3110.0" y="2159.0">com.github.lmm.listener.RunnerListener</node>
+            <node x="1888.0" y="2159.0">com.github.lmm.source.Source</node>
+            <node x="677.0" y="2062.0">com.github.lmm.element.RichTextField</node>
+            <node x="1601.0" y="2261.0">com.github.lmm.source.ExcelSource</node>
+            <node x="816.0" y="2062.0">com.github.lmm.element.SelfConfigElement</node>
+            <node x="1377.0" y="2062.0">com.github.lmm.element.Select</node>
+            <node x="1763.0" y="2062.0">com.github.lmm.element.TextField</node>
+            <node x="1059.0" y="2327.0">com.github.lmm.report.Report</node>
+            <node x="3397.25" y="543.5">com.github.lmm.page.IFrame</node>
+            <node x="564.0" y="3040.5">com.github.lmm.browser.Safari</node>
+            <node x="2447.25" y="888.0">com.github.lmm.page.CurrentPage</node>
+            <node x="328.0" y="3182.0">com.github.lmm.source.xml</node>
+            <node x="705.0" y="3040.5">com.github.lmm.browser.Chrome</node>
+            <node x="1468.0" y="2040.0">com.github.lmm.element.RadioButton</node>
+            <node x="496.25" y="1005.0">com.github.lmm.element.Element</node>
+            <node x="169.0" y="3182.0">com.github.lmm.element.ListElements</node>
+            <node x="185.0" y="2062.0">com.github.lmm.element.AjaxElement</node>
+            <node x="3188.25" y="521.5">com.github.lmm.page.TypePage</node>
+            <node x="1362.0" y="2159.0">com.github.lmm.element.Locator</node>
+            <node x="3283.0" y="2159.0">com.github.lmm.listener.ActionListener</node>
+            <node x="985.0" y="2051.0">com.github.lmm.element.Link</node>
+            <node x="486.0" y="3182.0">com.github.lmm.source.txt</node>
+            <node x="2488.25" y="279.0">com.github.lmm.page.ICurrentPage</node>
+            <node x="3103.25" y="0.0">com.github.lmm.page.IPage</node>
+            <node x="1668.0" y="2062.0">com.github.lmm.element.Button</node>
+            <node x="87.20000000000005" y="2526.0">com.github.lmm.browser.BaseBrowser</node>
+            <node x="2905.0" y="2159.0">com.github.lmm.proxy.ActionListenerProxy</node>
+            <node x="0.0" y="3018.0">com.github.lmm.browser.HtmlUnit</node>
+            <node x="74.5" y="2938.0">com.github.lmm.browser.HttpBrowser</node>
+            <node x="0.0" y="2040.0">com.github.lmm.element.CheckBox</node>
+            <node x="559.5" y="2938.0">com.github.lmm.browser.RemoteBrowser</node>
+            <node x="2487.0" y="2239.0">com.github.lmm.result.ResultImpl</node>
+          </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="-2340.0" />
-          <SelectedNodes />
-          <Categories />
+          <edges>
+            <edge source="com.github.lmm.browser.Firefox" target="com.github.lmm.browser.RemoteBrowser">
+              <point x="0.0" y="-37.0" />
+              <point x="937.0" y="2988.0" />
+              <point x="676.5" y="2988.0" />
+              <point x="52.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.element.AjaxElement" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="241.0" y="1990.0" />
+              <point x="614.125" y="1990.0" />
+              <point x="-353.625" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.RadioButton" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-37.0" />
+              <point x="1558.0" y="2000.0" />
+              <point x="1242.7916666666665" y="2000.0" />
+              <point x="275.0416666666665" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Button" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="1705.5" y="1990.0" />
+              <point x="1321.3749999999998" y="1990.0" />
+              <point x="353.6249999999998" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.page.ICurrentPage" target="com.github.lmm.page.IPage">
+              <point x="0.0" y="-279.5" />
+              <point x="2828.25" y="254.0" />
+              <point x="3163.0833333333335" y="254.0" />
+              <point x="-119.66666666666652" y="114.5" />
+            </edge>
+            <edge source="com.github.lmm.browser.IE" target="com.github.lmm.browser.RemoteBrowser">
+              <point x="0.0" y="-37.0" />
+              <point x="495.5" y="2998.0" />
+              <point x="598.5" y="2998.0" />
+              <point x="-26.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.element.TextField" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="1809.0" y="1980.0" />
+              <point x="1399.958333333333" y="1980.0" />
+              <point x="432.20833333333303" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Select" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="1412.5" y="2010.0" />
+              <point x="1164.2083333333333" y="2010.0" />
+              <point x="196.45833333333326" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Form" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-26.0" />
+              <point x="1241.0" y="2020.0" />
+              <point x="1085.625" y="2020.0" />
+              <point x="117.875" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Element" target="com.github.lmm.element.IElement">
+              <point x="0.0" y="-477.5" />
+              <point x="967.75" y="980.0" />
+              <point x="1213.5" y="980.0" />
+              <point x="-235.75" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.browser.BaseBrowser" target="com.github.lmm.browser.IBrowser">
+              <point x="0.0" y="-181.0" />
+              <point x="0.0" y="158.5" />
+            </edge>
+            <edge source="com.github.lmm.page.TypePage" target="com.github.lmm.page.IPage">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="114.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Image" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-26.0" />
+              <point x="374.0" y="2000.0" />
+              <point x="692.7083333333333" y="2000.0" />
+              <point x="-275.04166666666674" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.SelfConfigElement" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="890.5" y="2020.0" />
+              <point x="928.4583333333333" y="2020.0" />
+              <point x="-39.29166666666674" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.browser.RemoteBrowser" target="com.github.lmm.browser.BaseBrowser">
+              <point x="0.0" y="-15.0" />
+              <point x="624.5" y="2913.0" />
+              <point x="538.7" y="2913.0" />
+              <point x="150.5" y="181.0" />
+            </edge>
+            <edge source="com.github.lmm.element.PageElement" target="com.github.lmm.element.IElement">
+              <point x="0.0" y="-477.5" />
+              <point x="1930.75" y="980.0" />
+              <point x="1685.0" y="980.0" />
+              <point x="235.75" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.RichTextField" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-15.0" />
+              <point x="736.5" y="2020.0" />
+              <point x="849.875" y="2020.0" />
+              <point x="-117.875" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.element.Link" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-26.0" />
+              <point x="1045.0" y="2020.0" />
+              <point x="1007.0416666666665" y="2020.0" />
+              <point x="39.291666666666515" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.browser.Safari" target="com.github.lmm.browser.RemoteBrowser">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.browser.Opera" target="com.github.lmm.browser.RemoteBrowser">
+              <point x="0.0" y="-37.0" />
+              <point x="353.5" y="2988.0" />
+              <point x="572.5" y="2988.0" />
+              <point x="-52.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.page.IFrame" target="com.github.lmm.page.IPage">
+              <point x="0.0" y="-15.0" />
+              <point x="3435.25" y="254.0" />
+              <point x="3402.4166666666665" y="254.0" />
+              <point x="119.66666666666652" y="114.5" />
+            </edge>
+            <edge source="com.github.lmm.page.CurrentPage" target="com.github.lmm.page.ICurrentPage">
+              <point x="0.0" y="-368.0" />
+              <point x="0.0" y="279.5" />
+            </edge>
+            <edge source="com.github.lmm.source.ExcelSource" target="com.github.lmm.source.Source">
+              <point x="0.0" y="-26.0" />
+              <point x="1734.5" y="2236.0" />
+              <point x="1932.5" y="2236.0" />
+              <point x="-89.0" y="26.0" />
+            </edge>
+            <edge source="com.github.lmm.element.Table" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-26.0" />
+              <point x="554.0" y="2010.0" />
+              <point x="771.2916666666666" y="2010.0" />
+              <point x="-196.45833333333337" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.browser.Chrome" target="com.github.lmm.browser.RemoteBrowser">
+              <point x="0.0" y="-37.0" />
+              <point x="772.5" y="2998.0" />
+              <point x="650.5" y="2998.0" />
+              <point x="26.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.source.XMLSource" target="com.github.lmm.source.Source">
+              <point x="0.0" y="-26.0" />
+              <point x="2308.5" y="2236.0" />
+              <point x="2110.5" y="2236.0" />
+              <point x="89.0" y="26.0" />
+            </edge>
+            <edge source="com.github.lmm.browser.HtmlUnit" target="com.github.lmm.browser.HttpBrowser">
+              <point x="0.0" y="-59.5" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.github.lmm.source.TXTSource" target="com.github.lmm.source.Source">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="com.github.lmm.element.CheckBox" target="com.github.lmm.element.Element">
+              <point x="0.0" y="-37.0" />
+              <point x="82.5" y="1980.0" />
+              <point x="535.5416666666667" y="1980.0" />
+              <point x="-432.20833333333326" y="477.5" />
+            </edge>
+            <edge source="com.github.lmm.report.Report" target="com.github.lmm.report.IReport">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="com.github.lmm.browser.HttpBrowser" target="com.github.lmm.browser.BaseBrowser">
+              <point x="0.0" y="-15.0" />
+              <point x="130.0" y="2913.0" />
+              <point x="237.70000000000005" y="2913.0" />
+              <point x="-150.5" y="181.0" />
+            </edge>
+            <edge source="com.github.lmm.result.ResultImpl" target="com.github.lmm.result.Result">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.39810770332519263" x="937.8391573292977" y="1491.3086395899927" />
+          <SelectedNodes>
+            <node>com.github.lmm.runner.JUnitBaseRunner</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
