@@ -20,5 +20,15 @@
           <groupId>junit</groupId>
           <version>4.11</version>
       </dependency>
+      <dependency>
+          <artifactId>selenium-java</artifactId>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <version>2.33.0</version>
+      </dependency>
+      <dependency>
+          <artifactId>selenium-server</artifactId>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <version>2.33.0</version>
+      </dependency>
   </dependencies>
   </project>
