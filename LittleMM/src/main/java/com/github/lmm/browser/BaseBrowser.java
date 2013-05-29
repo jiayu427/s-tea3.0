@@ -1,6 +1,8 @@
 package com.github.lmm.browser;
 
+import com.github.lmm.page.CurrentPage;
 import com.github.lmm.page.ICurrentPage;
+import org.openqa.selenium.WebDriver;
 
 import java.util.LinkedHashMap;
 import java.util.Set;
@@ -15,9 +17,16 @@ import java.util.Set;
 public class BaseBrowser implements IBrowser {
 
     public LinkedHashMap<String,String> collection;
+    private WebDriver driver;
+    private CurrentPage currentPage;
+
+    private BaseBrowser(Browser browser){
+         new Browser.IE
+    }
+
     @Override
     public ICurrentPage open() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override

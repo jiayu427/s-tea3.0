@@ -17,7 +17,8 @@ import java.util.Map;
  */
 public class CurrentPage implements ICurrentPage {
     private Source source;
-
+    private String url;
+    private String title;
     @Override
     public Cookie[] getAllCookies() {
         return new Cookie[0];  //To change body of implemented methods use File | Settings | File Templates.

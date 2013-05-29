@@ -10,6 +10,7 @@ import com.github.lmm.result.Result;
  * To change this template use File | Settings | File Templates.
  */
 public class Report implements IReport {
+    private Result result;
     @Override
     public void loadResult(Result result) {
         //To change body of implemented methods use File | Settings | File Templates.
