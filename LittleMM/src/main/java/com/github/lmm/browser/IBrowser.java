@@ -1,6 +1,7 @@
 package com.github.lmm.browser;
 
 import com.github.lmm.page.ICurrentPage;
+import org.openqa.selenium.WebDriver;
 
 import java.util.Set;
 
@@ -13,7 +14,6 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public interface IBrowser {
-    public ICurrentPage open();
 
     public ICurrentPage open(String url);
 
@@ -38,6 +38,10 @@ public interface IBrowser {
     public ICurrentPage selectWindowContainsTitle(String title);
 
     public ICurrentPage selectWindowContainsUrl(String url);
+
+    public ICurrentPage getCurrentPage();
+
+    public WebDriver getCurrentBrowserDriver();
 
 
 }

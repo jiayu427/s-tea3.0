@@ -2,9 +2,9 @@ package com.github.lmm.browser;
 
 import com.github.lmm.page.CurrentPage;
 import com.github.lmm.page.ICurrentPage;
+import com.github.lmm.window.WindowSource;
+import com.github.lmm.window.WindowsCollectorListener;
 import org.openqa.selenium.WebDriver;
-
-import java.util.LinkedHashMap;
 import java.util.Set;
 
 /**
@@ -15,28 +15,31 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class BaseBrowser implements IBrowser {
-
-    public LinkedHashMap<String,String> collection;
+    private WindowsCollectorListener windowsCollectorListener;
+    private WindowSource windowSource;
+    private ICurrentPage currentPage;
+    //public LinkedHashMap<String,String> collection;
     private WebDriver driver;
-    private CurrentPage currentPage;
-
-    private BaseBrowser(Browser browser){
-         new Browser.IE
+    private boolean isStartWindowListener;
+    public BaseBrowser(Browser browser){
+        this.driver=browser.browser();
+        this.currentPage=new CurrentPage(this);
+        this.windowSource=new WindowSource(this);
+        this.windowsCollectorListener=new WindowsCollectorListener();
+        this.windowSource.addWindowsListener(this.windowsCollectorListener);
     }
 
-    @Override
-    public ICurrentPage open() {
-
-    }
 
     @Override
     public ICurrentPage open(String url) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        getCurrentPage().open(url);
+        return this.currentPage;
     }
 
     @Override
     public void closeAllWindows() {
         //To change body of implemented methods use File | Settings | File Templates.
+        this.getCurrentBrowserDriver().quit();
     }
 
     @Override
@@ -89,8 +92,21 @@ public class BaseBrowser implements IBrowser {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    protected void updateWindow(){
-
+    @Override
+    public ICurrentPage getCurrentPage() {
+        if (!this.currentPage.getCurrentWindow().toString().equals(this.getCurrentBrowserDriver().toString())){
+            this.currentPage=new CurrentPage(this);
+            this.currentPage.setBrowser(this);
+            return this.currentPage;
+        }
+        return this.currentPage;  //To change body of implemented methods use File | Settings | File Templates.
     }
+
+    @Override
+    public WebDriver getCurrentBrowserDriver() {
+        return this.driver;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+
 
 }

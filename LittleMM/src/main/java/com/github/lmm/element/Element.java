@@ -12,6 +12,8 @@ import org.openqa.selenium.Point;
  * To change this template use File | Settings | File Templates.
  */
 public class Element implements IElement {
+
+
     @Override
     public void click() {
         //To change body of implemented methods use File | Settings | File Templates.

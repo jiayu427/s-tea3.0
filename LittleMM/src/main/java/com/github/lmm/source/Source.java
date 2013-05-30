@@ -1,5 +1,7 @@
 package com.github.lmm.source;
 
+import com.github.lmm.element.TempElement;
+
 import java.util.Map;
 
 /**
@@ -10,5 +12,7 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public interface Source {
-    Map<String,Object> loadSource();
+    public Map<String,TempElement> loadSource();
+    /***/
+    public Map<String,TempElement> sourceFilter();
 }

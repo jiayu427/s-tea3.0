@@ -1,8 +1,10 @@
 package com.github.lmm.page;
 
+import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.IElement;
 import com.github.lmm.source.Source;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 import java.util.Map;
@@ -16,6 +18,8 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public interface ICurrentPage extends IPage {
+
+    public void open(String url);
 
     public void addElement(IElement element);
 
@@ -69,5 +73,7 @@ public interface ICurrentPage extends IPage {
 
     public IFrame frame(IFrame frame);
 
+    public WebDriver getCurrentWindow();
 
+    public void setBrowser(IBrowser browser);
 }
