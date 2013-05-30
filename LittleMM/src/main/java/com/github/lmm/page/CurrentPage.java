@@ -1,9 +1,11 @@
 package com.github.lmm.page;
 
+import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.IElement;
 import com.github.lmm.source.Source;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 import java.util.Map;
@@ -16,9 +18,33 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class CurrentPage implements ICurrentPage {
-    private Source source;
     private String url;
     private String title;
+
+    public WebDriver getCurrentwindow() {
+        return currentwindow;
+    }
+
+    private WebDriver currentwindow;
+
+    public IBrowser getBrowser() {
+        return browser;
+    }
+
+    private IBrowser browser;
+    public CurrentPage(IBrowser browser){
+        this.browser=browser;
+        this.currentwindow=browser.getCurrentBrowserDriver();
+    }
+    public CurrentPage(WebDriver driver){
+        this.currentwindow=driver;
+    }
+
+    public void setBrowser(IBrowser browser){
+        this.browser=browser;
+    }
+
+
     @Override
     public Cookie[] getAllCookies() {
         return new Cookie[0];  //To change body of implemented methods use File | Settings | File Templates.
@@ -54,6 +80,11 @@ public class CurrentPage implements ICurrentPage {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
+
+    @Override
+    public void open(String url) {
+        this.currentwindow.get(url);
+    }
 
     @Override
     public void addElement(IElement element) {
@@ -172,6 +203,11 @@ public class CurrentPage implements ICurrentPage {
 
     @Override
     public IFrame frame(IFrame frame) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public WebDriver getCurrentWindow() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

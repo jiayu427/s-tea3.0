@@ -2,9 +2,9 @@ package com.github.lmm.browser;
 
 import com.github.lmm.page.CurrentPage;
 import com.github.lmm.page.ICurrentPage;
+import com.github.lmm.window.WindowSource;
+import com.github.lmm.window.WindowsCollectorListener;
 import org.openqa.selenium.WebDriver;
-
-import java.util.LinkedHashMap;
 import java.util.Set;
 
 /**
@@ -15,54 +15,57 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class BaseBrowser implements IBrowser {
-
-    public LinkedHashMap<String,String> collection;
+    private WindowsCollectorListener windowsCollectorListener;
+    private WindowSource windowSource;
+    private ICurrentPage currentPage;
+    //public LinkedHashMap<String,String> collection;
     private WebDriver driver;
-    private CurrentPage currentPage;
-
-    public final ICurrentPage createBrowser(Browser browser){
+    public BaseBrowser(Browser browser){
         this.driver=browser.browser();
-        return this.currentPage;
+        this.currentPage=new CurrentPage(this);
+        this.windowSource=new WindowSource(this);
+        this.windowsCollectorListener=new WindowsCollectorListener();
+        this.windowSource.addWindowsListener(this.windowsCollectorListener);
     }
 
-    @Override
-    public ICurrentPage open() {
-        return this.currentPage;
-    }
 
     @Override
     public ICurrentPage open(String url) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        getCurrentPage().open(url);
+        return this.currentPage;
     }
 
     @Override
     public void closeAllWindows() {
         //To change body of implemented methods use File | Settings | File Templates.
+        this.getCurrentBrowserDriver().quit();
     }
 
     @Override
     public void back() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().back();
     }
 
     @Override
     public void refresh() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().refresh();
     }
 
     @Override
     public void forward() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().forward();
     }
 
     @Override
     public Set<String> getWindows() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return this.driver.getWindowHandles();
     }
 
     @Override
     public ICurrentPage selectDefaultWindow() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.switchTo().defaultContent();
+        this.currentPage=getCurrentPage();
+        return this.currentPage;
     }
 
     @Override
@@ -90,8 +93,21 @@ public class BaseBrowser implements IBrowser {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    protected void updateWindow(){
-
+    @Override
+    public ICurrentPage getCurrentPage() {
+        if (!this.currentPage.getCurrentWindow().getWindowHandle().equals(this.getCurrentBrowserDriver().getWindowHandle())){
+            this.currentPage=new CurrentPage(this);
+            this.currentPage.setBrowser(this);
+            return this.currentPage;
+        }
+        return this.currentPage;  //To change body of implemented methods use File | Settings | File Templates.
     }
+
+    @Override
+    public WebDriver getCurrentBrowserDriver() {
+        return this.driver;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+
 
 }

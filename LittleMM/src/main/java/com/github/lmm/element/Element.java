@@ -1,8 +1,11 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,14 +15,19 @@ import org.openqa.selenium.Point;
  * To change this template use File | Settings | File Templates.
  */
 public class Element implements IElement {
+    private WebElement element;
+    private TempElement tempElement;
+    private Actions actions;
+    private String id;
+    private IBrowser browser;
     @Override
     public void click() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        element.click();
     }
 
     @Override
     public void doubleClick() {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
