@@ -6,7 +6,7 @@
     </list>
     <ignored path="LittleMM.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369822421518" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369876525380" ignored="false" />
     <file path="/fragment.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369814303896" ignored="false" />
     <file path="/Page.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369796301769" ignored="false" />
     <file path="/pom.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369797255930" ignored="false" />
@@ -49,7 +49,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,6 +85,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -118,9 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="23" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,7 +126,7 @@
       <file leaf-file-name="Browser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="507" selection-end="507" vertical-scroll-proportion="0.6451613">
+            <state line="25" column="44" selection-start="508" selection-end="508" vertical-scroll-proportion="0.6793478">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,9 +156,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="28" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +201,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="706" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -241,6 +237,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Little" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Little" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LittleMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -398,17 +404,20 @@
       <created>1369822427067</created>
       <updated>1369822427067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改了源码">
+      <created>1369822446087</created>
+      <updated>1369822446087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="706" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="700" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -417,7 +426,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,9 +434,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17909238" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -502,66 +512,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="355" selection-end="355" vertical-scroll-proportion="0.34946236">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="11" selection-start="355" selection-end="355" vertical-scroll-proportion="0.34946236" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/result/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.4032258">
-          <folding />
-        </state>
+        <state line="15" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.4032258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/element/PageElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="423" selection-end="500" vertical-scroll-proportion="-4.17757">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="8" selection-start="423" selection-end="500" vertical-scroll-proportion="-4.17757" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/IFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/IBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="0.7258065">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="27" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="0.7258065" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/result/ResultImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="74" selection-start="235" selection-end="235" vertical-scroll-proportion="0.32258064">
-          <folding />
-        </state>
+        <state line="12" column="74" selection-start="235" selection-end="235" vertical-scroll-proportion="0.32258064" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/report/IReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="81" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="81" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/IPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="311" selection-end="311" vertical-scroll-proportion="0.41917807">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="17" selection-start="311" selection-end="311" vertical-scroll-proportion="0.41917807" />
       </provider>
     </entry>
     <entry file="uml://JAVA/com.github.lmm">
@@ -620,7 +606,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.5185039738195419" x="1313.7394957983192" y="1333.0500775417463" />
+          <settings layout="Hierarchic Group" zoom="0.5185039738195419" x="1314.0" y="1333.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -632,9 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/report/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="939" selection-end="939" vertical-scroll-proportion="0.8655914">
-          <folding />
-        </state>
+        <state line="33" column="61" selection-start="939" selection-end="939" vertical-scroll-proportion="0.8655914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/littlemm.uml">
@@ -693,7 +677,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.39810770332519263" x="982.2687749306563" y="770.9049550722394" />
+          <settings layout="Hierarchic Group" zoom="0.39810770332519263" x="982.0" y="771.0" />
           <SelectedNodes />
           <Categories>
             <Category>Constructors</Category>
@@ -724,24 +708,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="28" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="23" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="507" selection-end="507" vertical-scroll-proportion="0.6451613">
+        <state line="25" column="44" selection-start="508" selection-end="508" vertical-scroll-proportion="0.6793478">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
