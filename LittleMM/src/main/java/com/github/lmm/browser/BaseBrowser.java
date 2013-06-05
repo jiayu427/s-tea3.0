@@ -20,7 +20,6 @@ public class BaseBrowser implements IBrowser {
     private ICurrentPage currentPage;
     //public LinkedHashMap<String,String> collection;
     private WebDriver driver;
-    private boolean isStartWindowListener;
     public BaseBrowser(Browser browser){
         this.driver=browser.browser();
         this.currentPage=new CurrentPage(this);
@@ -44,27 +43,29 @@ public class BaseBrowser implements IBrowser {
 
     @Override
     public void back() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().back();
     }
 
     @Override
     public void refresh() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().refresh();
     }
 
     @Override
     public void forward() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.navigate().forward();
     }
 
     @Override
     public Set<String> getWindows() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return this.driver.getWindowHandles();
     }
 
     @Override
     public ICurrentPage selectDefaultWindow() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        this.driver.switchTo().defaultContent();
+        this.currentPage=getCurrentPage();
+        return this.currentPage;
     }
 
     @Override
@@ -94,7 +95,7 @@ public class BaseBrowser implements IBrowser {
 
     @Override
     public ICurrentPage getCurrentPage() {
-        if (!this.currentPage.getCurrentWindow().toString().equals(this.getCurrentBrowserDriver().toString())){
+        if (!this.currentPage.getCurrentWindow().getWindowHandle().equals(this.getCurrentBrowserDriver().getWindowHandle())){
             this.currentPage=new CurrentPage(this);
             this.currentPage.setBrowser(this);
             return this.currentPage;

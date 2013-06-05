@@ -1,4 +1,7 @@
-package com.github.lmm.source;
+package com.github.lmm.source.xml;
+
+import com.github.lmm.element.TempElement;
+import com.github.lmm.source.Source;
 
 import java.util.Map;
 
@@ -11,7 +14,12 @@ import java.util.Map;
  */
 public class XMLSource implements Source {
     @Override
-    public Map<String, Object> loadSource() {
+    public Map<String, TempElement> loadSource() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public Map<String, TempElement> sourceFilter() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
