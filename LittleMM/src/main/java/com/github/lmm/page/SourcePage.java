@@ -19,15 +19,17 @@ public class SourcePage extends CurrentPage {
     public SourcePage(IBrowser browser,String pageCommit) {
         super(browser);
         this.pageCommit=pageCommit;
+        this.elementManager=new ElementManager();
     }
 
-    public SourcePage(WebDriver driver,String pageCommit) {
-        super(driver);
-        this.pageCommit=pageCommit;
-    }
-
-    public void loadSource(Source source){
-        this.source=source;
+    public SourcePage(IBrowser browser,String pageCommit,Source source){
+        super(browser);
         this.elementManager.loadSource(source);
+        this.elementManager=new ElementManager();
+    }
+
+    protected void loadSource(Source source){
+        this.source=source;
+        this.elementManager.loadPageSource(source,this);
     }
 }

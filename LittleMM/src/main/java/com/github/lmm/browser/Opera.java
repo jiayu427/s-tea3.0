@@ -9,7 +9,7 @@ import java.net.URL;
  * Time: 上午11:03
  * To change this template use File | Settings | File Templates.
  */
-public class Opera extends RemoteBrowser {
+public class Opera extends BaseBrowser {
     public Opera(URL url) {
     }
 

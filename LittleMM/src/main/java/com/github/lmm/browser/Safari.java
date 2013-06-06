@@ -9,7 +9,7 @@ import java.net.URL;
  * Time: 上午11:03
  * To change this template use File | Settings | File Templates.
  */
-public class Safari extends RemoteBrowser {
+public class Safari extends BaseBrowser {
     public Safari() {
     }
 

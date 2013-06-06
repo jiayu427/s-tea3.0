@@ -1,5 +1,6 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
@@ -13,4 +14,15 @@ import org.openqa.selenium.Point;
  */
 public class AjaxElement extends Element{
 
+    public AjaxElement(IBrowser browser, TempElement tempElement) {
+        super(browser, tempElement);
+    }
+
+    public AjaxElement(IBrowser browser, String By, String id, String value, Integer index) {
+        super(browser, By, id, value, index);
+    }
+
+    public AjaxElement(IBrowser browser) {
+        super(browser);
+    }
 }

@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -8,4 +10,15 @@ package com.github.lmm.element;
  * To change this template use File | Settings | File Templates.
  */
 public class Select extends Element {
+    public Select(IBrowser browser, TempElement tempElement) {
+        super(browser, tempElement);
+    }
+
+    public Select(IBrowser browser, String By, String id, String value, Integer index) {
+        super(browser, By, id, value, index);
+    }
+
+    public Select(IBrowser browser) {
+        super(browser);
+    }
 }

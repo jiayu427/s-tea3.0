@@ -21,17 +21,17 @@ import java.util.Map;
  * Time: 下午5:39
  * To change this template use File | Settings | File Templates.
  */
-public enum Browser {
+public enum Browser{
     IE(){
-        public WebDriver browser(){
-                  return new InternetExplorerDriver();
+        public InternetExplorerDriver browser(){
+            return new InternetExplorerDriver();
         }
         public RemoteWebDriver browser(URL url){
             return new RemoteWebDriver(url,DesiredCapabilities.internetExplorer());
         }
     },
     Firefox(){
-        public WebDriver browser(){
+        public FirefoxDriver browser(){
               return new FirefoxDriver();
           }
         public RemoteWebDriver browser(URL url){
@@ -39,7 +39,7 @@ public enum Browser {
         }
     },
     Chrome(){
-        public WebDriver browser(){
+        public ChromeDriver browser(){
                   return new ChromeDriver();
         }
         public RemoteWebDriver browser(URL url){
@@ -47,7 +47,7 @@ public enum Browser {
         }
     },
     Safari(){
-        public WebDriver browser(){
+        public SafariDriver browser(){
             return new SafariDriver();
         }
         public RemoteWebDriver browser(URL url){
@@ -55,7 +55,7 @@ public enum Browser {
         }
     },
     Opera(){
-        public WebDriver browser(){
+        public OperaDriver browser(){
             return new OperaDriver();
         }
         public RemoteWebDriver browser(URL url){
@@ -63,7 +63,7 @@ public enum Browser {
         }
     },
     HtmlUnit(){
-        public WebDriver browser(){
+        public HtmlUnitDriver browser(){
             HtmlUnitDriver driver = new HtmlUnitDriver(BrowserVersion.FIREFOX_17);
             driver.setJavascriptEnabled(true);
             return driver;
@@ -79,12 +79,8 @@ public enum Browser {
         }
     };
 
-    public WebDriver browser(){
-        return new FirefoxDriver();
-    }
+    protected abstract <T> T browser();
 
-    public RemoteWebDriver browser(URL url){
-        return new RemoteWebDriver(url, DesiredCapabilities.firefox());
-    }
+    protected abstract RemoteWebDriver browser(URL url);
 
 }

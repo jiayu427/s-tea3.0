@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
+
 import java.util.Set;
 
 /**
@@ -10,6 +12,18 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class Form extends Element {
+    public Form(IBrowser browser, TempElement tempElement) {
+        super(browser, tempElement);
+    }
+
+    public Form(IBrowser browser, String By, String id, String value, Integer index) {
+        super(browser, By, id, value, index);
+    }
+
+    public Form(IBrowser browser) {
+        super(browser);
+    }
+
     public Set<IElement> addElement(){
           return null;
     }

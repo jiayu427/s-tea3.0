@@ -2,6 +2,7 @@ package com.github.lmm.page;
 
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.IElement;
+import com.github.lmm.element.TempElement;
 import com.github.lmm.source.Source;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,13 +20,17 @@ import java.util.Set;
  */
 public interface ICurrentPage extends IPage {
 
+    public IBrowser getBrowser();
+
     public void open(String url);
 
-    public void addElement(IElement element);
+    public void addElement(TempElement element);
 
     public void addElementBySource(String id,Source source);
 
     public void addElements(Source source);
+
+    public IElement element();
 
     public IElement element(String id);
 
@@ -39,7 +44,7 @@ public interface ICurrentPage extends IPage {
 
     public void assertTitle(String title);
 
-    public void assertContainsContent();
+    public void assertTextPresent(String text);
 
     public Map<String, String> getHeaders() ;
 

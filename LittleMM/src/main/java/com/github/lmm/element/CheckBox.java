@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -8,6 +10,18 @@ package com.github.lmm.element;
  * To change this template use File | Settings | File Templates.
  */
 public class CheckBox extends Element {
+    public CheckBox(IBrowser browser, TempElement tempElement) {
+        super(browser, tempElement);
+    }
+
+    public CheckBox(IBrowser browser, String By, String id, String value, Integer index) {
+        super(browser, By, id, value, index);
+    }
+
+    public CheckBox(IBrowser browser) {
+        super(browser);
+    }
+
     public boolean isCheck(){
         return false;
     }

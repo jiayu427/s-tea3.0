@@ -3,6 +3,10 @@ package com.github.lmm.element;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+import com.github.lmm.browser.IBrowser;
+import com.github.lmm.page.ICurrentPage;
+import com.github.lmm.page.SourcePage;
 import com.github.lmm.source.Source;
 
 /**
@@ -13,8 +17,11 @@ import com.github.lmm.source.Source;
  * To change this template use File | Settings | File Templates.
  */
 public class ElementManager{
+    //private IBrowser browser;
+    /**key存的是这个元素的id值，所有的id推荐都要有id值，这样方便元素的唯一化*/
     public Map<String, TempElement> elementMap;
     public ElementManager(){
+        //this.browser=browser;
         elementMap=new HashMap<String, TempElement>();
     }
 
@@ -46,6 +53,12 @@ public class ElementManager{
         this.elementMap.putAll(source.loadSource());
     }
 
+    public TempElement getTempElement(String id){
+        return this.elementMap.get(id);
+    }
 
+    public void loadPageSource(Source source,SourcePage page){
+        this.elementMap.putAll(source.loadPageSource(page));
+    }
 
 }

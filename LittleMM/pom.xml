@@ -55,5 +55,26 @@
           <artifactId>slf4j-api</artifactId>
           <version>1.7.5</version>
       </dependency>
+      <dependency>
+          <artifactId>testng</artifactId>
+          <groupId>org.testng</groupId>
+          <version>6.8.5</version>
+      </dependency>
+      <dependency>
+          <artifactId>dom4j</artifactId>
+          <groupId>dom4j</groupId>
+          <version>1.6.1</version>
+          <exclusions>
+              <exclusion>
+                  <artifactId>xml-apis</artifactId>
+                  <groupId>xml-apis</groupId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>org.jsoup</groupId>
+          <artifactId>jsoup</artifactId>
+          <version>1.7.2</version>
+      </dependency>
   </dependencies>
   </project>

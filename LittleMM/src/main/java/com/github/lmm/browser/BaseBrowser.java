@@ -2,9 +2,23 @@ package com.github.lmm.browser;
 
 import com.github.lmm.page.CurrentPage;
 import com.github.lmm.page.ICurrentPage;
+import com.github.lmm.proxy.ActionListenerProxy;
+import com.github.lmm.runtime.RuntimeMethod;
+import com.github.lmm.window.WindowInfo;
 import com.github.lmm.window.WindowSource;
 import com.github.lmm.window.WindowsCollectorListener;
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -15,45 +29,84 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class BaseBrowser implements IBrowser {
+    private Logger logger = Logger.getLogger(BaseBrowser.class);
+    private boolean isClosed;
+    protected BaseBrowser(){
+
+    }
     private WindowsCollectorListener windowsCollectorListener;
     private WindowSource windowSource;
     private ICurrentPage currentPage;
     //public LinkedHashMap<String,String> collection;
     private WebDriver driver;
+    private String commit;
     public BaseBrowser(Browser browser){
+        RuntimeMethod.getMethodName();
+        this.commit=RuntimeMethod.getName();
         this.driver=browser.browser();
+        maxWindow();
         this.currentPage=new CurrentPage(this);
         this.windowSource=new WindowSource(this);
         this.windowsCollectorListener=new WindowsCollectorListener();
         this.windowSource.addWindowsListener(this.windowsCollectorListener);
+        this.windowSource.WindowsCheck();
+        this.windowSource.getWindowsCollecter().updateWindows();
+        logger.info(this.commit+"初始化了浏览器"+browser.toString()+"来进行自动化测试");
     }
 
+    public static BaseBrowser  creatBrowser(Browser browser){
+        BaseBrowser baseBrowser=new BaseBrowser(browser);
+        return baseBrowser;
+    }
 
     @Override
     public ICurrentPage open(String url) {
         getCurrentPage().open(url);
+        this.setClosed(false);
+        //logger.info("打开了http地址"+url);
         return this.currentPage;
     }
 
     @Override
+    public void maxWindow() {
+        this.driver.manage().window().maximize();
+    }
+
+    @Override
     public void closeAllWindows() {
-        //To change body of implemented methods use File | Settings | File Templates.
-        this.getCurrentBrowserDriver().quit();
+        ActionListenerProxy.getDispatcher().beforecloseAllWindows();
+        if(this.driver!=null){
+            this.getCurrentBrowserDriver().quit();
+            this.setClosed(true);
+            this.windowSource.setRun(false);
+        }else{
+            logger.warn(this.commit+"与浏览器交互的session值可能已经中断了，请检查程序是否编写正确，程序还将继续运行下去");
+        }
+        ActionListenerProxy.getDispatcher().aftercloseAllWindows();
     }
 
     @Override
     public void back() {
+        ActionListenerProxy.getDispatcher().beforeback();
         this.driver.navigate().back();
+        logger.info(this.commit+"浏览器进行了后退操作");
+        ActionListenerProxy.getDispatcher().afterback();
     }
 
     @Override
     public void refresh() {
+        ActionListenerProxy.getDispatcher().beforerefresh();
         this.driver.navigate().refresh();
+        logger.info(this.commit+"浏览器进行了刷新操作");
+        ActionListenerProxy.getDispatcher().afterrefresh();
     }
 
     @Override
     public void forward() {
+        ActionListenerProxy.getDispatcher().beforeforward();
         this.driver.navigate().forward();
+        logger.info(this.commit+"浏览器进行了前进操作");
+        ActionListenerProxy.getDispatcher().afterforward();
     }
 
     @Override
@@ -70,36 +123,86 @@ public class BaseBrowser implements IBrowser {
 
     @Override
     public ICurrentPage selectLastOpenedPage() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        ActionListenerProxy.getDispatcher().beforeselectWindow();
+        this.windowSource.getWindowsCollecter().updateWindows();
+        String windowhandle = this.windowSource.getWindowsCollecter().getLastWindowhandle();
+        this.driver.switchTo().window(windowhandle);
+        this.currentPage= new CurrentPage(this);
+        ActionListenerProxy.getDispatcher().afterselectWindow();
+        logger.info(this.commit+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info(this.commit+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info(this.commit+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        return this.currentPage;
     }
 
     @Override
     public ICurrentPage selectWindowByTitle(String title) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        ActionListenerProxy.getDispatcher().beforeselectWindow();
+        this.windowSource.getWindowsCollecter().updateWindows();
+        String windowhandle=this.windowSource.getWindowsCollecter().getWindowInfoMap().get(title).getWindowHandle();
+        this.driver.switchTo().window(windowhandle);
+        logger.info(this.commit+"当前页面切换到了-------->" + title);
+        ActionListenerProxy.getDispatcher().afterselectWindow();
+        this.currentPage=new CurrentPage(this);
+        logger.info(this.commit+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info(this.commit+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info(this.commit+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        return this.currentPage;
     }
 
     @Override
     public ICurrentPage selectWindowByUrl(String url) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        ActionListenerProxy.getDispatcher().beforeselectWindow();
+        this.windowSource.getWindowsCollecter().updateWindows();
+        for(Map.Entry<String,WindowInfo> info:this.windowSource.getWindowsCollecter().getWindowInfoMap().entrySet()){
+            if(info.getValue().getUrl().equals(url)){
+                this.driver.switchTo().window(info.getValue().getWindowHandle());
+                logger.info(this.commit+"当前页面切换到了--------->"+info.getValue().getTitle());
+                break;
+            }
+        }
+        ActionListenerProxy.getDispatcher().afterselectWindow();
+        this.currentPage=new CurrentPage(this);
+        logger.info(this.commit+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info(this.commit+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info(this.commit+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        return this.currentPage;
     }
 
-    @Override
-    public ICurrentPage selectWindowContainsTitle(String title) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    public ICurrentPage selectWindowByIndex(Integer index) {
+        this.windowSource.getWindowsCollecter().updateWindows();
+        String windowhandle=this.windowSource.getWindowsCollecter().getWindowhandleByIndex(index);
+        this.driver.switchTo().window(windowhandle);
+        logger.info(this.commit+"当前页面切换到了-------->"+this.driver.getTitle());
+        this.currentPage=new CurrentPage(this);
+        logger.info(this.commit+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info(this.commit+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info(this.commit+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        return this.currentPage;
     }
 
     @Override
     public ICurrentPage selectWindowContainsUrl(String url) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        ActionListenerProxy.getDispatcher().beforeselectWindow();
+        this.windowSource.getWindowsCollecter().updateWindows();
+        for(Map.Entry<String,WindowInfo> info:this.windowSource.getWindowsCollecter().getWindowInfoMap().entrySet()){
+            if(info.getValue().getUrl().contains(url)){
+                this.driver.switchTo().window(info.getValue().getWindowHandle());
+                logger.info(this.commit+"当前页面切换到了--------->"+info.getValue().getTitle());
+                break;
+            }
+        }
+        ActionListenerProxy.getDispatcher().afterselectWindow();
+        this.currentPage=new CurrentPage(this);
+        logger.info(this.commit+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info(this.commit+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info(this.commit+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        return this.currentPage;
     }
 
     @Override
     public ICurrentPage getCurrentPage() {
-        if (!this.currentPage.getCurrentWindow().getWindowHandle().equals(this.getCurrentBrowserDriver().getWindowHandle())){
-            this.currentPage=new CurrentPage(this);
-            this.currentPage.setBrowser(this);
-            return this.currentPage;
-        }
+        this.currentPage.setBrowser(this);
         return this.currentPage;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
@@ -108,6 +211,47 @@ public class BaseBrowser implements IBrowser {
         return this.driver;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
+    @Override
+    public Object runJavaScript(String js, Object... objects) {
+        ActionListenerProxy.getDispatcher().beforerunJS();
+        Object obj= ((JavascriptExecutor)this.driver).executeScript(js,objects);
+        logger.info(this.commit+"浏览器执行了javascript"+js);
+        ActionListenerProxy.getDispatcher().afterrunJS();
+        return obj;
+    }
 
+    @Override
+    public Object runAsynJavaScript(String js, Object... objects) {
+        ActionListenerProxy.getDispatcher().beforerunJS();
+        Object obj= ((JavascriptExecutor)this.driver).executeAsyncScript(js, objects);
+        logger.info(this.commit+"浏览器执行了异步javascript"+js);
+        ActionListenerProxy.getDispatcher().afterrunJS();
+        return obj;
+    }
+
+    public void takeScreetShot(String path){
+        ActionListenerProxy.getDispatcher().beforetakeScreenShot();
+        TakesScreenshot tss = (TakesScreenshot)this.driver;
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd-HHmmss");
+        String time= sdf.format(new Date());
+        File file = tss.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file,new File(path+File.separator+time+".png"));
+            logger.info(this.commit+"浏览器当前页面截屏成功！截屏路径->"+path);
+        } catch (IOException e) {
+            logger.error("浏览器当前页面截屏失败！可能是因为文件路径不正确");
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        ActionListenerProxy.getDispatcher().aftertakeScreenShot();
+
+    }
+
+    public boolean isClosed() {
+        return isClosed=false;
+    }
+
+    public void setClosed(boolean closed) {
+        isClosed = closed;
+    }
 
 }

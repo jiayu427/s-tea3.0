@@ -9,4 +9,7 @@ package com.github.lmm.browser;
  */
 public class HttpBrowser extends BaseBrowser {
 
+    public HttpBrowser() {
+
+    }
 }

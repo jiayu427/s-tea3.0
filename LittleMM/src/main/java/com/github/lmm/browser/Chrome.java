@@ -9,7 +9,7 @@ import java.net.URL;
  * Time: 上午11:03
  * To change this template use File | Settings | File Templates.
  */
-public class Chrome extends RemoteBrowser {
+public class Chrome extends BaseBrowser {
     public Chrome() {
     }
 

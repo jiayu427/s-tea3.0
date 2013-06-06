@@ -13,8 +13,21 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  */
 public class WindowSource {
+    public boolean isRun() {
+        return isRun;
+    }
+
+    public void setRun(boolean run) {
+        isRun = run;
+    }
+    private boolean isRun=false;
     private Vector repository =new Vector();
     private WindowsListener windowsListener;
+
+    public WindowsCollecter getWindowsCollecter() {
+        return windowsCollecter;
+    }
+
     private WindowsCollecter windowsCollecter;
     private IBrowser browser;
     public void addWindowsListener(WindowsListener windowsListener){
@@ -34,14 +47,24 @@ public class WindowSource {
         this.repository.remove(windowsListener);
     }
 
-    public void WindowsHaveChanged(){
-        boolean bool=false;
-        if(this.windowsCollecter.windowNums!=browser.getWindows().size()){
-            bool=true;
-        }
-        if(bool){
-            notifyWindowsCollecter(this.windowsCollecter);
-        }
+    public void WindowsCheck(){
+        new Thread(new Runnable(){
+            @Override
+            public void run() {
+                while(isRun()){
+                    boolean bool=false;
+                    if(windowsCollecter.windowNums==browser.getWindows().size()){
+                        try {
+                            Thread.currentThread().sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }else{
+                        notifyWindowsCollecter(windowsCollecter);
+                    }
+                }
+            }
+        }).start();
     }
 
     public WindowSource(IBrowser browser){

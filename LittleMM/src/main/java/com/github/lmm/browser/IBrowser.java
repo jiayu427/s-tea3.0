@@ -17,6 +17,8 @@ public interface IBrowser {
 
     public ICurrentPage open(String url);
 
+    public void maxWindow();
+
     public void closeAllWindows();
 
     public void back();
@@ -35,7 +37,7 @@ public interface IBrowser {
 
     public ICurrentPage selectWindowByUrl(String url);
 
-    public ICurrentPage selectWindowContainsTitle(String title);
+    //public ICurrentPage selectWindowContainsTitle(String title);
 
     public ICurrentPage selectWindowContainsUrl(String url);
 
@@ -43,5 +45,13 @@ public interface IBrowser {
 
     public WebDriver getCurrentBrowserDriver();
 
+    public Object runJavaScript(String js,Object... objects);
 
+    public Object runAsynJavaScript(String js,Object... objects);
+
+    public void takeScreetShot(String path);
+
+    public boolean isClosed();
+
+    public void setClosed(boolean isclose);
 }

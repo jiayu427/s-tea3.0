@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -8,6 +10,18 @@ package com.github.lmm.element;
  * To change this template use File | Settings | File Templates.
  */
 public class Link extends Element {
+
+    public Link(IBrowser browser, TempElement tempElement) {
+        super(browser, tempElement);
+    }
+
+    public Link(IBrowser browser, String By, String id, String value, Integer index) {
+        super(browser, By, id, value, index);
+    }
+
+    public Link(IBrowser browser) {
+        super(browser);
+    }
 
     public String getHref(){
         return this.getAttribute("href");

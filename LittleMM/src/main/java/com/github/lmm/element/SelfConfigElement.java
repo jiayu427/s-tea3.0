@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.browser.IBrowser;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -8,4 +10,7 @@ package com.github.lmm.element;
  * To change this template use File | Settings | File Templates.
  */
 public class SelfConfigElement extends Element {
+    public SelfConfigElement(IBrowser browser) {
+        super(browser);
+    }
 }

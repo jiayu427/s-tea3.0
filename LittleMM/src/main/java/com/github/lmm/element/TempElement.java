@@ -1,5 +1,8 @@
 package com.github.lmm.element;
 
+import org.openqa.selenium.By;
+
+import java.util.ArrayList;
 import java.util.List;
 /**
  * Created with IntelliJ IDEA.
@@ -14,6 +17,7 @@ public class TempElement {
     private Integer index;
     private String by;
     private List<TempElement> childTempElement;
+    private TempElementLocator locator;
 
     public List<TempElement> getChildTempElement() {
         return childTempElement;
@@ -55,11 +59,28 @@ public class TempElement {
         this.by = by;
     }
 
-    public TempElement(String id, String value, Integer index, String by, List<TempElement> childTempElement) {
+    public TempElement(String id, String by, String value, Integer index) {
         this.id = id;
         this.value = value;
         this.index = index;
         this.by = by;
-        this.childTempElement = childTempElement;
+        this.locator=new TempElementLocator(this);
+        this.childTempElement=new ArrayList<TempElement>();
+    }
+
+    public TempElementLocator getLocator() {
+        return locator;
+    }
+
+    public void setLocator(TempElementLocator locator) {
+        this.locator = locator;
+    }
+
+    public TempElement(String by,String value,Integer index){
+        this.by=by;
+        this.value=value;
+        this.index=index;
+        this.locator=new TempElementLocator(this);
+        this.childTempElement=new ArrayList<TempElement>();
     }
 }
