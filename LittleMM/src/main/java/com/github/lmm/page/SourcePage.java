@@ -3,7 +3,7 @@ package com.github.lmm.page;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.source.Source;
-import org.openqa.selenium.WebDriver;
+import com.github.lmm.element.Element;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,12 +24,19 @@ public class SourcePage extends CurrentPage {
 
     public SourcePage(IBrowser browser,String pageCommit,Source source){
         super(browser);
-        this.elementManager.loadSource(source);
         this.elementManager=new ElementManager();
+        loadSource(source);
     }
 
-    protected void loadSource(Source source){
+    private void loadSource(Source source){
         this.source=source;
         this.elementManager.loadPageSource(source,this);
     }
+
+    public Element element(String id){
+        return new Element(getBrowser(),this.elementManager.getTempElement(id));
+    }
+
+
+
 }

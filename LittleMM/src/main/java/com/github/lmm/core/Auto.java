@@ -2,127 +2,206 @@ package com.github.lmm.core;
 
 import com.github.lmm.browser.BaseBrowser;
 import com.github.lmm.browser.Browser;
-import com.github.lmm.browser.Firefox;
 import com.github.lmm.browser.IBrowser;
+import com.github.lmm.exception.NodeBrowserNotConnectException;
 import com.github.lmm.page.ICurrentPage;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
  * Date: 13-6-6
- * Time: 上午9:32
+ * Time: 下午4:25
  * To change this template use File | Settings | File Templates.
  */
-public enum Auto {
-    Firefox(Browser.Firefox),
-    IE(Browser.IE),
-    HtmlUnit(Browser.HtmlUnit),
-    Safari(Browser.Safari),
-    Opera(Browser.Opera),
-    Chrome(Browser.Chrome);
-    private  static ThreadLocal<BrowserManager> local = new ThreadLocal<BrowserManager>(){
+public class Auto {
+    public static ThreadLocal<Set<Browser>> browserSet=new ThreadLocal<Set<Browser>>(){
+        public Set<Browser> initialValue(){
+            return new HashSet<Browser>();
+        }
+    };
+    private static Logger logger = Logger.getLogger(Auto.class);
+    public  static ThreadLocal<BrowserManager> local = new ThreadLocal<BrowserManager>(){
         public BrowserManager initialValue(){
             return new BrowserManager();
         }
     };
-    private volatile Browser browser;
-    private Auto(Browser browser) {
-        this.browser=browser;
-    }
-
-    public IBrowser browser(){
-        if(local.get().getBrowser()==null){
-            local.get().setBrowser(new BaseBrowser(browser));
-            return local.get().getBrowser();
-        }else{
-            return local.get().getBrowser();
+    public static void require(Browser[] browsers){
+        for(Browser browser:browsers){
+            browserSet.get().add(browser);
         }
-
-
     }
 
-    public ICurrentPage open(String url){
+    public static void require(String value){
+        Browser b=Enum.valueOf(Browser.class,value.toUpperCase().trim());
+        require(b);
+    }
+
+    public static void require(Browser browser){
+        BrowserManager browserManager=new BrowserManager();
+        browserManager.setBrowser(new BaseBrowser(browser));
+        local.set(browserManager);
+
+    }
+    public static void require(Browser browser,String url){
+        BrowserManager browserManager=new BrowserManager();
+        try {
+            browserManager.setBrowser(new BaseBrowser(browser,new URL(url)));
+        } catch (MalformedURLException e) {
+            logger.error("没有连接到远程节点的服务器，远程浏览器引用失败！请检查环境配置是否正确！");
+            throw new NodeBrowserNotConnectException("没有连接到远程节点的服务器，远程浏览器引用失败！请检查环境配置是否正确");
+        }
+        local.set(browserManager);
+    }
+    public static IBrowser browser(){
+        return local.get().getBrowser();
+    }
+    public static ICurrentPage open(String url){
         return browser().open(url);
     };
 
-    public void maxWindow(){
+    public static void maxWindow(){
         browser().maxWindow();
     };
 
-    public void closeAllWindows(){
+    public static void closeAllWindows(){
         browser().closeAllWindows();
     };
 
-    public void back(){
+    public static void back(){
         browser().back();
     };
 
-    public void refresh(){
+    public static void refresh(){
         browser().refresh();
     };
 
-    public void forward(){
+    public static void forward(){
         browser().forward();
     };
 
-    public Set<String> getWindows(){
+    public static Set<String> getWindows(){
         return browser().getWindows();
     };
 
-    public ICurrentPage selectDefaultWindow(){
+    public static ICurrentPage selectDefaultWindow(){
         return browser().selectDefaultWindow();
     };
 
-    public ICurrentPage selectLastOpenedPage(){
+    public static ICurrentPage selectLastOpenedPage(){
         return  browser().selectLastOpenedPage();
     };
 
-    public ICurrentPage selectWindowByTitle(String title){
+    public static ICurrentPage selectWindowByTitle(String title){
         return browser().selectWindowByTitle(title);
     };
 
-    public ICurrentPage selectWindowByUrl(String url){
+    public static ICurrentPage selectWindowByUrl(String url){
         return browser().selectWindowByUrl(url);
     };
 
     //public ICurrentPage selectWindowContainsTitle(String title);
 
-    public ICurrentPage selectWindowContainsUrl(String url){
+    public static ICurrentPage selectWindowContainsUrl(String url){
         return browser().selectWindowContainsUrl(url);
     };
 
-    public ICurrentPage getCurrentPage(){
+    public static ICurrentPage getCurrentPage(){
         return browser().getCurrentPage();
     };
 
-    public WebDriver getCurrentBrowserDriver(){
+    public static WebDriver getCurrentBrowserDriver(){
         return browser().getCurrentBrowserDriver();
     };
 
-    public Object runJavaScript(String js,Object... objects){
+    public static Object runJavaScript(String js,Object... objects){
         return browser().runJavaScript(js, objects);
     };
 
-    public Object runAsynJavaScript(String js,Object... objects){
+    public static Object runAsynJavaScript(String js,Object... objects){
         return browser().runAsynJavaScript(js, objects);
     };
 
-    public void takeScreetShot(String path){
+    public static void takeScreetShot(String path){
         browser().takeScreetShot(path);
     };
 
-    public boolean isClosed(){
+    public static boolean isClosed(){
         return browser().isClosed();
     };
 
-    public void setClosed(boolean isclose){
+    public static void setClosed(boolean isclose){
         browser().setClosed(isClosed());
     };
 
-    public ICurrentPage currentage(){
+    public static ICurrentPage currentage(){
         return getCurrentPage();
     };
+
+    public static class Firefox extends Auto {
+
+        public static ICurrentPage open(String url){
+            require(Browser.FIREFOX);
+            return Auto.open(url);
+        }
+    }
+
+    public static class Chrome extends Auto {
+        public static ICurrentPage open(String url){
+            require(Browser.CHROME);
+            return Auto.open(url);
+        }
+    }
+
+    public static void clearBrowserManager(){
+        browserSet.get().clear();
+    }
+
+    public static boolean remove(Browser browser){
+        return browserSet.get().remove(browser);
+    }
+
+    public static class HtmlUnit extends Auto {
+        public static ICurrentPage open(String url){
+            require(Browser.HTMLUNIT);
+            return Auto.open(url);
+        }
+    }
+
+    public static class Safari extends Auto {
+        public static ICurrentPage open(String url){
+            require(Browser.SAFARI);
+            return Auto.open(url);
+        }
+    }
+
+    public static class Opera extends Auto {
+        public static ICurrentPage open(String url){
+            require(Browser.OPERA);
+            return Auto.open(url);
+        }
+    }
+
+    public static class IE extends Auto {
+        public static ICurrentPage open(String url){
+            require(Browser.IE);
+            return Auto.open(url);
+        }
+    }
+
+    public static class Http extends Auto{
+
+        public static void require(Browser browser){
+            if(!browser.toString().toLowerCase().contains("htmlunit")){
+                throw new RuntimeException("错误的HTTP浏览器类型");
+            }
+            Auto.require(browser);
+        }
+    }
 }

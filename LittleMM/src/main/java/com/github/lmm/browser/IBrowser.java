@@ -1,5 +1,6 @@
 package com.github.lmm.browser;
 
+import com.github.lmm.element.ElementManager;
 import com.github.lmm.page.ICurrentPage;
 import org.openqa.selenium.WebDriver;
 
@@ -54,4 +55,8 @@ public interface IBrowser {
     public boolean isClosed();
 
     public void setClosed(boolean isclose);
+
+    public ElementManager getElementManager();
+
+    public void setElementManager(ElementManager elementManager);
 }

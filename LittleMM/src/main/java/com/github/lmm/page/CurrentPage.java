@@ -46,6 +46,7 @@ public class CurrentPage implements ICurrentPage {
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
         elementManager=new ElementManager();
+        this.elementManager.addElements(this.browser.getElementManager());
     }
     public CurrentPage(WebDriver driver){
         this.currentwindow=driver;
@@ -65,7 +66,7 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public void deleteAllCookies() {
         this.currentwindow.manage().deleteAllCookies();
-        logger.info(this.name+"进行了删除所有cookie的操作");
+        logger.info("["+this.name+"]进行了删除所有cookie的操作");
     }
 
     @Override
@@ -107,7 +108,7 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public void open(String url) {
         this.currentwindow.get(url);
-        logger.info(this.name+"页面跳转到了页面"+url);
+        logger.info("["+this.name+"]页面跳转到了页面"+url);
     }
 
     @Override
@@ -117,13 +118,13 @@ public class CurrentPage implements ICurrentPage {
 
     @Override
     public void addElementBySource(String id, Source source) {
-        source.loadSource();
+        source.loadSource(this.browser);
         this.elementManager.addElement(source.getTempElement(id));
     }
 
     @Override
     public void addElements(Source source) {
-        this.elementManager.loadSource(source);
+        this.elementManager.addElements(source.loadSource(this.browser));
     }
 
     @Override
@@ -253,7 +254,7 @@ public class CurrentPage implements ICurrentPage {
             return alerMessage;
         }catch(NoAlertPresentException e){
             ActionListenerProxy.getDispatcher().afterdealAlert();
-            logger.warn(this.name+"没有找到alert窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
+            logger.warn("["+this.name+"]没有找到alert窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
             return null;
         }
     }
@@ -274,7 +275,7 @@ public class CurrentPage implements ICurrentPage {
             return alerMessage;
         }catch(NoAlertPresentException e){
             ActionListenerProxy.getDispatcher().afterdealConfirm();
-            logger.warn(this.name+"没有找到comfirm窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
+            logger.warn("["+this.name+"]没有找到comfirm窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
             return null;
         }
     }
@@ -296,7 +297,7 @@ public class CurrentPage implements ICurrentPage {
             return alerMessage;
         }catch(NoAlertPresentException e){
             ActionListenerProxy.getDispatcher().afterdealConfirm();
-            logger.warn(this.name+"没有找到prompt窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
+            logger.warn("["+this.name+"]没有找到prompt窗口，程序将继续运行，可能会出现异常，请查看代码是否正确");
             return null;
         }
     }

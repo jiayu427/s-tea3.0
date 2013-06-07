@@ -11,16 +11,10 @@ import java.net.URL;
  * Time: 上午11:03
  * To change this template use File | Settings | File Templates.
  */
-public class HtmlUnit extends HttpBrowser {
+public class HtmlUnit extends BaseBrowser {
     private BrowserVersion version;
     private URL url;
-    public HtmlUnit(URL url) {
-        this.url=url;
-        this.version=BrowserVersion.FIREFOX_17;
-    }
-
-    public HtmlUnit(URL url, BrowserVersion browserVersion) {
-        this.url=url;
-        this.version=browserVersion;
+    public HtmlUnit(){
+        super(Browser.HTMLUNIT);
     }
 }

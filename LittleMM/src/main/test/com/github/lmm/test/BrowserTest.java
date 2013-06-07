@@ -1,16 +1,12 @@
 package com.github.lmm.test;
-
-import com.github.lmm.browser.BaseBrowser;
+import com.github.lmm.annotation.Browsers;
+import com.github.lmm.annotation.ThreadRunner;
 import com.github.lmm.browser.Browser;
-import com.github.lmm.element.Locator;
-import com.github.lmm.page.ICurrentPage;
-import org.apache.log4j.PropertyConfigurator;
-import org.junit.Test;
+import com.github.lmm.core.Auto.*;
 import com.github.lmm.core.Auto;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import com.github.lmm.runner.JUnitBaseRunner;
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -18,21 +14,34 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * Time: 上午9:36
  * To change this template use File | Settings | File Templates.
  */
+
+@RunWith(JUnitBaseRunner.class)
+@ThreadRunner(threads = 1)
 public class BrowserTest {
 
     @Test
     public void test(){
-        PropertyConfigurator.configure("resource/log4j.properties");
-        Auto.Firefox.open("http://www.baidu.com");
-        Auto.Firefox.currentage().element(By.id("kw")).input("北京");
-        Auto.Firefox.currentage().element(By.id("su")).click();
-        Auto.Firefox.closeAllWindows();
-        Auto.Chrome.open("http://www.baidu.com");
-        Auto.Chrome.currentage().element("百度首页-搜索框").input("北京");
-        Auto.Chrome.currentage().element().addLocator(Locator.ID,"su").click();
-        Auto.Chrome.closeAllWindows();
+        Firefox.open("http://www.baidu.com") ;
+        Firefox.closeAllWindows();
     }
-
+    @Test
+    @Browsers({Browser.FIREFOX,Browser.HTMLUNIT})
+    public void testone(){
+        Auto.open("http://www.baidu.com");
+        Auto.closeAllWindows();
+    }
+    @Test
+    public void testtow(){
+        Auto.require(Browser.FIREFOX);
+        Auto.open("http://www.baidu.com");
+        Auto.closeAllWindows();
+    }
+    @Test
+    public void testthree(){
+        Auto.require("firefox");
+        Auto.open("http://www.baidu.com");
+        Auto.closeAllWindows();
+    }
 
 
 

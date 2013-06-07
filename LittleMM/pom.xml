@@ -18,7 +18,7 @@
       <dependency>
           <artifactId>junit</artifactId>
           <groupId>junit</groupId>
-          <version>4.11</version>
+          <version>4.10</version>
       </dependency>
       <dependency>
           <artifactId>selenium-java</artifactId>
@@ -75,6 +75,16 @@
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
           <version>1.7.2</version>
+      </dependency>
+      <dependency>
+          <groupId>org.databene</groupId>
+          <artifactId>feed4junit</artifactId>
+          <version>1.1.5</version>
+      </dependency>
+      <dependency>
+          <groupId>jaxen</groupId>
+          <artifactId>jaxen</artifactId>
+          <version>1.1.4</version>
       </dependency>
   </dependencies>
   </project>

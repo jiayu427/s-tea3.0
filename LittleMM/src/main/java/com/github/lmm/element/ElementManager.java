@@ -49,16 +49,16 @@ public class ElementManager{
         return this;
     }
 
-    public void loadSource(Source source){
-        this.elementMap.putAll(source.loadSource());
-    }
-
     public TempElement getTempElement(String id){
         return this.elementMap.get(id);
     }
 
     public void loadPageSource(Source source,SourcePage page){
         this.elementMap.putAll(source.loadPageSource(page));
+    }
+
+    public void addElements(ElementManager e){
+        this.elementMap.putAll(e.getAllElementsMap());
     }
 
 }

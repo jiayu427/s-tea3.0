@@ -10,9 +10,7 @@ import java.net.URL;
  * To change this template use File | Settings | File Templates.
  */
 public class Opera extends BaseBrowser {
-    public Opera(URL url) {
-    }
-
     public Opera() {
+        super(Browser.OPERA);
     }
 }

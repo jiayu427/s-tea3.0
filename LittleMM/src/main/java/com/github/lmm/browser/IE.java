@@ -11,8 +11,8 @@ import java.net.URL;
  */
 public class IE extends BaseBrowser {
     public IE() {
+        super(Browser.IE);
     }
 
-    public IE(URL url) {
-    }
+
 }

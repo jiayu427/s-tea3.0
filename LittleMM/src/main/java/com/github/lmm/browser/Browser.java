@@ -30,7 +30,7 @@ public enum Browser{
             return new RemoteWebDriver(url,DesiredCapabilities.internetExplorer());
         }
     },
-    Firefox(){
+    FIREFOX(){
         public FirefoxDriver browser(){
               return new FirefoxDriver();
           }
@@ -38,7 +38,7 @@ public enum Browser{
             return new RemoteWebDriver(url,DesiredCapabilities.firefox());
         }
     },
-    Chrome(){
+    CHROME(){
         public ChromeDriver browser(){
                   return new ChromeDriver();
         }
@@ -46,7 +46,7 @@ public enum Browser{
             return new RemoteWebDriver(url,DesiredCapabilities.chrome());
         }
     },
-    Safari(){
+    SAFARI(){
         public SafariDriver browser(){
             return new SafariDriver();
         }
@@ -54,7 +54,7 @@ public enum Browser{
             return new RemoteWebDriver(url,DesiredCapabilities.safari());
         }
     },
-    Opera(){
+    OPERA(){
         public OperaDriver browser(){
             return new OperaDriver();
         }
@@ -62,13 +62,165 @@ public enum Browser{
             return new RemoteWebDriver(url,DesiredCapabilities.opera());
         }
     },
-    HtmlUnit(){
+    HTMLUNIT(){
         public HtmlUnitDriver browser(){
             HtmlUnitDriver driver = new HtmlUnitDriver(BrowserVersion.FIREFOX_17);
             driver.setJavascriptEnabled(true);
             return driver;
         }
         public RemoteWebDriver browser(URL url){
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_FIRFOR_3_6(){
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.FIREFOX_3_6));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_FIRFOX_10(){
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.FIREFOX_10));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_CHROME(){
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.CHROME));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_CHROME_16(){
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.CHROME_16));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_INTERNET_EXPLORER_6{
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.INTERNET_EXPLORER_6));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_INTERNET_EXPLORER_7{
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.INTERNET_EXPLORER_7));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_INTERNET_EXPLORER_8{
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.INTERNET_EXPLORER_8));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
+                @Override
+                public boolean isJavascriptEnabled() {
+                    return true;
+                }
+            });
+            return driver;
+        }
+    },
+    HTMLUNIT_INTERNET_EXPLORER_9{
+        @Override
+        protected HtmlUnitDriver browser() {
+            HtmlUnitDriver driver = new HtmlUnitDriver((BrowserVersion.INTERNET_EXPLORER_9));
+            driver.setJavascriptEnabled(true);
+            return driver;
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
             RemoteWebDriver driver= new RemoteWebDriver(url,DesiredCapabilities.htmlUnit(),new DesiredCapabilities(){
                 @Override
                 public boolean isJavascriptEnabled() {

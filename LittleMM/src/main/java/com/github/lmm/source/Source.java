@@ -1,5 +1,6 @@
 package com.github.lmm.source;
 
+import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.element.TempElement;
 import com.github.lmm.page.IPage;
@@ -18,7 +19,7 @@ public interface Source {
     /**这个方法的意思是加载资源，得到所有的加载资源，这些资源并没有做任何的分类处理，对于小量数据的时候
      * 或者页面复杂度比较小的时候比较好管理，但是在page模式的时候一个页面就全部加载会有很大的性能浪费。
      * */
-    public Map<String,TempElement> loadSource();
+    public ElementManager loadSource(IBrowser browser);
     /**此方法提供了一个过滤器，过滤掉一些不想要的资源*/
     public Map<String,TempElement> sourceFilter();
     /**此方法是loadSource的补充，如果我们加载的时候只需要加载一个固定的页面的资源，完全不需要加载全部的资源

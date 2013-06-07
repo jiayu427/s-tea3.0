@@ -10,9 +10,8 @@ import java.net.URL;
  * To change this template use File | Settings | File Templates.
  */
 public class Safari extends BaseBrowser {
-    public Safari() {
-    }
 
     public Safari(URL url) {
+        super(Browser.SAFARI);
     }
 }

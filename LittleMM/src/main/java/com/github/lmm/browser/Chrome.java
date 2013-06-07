@@ -11,8 +11,8 @@ import java.net.URL;
  */
 public class Chrome extends BaseBrowser {
     public Chrome() {
+        super(Browser.CHROME);
     }
 
-    public Chrome(URL url) {
-    }
+
 }

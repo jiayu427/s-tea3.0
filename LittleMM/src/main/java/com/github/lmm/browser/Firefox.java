@@ -10,10 +10,10 @@ import java.net.URL;
  * To change this template use File | Settings | File Templates.
  */
 public class Firefox extends BaseBrowser {
-    public Firefox(URL url) {
-    }
 
     public Firefox() {
-        super(Browser.Firefox);
+        super(Browser.FIREFOX);
     }
+
+
 }
