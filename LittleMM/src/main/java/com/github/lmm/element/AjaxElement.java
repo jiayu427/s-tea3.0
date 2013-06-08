@@ -18,10 +18,6 @@ public class AjaxElement extends Element{
         super(browser, tempElement);
     }
 
-    public AjaxElement(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public AjaxElement(IBrowser browser) {
         super(browser);
     }

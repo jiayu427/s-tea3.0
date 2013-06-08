@@ -10,10 +10,7 @@ import com.github.lmm.window.WindowSource;
 import com.github.lmm.window.WindowsCollectorListener;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import com.github.lmm.source.Source;
 import java.io.File;
 import java.io.IOException;
@@ -141,6 +138,27 @@ public class BaseBrowser implements IBrowser {
     @Override
     public ICurrentPage selectDefaultWindow() {
         this.driver.switchTo().defaultContent();
+        this.currentPage.setBrowser(this);
+        return this.currentPage;
+    }
+
+    @Override
+    public ICurrentPage selectFrame(By by) {
+        this.driver.switchTo().frame(this.driver.findElement(by));
+        this.currentPage.setBrowser(this);
+        return this.currentPage;
+    }
+
+    @Override
+    public ICurrentPage selectFrame(int index) {
+        this.driver.switchTo().frame(index);
+        this.currentPage.setBrowser(this);
+        return this.currentPage;
+    }
+
+    @Override
+    public ICurrentPage selectFrame(By by, int index) {
+        this.driver.switchTo().frame(this.driver.findElements(by).get(index));
         this.currentPage.setBrowser(this);
         return this.currentPage;
     }

@@ -14,10 +14,6 @@ public class Table extends Element {
         super(browser, tempElement);
     }
 
-    public Table(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public Table(IBrowser browser) {
         super(browser);
     }

@@ -201,7 +201,7 @@ public class MyFile {
 	/**
 	 * @return 得到目录文件下的列表，如果有子目录的话，会遍历子目录
 	 * */
-	public   List<String> listFile(File f, String suffix, boolean isDepth) {		
+	public  List<String> listFile(File f, String suffix, boolean isDepth) {
 		
 		if (f.isDirectory() && isDepth == true) {
 

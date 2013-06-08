@@ -21,7 +21,7 @@ public class ClassPool {
 	 */
 	public static Set<Class<?>> getClassPool(){
 		if(classPool.size()==0){
-			ClassPathScanHandler cpsh = new ClassPathScanHandler(true, true, null);
+			ClassPathScanHandler cpsh = new ClassPathScanHandler(false, true, null);
 			classPool=cpsh.getPackageAllClasses(ConfigParser.getBaseName(), true);
 			return classPool;
 		}else{

@@ -16,10 +16,6 @@ public class Form extends Element {
         super(browser, tempElement);
     }
 
-    public Form(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public Form(IBrowser browser) {
         super(browser);
     }

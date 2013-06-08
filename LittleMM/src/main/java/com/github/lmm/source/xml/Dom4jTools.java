@@ -8,6 +8,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.io.SAXReader;
 import java.io.File;
 import org.dom4j.Element;
+import com.github.lmm.source.*;
 
 import java.util.*;
 
@@ -125,12 +126,12 @@ public class Dom4jTools {
         return elementList;
     }
 
-    private ChainElement ToChainElement(Element e){
-        return new ChainElement(this,e.attributeValue("id"));
+    private XMLChainElement ToChainElement(Element e){
+        return new XMLChainElement(this,e.attributeValue("id"));
     }
 
-    public List<ChainElement> getAllChainElements(){
-        List<ChainElement> chainElements=new ArrayList<ChainElement>();
+    public List<XMLChainElement> getAllChainElements(){
+        List<XMLChainElement> chainElements=new ArrayList<XMLChainElement>();
         for(Element e: getAllElements()){
             chainElements.add(ToChainElement(e));
         }
@@ -144,17 +145,33 @@ public class Dom4jTools {
     public Map<String,ElementManager> getPageElementManager(){
         String browser="browser";
         Map<String,ElementManager> managerMap=new HashMap<String,ElementManager>();
-        List<ChainElement> chainElements=getAllChainElements();
+        ElementManager browserManager=new ElementManager();
+        List<XMLChainElement> chainElements=getAllChainElements();
         if(getPageCommit().size()!=0){
             for(String pc:getPageCommit()){
                 ElementManager elementManager=new ElementManager();
-                for(ChainElement c:chainElements){
-                    if(c.getPageInfo().getKeyname().equals(pc)){
-
+                Iterator<XMLChainElement> iter = chainElements.iterator();
+                while(iter.hasNext()){
+                    XMLChainElement xc = iter.next();
+                    if(xc.getPageInfo().getKeyname().equals(pc)){
+                        elementManager.addElement(xc);
+                        iter.remove();
+                    }
+                    if(xc.getPageInfo().getKeyname()==null){
+                        browserManager.addElement(xc);
+                        iter.remove();
                     }
                 }
+                managerMap.put(pc,elementManager);
             }
+            managerMap.put(browser,browserManager);
+        }else{
+            for(XMLChainElement xc:getAllChainElements()){
+                browserManager.addElement(xc);
+            }
+            managerMap.put(browser,browserManager);
         }
+        return managerMap;
     }
 
     private Set<String> getPageCommit(){

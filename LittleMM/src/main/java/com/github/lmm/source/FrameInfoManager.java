@@ -1,4 +1,4 @@
-package com.github.lmm.source.xml;
+package com.github.lmm.source;
 
 import java.util.Stack;
 
@@ -35,4 +35,11 @@ public class FrameInfoManager {
         return this.frameInfoStack.get(index);
     }
 
+    public Stack<FrameInfo> getFrameInfoStack() {
+        return frameInfoStack;
+    }
+
+    public void setFrameInfoStack(Stack<FrameInfo> frameInfoStack) {
+        this.frameInfoStack = frameInfoStack;
+    }
 }

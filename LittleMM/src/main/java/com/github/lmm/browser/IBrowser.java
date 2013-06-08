@@ -3,7 +3,7 @@ package com.github.lmm.browser;
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.page.ICurrentPage;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.By;
 import java.util.Set;
 
 
@@ -31,6 +31,12 @@ public interface IBrowser {
     public Set<String> getWindows();
 
     public ICurrentPage selectDefaultWindow();
+
+    public ICurrentPage selectFrame(By by);
+
+    public ICurrentPage selectFrame(int index);
+
+    public ICurrentPage selectFrame(By by,int index);
 
     public ICurrentPage selectLastOpenedPage();
 

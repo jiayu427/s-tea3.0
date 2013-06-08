@@ -1,11 +1,14 @@
 package com.github.lmm.source.xml;
 
 import com.github.lmm.browser.IBrowser;
+import com.github.lmm.core.MyFile;
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.element.TempElement;
 import com.github.lmm.page.SourcePage;
-import org.jsoup.nodes.Document;
 
+import java.util.HashMap;
+import java.util.List;
+import com.github.lmm.source.Source;
 import java.io.File;
 import java.util.Map;
 
@@ -16,55 +19,43 @@ import java.util.Map;
  * Time: 下午1:08
  * To change this template use File | Settings | File Templates.
  */
-public class DefaultXMLSource implements XMLSource {
-
-    @Override
-    public void initDocument(File file) {
-        //To change body of implemented methods use File | Settings | File Templates.
+public class DefaultXMLSource implements Source {
+    List<String> filelist;
+    public DefaultXMLSource(){
+        MyFile myFile=new MyFile();
+        filelist=myFile.listFile(new File("source"),"xml",true);
     }
 
-    @Override
-    public void initDocument(String path) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public SingleElement[] getSingleElement(String elementName) {
-        return new SingleElement[0];  //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public BlockElement[] getBlockElement(String elementName) {
-        return new BlockElement[0];  //To change body of implemented methods use File | Settings | File Templates.
-    }
 
     @Override
     public ElementManager loadSource(IBrowser browser) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        ElementManager manager = new ElementManager();
+        for(String path:filelist){
+            Dom4jTools dom4jTools=new Dom4jTools(path);
+            manager.addElements(dom4jTools.getPageElementManager().get("browser"));
+        }
+        return manager;
     }
 
     @Override
     public Map<String, TempElement> sourceFilter() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return null;
     }
 
     @Override
     public Map<String, ElementManager> loadPagesSource() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Map<String,ElementManager> manager = new HashMap<String,ElementManager>();
+        for(String path:filelist){
+            Dom4jTools dom4jTools=new Dom4jTools(path);
+            Map<String,ElementManager> filemap=dom4jTools.getPageElementManager();
+            filemap.remove("browser");
+            manager.putAll(filemap);
+        }
+        return manager;
     }
 
     @Override
-    public Map<String, TempElement> loadPageSource(SourcePage ipage) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public TempElement getTempElement(String id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public ElementManager getElementManager(String commit) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    public ElementManager loadPageSource(SourcePage ipage) {
+        return loadPagesSource().get(ipage.getPageCommit());
     }
 }

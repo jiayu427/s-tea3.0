@@ -1,4 +1,4 @@
-package com.github.lmm.source.xml;
+package com.github.lmm.source;
 
 /**
  * Created with IntelliJ IDEA.

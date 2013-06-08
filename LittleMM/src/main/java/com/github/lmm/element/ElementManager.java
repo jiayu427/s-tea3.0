@@ -54,7 +54,7 @@ public class ElementManager{
     }
 
     public void loadPageSource(Source source,SourcePage page){
-        this.elementMap.putAll(source.loadPageSource(page));
+        this.addElements(source.loadPageSource(page));
     }
 
     public void addElements(ElementManager e){

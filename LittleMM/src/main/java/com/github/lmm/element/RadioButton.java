@@ -15,10 +15,6 @@ public class RadioButton extends Element {
         super(browser, tempElement);
     }
 
-    public RadioButton(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public RadioButton(IBrowser browser) {
         super(browser);
     }

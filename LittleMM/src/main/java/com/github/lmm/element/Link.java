@@ -15,9 +15,6 @@ public class Link extends Element {
         super(browser, tempElement);
     }
 
-    public Link(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
 
     public Link(IBrowser browser) {
         super(browser);

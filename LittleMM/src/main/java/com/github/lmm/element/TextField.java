@@ -14,9 +14,6 @@ public class TextField extends Element {
         super(browser, tempElement);
     }
 
-    public TextField(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
 
     public TextField(IBrowser browser) {
         super(browser);

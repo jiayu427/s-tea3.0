@@ -116,11 +116,6 @@ public class CurrentPage implements ICurrentPage {
         this.elementManager.addElement(element);
     }
 
-    @Override
-    public void addElementBySource(String id, Source source) {
-        source.loadSource(this.browser);
-        this.elementManager.addElement(source.getTempElement(id));
-    }
 
     @Override
     public void addElements(Source source) {
@@ -134,7 +129,13 @@ public class CurrentPage implements ICurrentPage {
 
     @Override
     public IElement element(String id) {
-        return new Element(this.getBrowser(),this.elementManager.getTempElement(id));
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        if(!tempElement.isFrameElement()){
+            this.browser.selectDefaultWindow();
+            return new Element(this.browser,tempElement);
+        }else{
+            return null;
+        }
     }
 
     @Override
@@ -322,11 +323,6 @@ public class CurrentPage implements ICurrentPage {
         }
         this.browser.selectLastOpenedPage();
         return this.browser.getCurrentPage();
-    }
-
-    @Override
-    public IFrame frame(IFrame frame) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override

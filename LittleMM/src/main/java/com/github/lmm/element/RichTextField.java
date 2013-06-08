@@ -14,10 +14,6 @@ public class RichTextField extends Element {
         super(browser, tempElement);
     }
 
-    public RichTextField(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public RichTextField(IBrowser browser) {
         super(browser);
     }

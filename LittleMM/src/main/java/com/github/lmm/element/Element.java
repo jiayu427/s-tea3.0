@@ -37,7 +37,7 @@ public class Element implements IElement {
         actions=new Actions(this.currentwindow);
         commit="["+RuntimeMethod.getName()+"]";
         this.tempElement= tempElement;
-        this.locator=tempElement.getLocator().getBy();
+        this.locator=tempElement.getLocator();
         this.value=tempElement.getValue();
         this.id=tempElement.getId();
         this.index=tempElement.getIndex();
@@ -49,10 +49,6 @@ public class Element implements IElement {
             throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
         }
 
-    }
-
-    public Element(IBrowser browser,String By,String id,String value,Integer index){
-        this(browser,new TempElement(id,By,value,index));
     }
 
 

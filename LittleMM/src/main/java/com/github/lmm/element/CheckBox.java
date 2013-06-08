@@ -14,10 +14,6 @@ public class CheckBox extends Element {
         super(browser, tempElement);
     }
 
-    public CheckBox(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public CheckBox(IBrowser browser) {
         super(browser);
     }

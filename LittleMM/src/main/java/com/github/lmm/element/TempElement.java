@@ -1,5 +1,7 @@
 package com.github.lmm.element;
 
+import com.github.lmm.source.ElementInfo;
+import com.github.lmm.source.FrameInfoManager;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;
@@ -11,76 +13,34 @@ import java.util.List;
  * Time: 下午1:24
  * To change this template use File | Settings | File Templates.
  */
-public class TempElement {
-    private String id;
-    private String value;
-    private Integer index;
-    private String by;
-    private List<TempElement> childTempElement;
-    private TempElementLocator locator;
+public interface TempElement {
 
-    public List<TempElement> getChildTempElement() {
-        return childTempElement;
-    }
+    public ElementInfo getElementInfo();
 
-    public void setChildTempElement(List<TempElement> childTempElement) {
-        this.childTempElement = childTempElement;
-    }
+    public void setElementInfo(ElementInfo elementInfo);
 
-    public String getId() {
-        return id;
-    }
+    public String getId();
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    public void setId(String id);
 
-    public String getValue() {
-        return value;
-    }
+    public String getValue();
 
-    public void setValue(String value) {
-        this.value = value;
-    }
+    public void setValue(String value);
 
-    public Integer getIndex() {
-        return index;
-    }
+    public Integer getIndex();
 
-    public void setIndex(Integer index) {
-        this.index = index;
-    }
+    public void setIndex(Integer index);
 
-    public String getBy() {
-        return by;
-    }
+    public String getBy();
 
-    public void setBy(String by) {
-        this.by = by;
-    }
+    public void setBy(String by);
 
-    public TempElement(String id, String by, String value, Integer index) {
-        this.id = id;
-        this.value = value;
-        this.index = index;
-        this.by = by;
-        this.locator=new TempElementLocator(this);
-        this.childTempElement=new ArrayList<TempElement>();
-    }
+    public FrameInfoManager getFrameInfoManager();
 
-    public TempElementLocator getLocator() {
-        return locator;
-    }
+    public void setFrameInfoManager(FrameInfoManager frameInfoManager);
 
-    public void setLocator(TempElementLocator locator) {
-        this.locator = locator;
-    }
+    public By getLocator();
 
-    public TempElement(String by,String value,Integer index){
-        this.by=by;
-        this.value=value;
-        this.index=index;
-        this.locator=new TempElementLocator(this);
-        this.childTempElement=new ArrayList<TempElement>();
-    }
+    public boolean isFrameElement();
+
 }

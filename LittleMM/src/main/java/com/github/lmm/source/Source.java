@@ -33,10 +33,7 @@ public interface Source {
      * 内置一个资源的构造方法，这样的话这个资源本身就存在，如果存在，自动的加载，如果不存在就不再加载。
      * page类将会提供了一个默认的加载的方法，这个方法默认的存在，我们可以通过自定义的方式更改元素的加载。
      * */
-    public Map<String,TempElement> loadPageSource(SourcePage ipage);
+    public ElementManager loadPageSource(SourcePage ipage);
 
-    public TempElement getTempElement(String id);
-
-    public ElementManager getElementManager(String commit);
 
 }

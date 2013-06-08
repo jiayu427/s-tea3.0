@@ -14,9 +14,6 @@ public class Button extends Element {
         super(browser, tempElement);
     }
 
-    public Button(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
 
     public Button(IBrowser browser) {
         super(browser);

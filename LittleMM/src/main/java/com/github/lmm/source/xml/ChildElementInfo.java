@@ -20,7 +20,6 @@ public class ChildElementInfo {
     public ChildElementInfo(){
 
     }
-
     public String getBy() {
         return by;
     }

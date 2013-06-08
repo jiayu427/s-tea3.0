@@ -26,8 +26,6 @@ public interface ICurrentPage extends IPage {
 
     public void addElement(TempElement element);
 
-    public void addElementBySource(String id,Source source);
-
     public void addElements(Source source);
 
     public IElement element();
@@ -75,8 +73,6 @@ public interface ICurrentPage extends IPage {
     //public ICurrentPage selectLateOpenedWindow();
 
     public ICurrentPage openNewWindow(String url);
-
-    public IFrame frame(IFrame frame);
 
     public WebDriver getCurrentWindow();
 

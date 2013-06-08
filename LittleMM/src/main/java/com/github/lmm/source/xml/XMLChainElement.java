@@ -1,10 +1,10 @@
 package com.github.lmm.source.xml;
 
 import java.util.Stack;
-
 import com.github.lmm.exception.SameIDSourceError;
 import org.dom4j.Element;
 import java.util.List;
+import com.github.lmm.source.*;
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -12,13 +12,13 @@ import java.util.List;
  * Time: 下午3:26
  * To change this template use File | Settings | File Templates.
  */
-public class ChainElement {
+public class XMLChainElement extends TempChainElement {
     private boolean isFrameElement=false;
     private PageInfo pageInfo;
     private FrameInfoManager frameInfoManager;
     private ElementInfo elementInfo;
     public Dom4jTools dom4jTools;
-    public ChainElement(Dom4jTools dom4jTools,String id){
+    public XMLChainElement(Dom4jTools dom4jTools,String id){
         this.dom4jTools=dom4jTools;
         stack=new Stack<Element>();
         this.pageInfo=new PageInfo();
@@ -44,6 +44,10 @@ public class ChainElement {
                 String keyname=e.attributeValue("commit");
                 String evalue = e.attributeValue("value");
                 String eby = e.attributeValue("by");
+                if(e.attributeValue("frameIndex")!=null){
+                    Integer frameindex=Integer.parseInt(e.attributeValue("frameIndex"));
+                    frameInfo.setFrameIndex(frameindex);
+                }
                 Integer eindex =0;
                 if(e.attributeValue("index")!=null){
                     eindex=Integer.parseInt(e.attributeValue("index"));

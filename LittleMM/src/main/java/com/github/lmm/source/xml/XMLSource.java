@@ -16,8 +16,6 @@ public interface XMLSource extends Source {
     /**这个方法初始化获取的资源目录或者文件，能够加载所有的文件内的资源*/
     public void initDocument(String path);
     /**这个方法定义了一个获取xml单个元素的方法，通过元素名称获取*/
-    public SingleElement[] getSingleElement(String elementName);
-    /**这个方法定义了一个获取xml中块元素的方法，通过父元素的元素名称获取*/
-    public BlockElement[] getBlockElement(String elementName);
+
 
 }

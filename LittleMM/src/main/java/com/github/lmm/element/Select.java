@@ -14,10 +14,6 @@ public class Select extends Element {
         super(browser, tempElement);
     }
 
-    public Select(IBrowser browser, String By, String id, String value, Integer index) {
-        super(browser, By, id, value, index);
-    }
-
     public Select(IBrowser browser) {
         super(browser);
     }
