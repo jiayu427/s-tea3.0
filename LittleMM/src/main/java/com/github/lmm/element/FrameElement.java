@@ -3,6 +3,7 @@ package com.github.lmm.element;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.runtime.RuntimeMethod;
+import com.github.lmm.source.TempChainElement;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -13,11 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-6-13
- * Time: 上午11:19
- * To change this template use File | Settings | File Templates.
+ * @author sky
  */
 public class FrameElement implements IElement {
     private Logger logger = Logger.getLogger(FrameElement.class);
@@ -279,7 +276,7 @@ public class FrameElement implements IElement {
 
     @Override
     public String getId() {
-        return this.getId();
+        return this.id;
     }
 
     @Override
@@ -301,7 +298,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptions(String tagname) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.tagName(tagname));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -313,7 +310,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsById(String id) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.id(id));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -325,7 +322,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsByXpath(String xpath) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.xpath(xpath));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -337,7 +334,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsByName(String name) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.name(name));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -349,7 +346,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsByClassName(String classname) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.className(classname));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -361,7 +358,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsByLinkText(String linktext) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.linkText(linktext));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -373,7 +370,7 @@ public class FrameElement implements IElement {
 
     @Override
     public ListElements getOptionsByCss(String css) {
-        List<IElement> elist = new ArrayList<IElement>();
+        List<FrameElement> elist = new ArrayList<FrameElement>();
         List<WebElement> welist = this.currentFrame.findElements(By.cssSelector(css));
         for(WebElement we:welist){
             FrameElement e=new FrameElement(this.frame);
@@ -586,4 +583,27 @@ public class FrameElement implements IElement {
         return this;
     }
 
+    public Frame getFrame() {
+        return frame;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public String getBy() {
+        return by;
+    }
+
+    public Integer getIndex() {
+        return index;
+    }
+
+    public By getLocator() {
+        return locator;
+    }
+
+    public TempElement getTempElement() {
+        return tempElement;
+    }
 }

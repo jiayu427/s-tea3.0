@@ -589,4 +589,23 @@ public class Element implements IElement {
         return this;
     }
 
+    public TempElement getTempElement() {
+        return tempElement;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public String getBy() {
+        return by;
+    }
+
+    public Integer getIndex() {
+        return index;
+    }
+
+    public By getLocator() {
+        return locator;
+    }
 }
