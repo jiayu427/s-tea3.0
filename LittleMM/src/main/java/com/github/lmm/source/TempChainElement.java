@@ -14,11 +14,11 @@ import java.util.List;
  */
 public class TempChainElement implements TempElement {
     //private PageInfo pageInfo;
-    private FrameInfoManager frameInfoManager;
+    //private FrameInfoManager frameInfoManager;
     private ElementInfo elementInfo;
     public TempChainElement(ElementInfo elementInfo){
         this.elementInfo=elementInfo;
-        this.frameInfoManager=new FrameInfoManager();
+        //this.frameInfoManager=new FrameInfoManager();
     }
 
     public TempChainElement(){
@@ -75,26 +75,7 @@ public class TempChainElement implements TempElement {
     }
 
     @Override
-    public FrameInfoManager getFrameInfoManager() {
-        return this.frameInfoManager;
-    }
-
-    @Override
-    public void setFrameInfoManager(FrameInfoManager frameInfoManager) {
-        this.frameInfoManager=frameInfoManager;
-    }
-
-    @Override
     public By getLocator() {
         return this.elementInfo.getLocator();
-    }
-
-    @Override
-    public boolean isFrameElement() {
-        if(this.frameInfoManager.getFrameInfoStack().size()>0){
-            return true;
-        }else{
-            return false;
-        }
     }
 }

@@ -48,8 +48,8 @@ public class BaseBrowser implements IBrowser {
         this.windowSource=new WindowSource(this);
         this.windowsCollectorListener=new WindowsCollectorListener();
         this.windowSource.addWindowsListener(this.windowsCollectorListener);
-        this.windowSource.WindowsCheck();
-        this.windowSource.getWindowsCollecter().updateWindows();
+        //this.windowSource.WindowsCheck();
+        //this.windowSource.getWindowsCollecter().updateWindows();
         logger.info("["+this.commit+"]初始化了浏览器"+browser.toString()+"来进行自动化测试");
     }
 
@@ -68,8 +68,8 @@ public class BaseBrowser implements IBrowser {
         this.windowSource=new WindowSource(this);
         this.windowsCollectorListener=new WindowsCollectorListener();
         this.windowSource.addWindowsListener(this.windowsCollectorListener);
-        this.windowSource.WindowsCheck();
-        this.windowSource.getWindowsCollecter().updateWindows();
+        //this.windowSource.WindowsCheck();
+        //this.windowSource.getWindowsCollecter().updateWindows();
         logger.info("["+this.commit+"]初始化了浏览器"+browser.toString()+"来进行自动化测试");
     }
 
@@ -84,6 +84,10 @@ public class BaseBrowser implements IBrowser {
         this.setClosed(false);
         //logger.info("打开了http地址"+url);
         this.currentPage.setBrowser(this);
+        this.windowSource.getWindowsCollecter().updateWindows();
+        logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }
 
@@ -171,9 +175,9 @@ public class BaseBrowser implements IBrowser {
         this.driver.switchTo().window(windowhandle);
         this.currentPage.setBrowser(this);
         ActionListenerProxy.getDispatcher().afterselectWindow();
-        logger.info("["+this.commit+"]当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+this.commit+"]当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
-        logger.info("["+this.commit+"]当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        logger.info("["+this.commit+"]当前页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+this.commit+"]当前页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+this.commit+"]当前页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }
 
@@ -186,9 +190,9 @@ public class BaseBrowser implements IBrowser {
         logger.info("[" + this.commit + "]当前页面切换到了-------->" + title);
         ActionListenerProxy.getDispatcher().afterselectWindow();
         this.currentPage.setBrowser(this);
-        logger.info("["+this.commit+"]当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+this.commit+"]当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
-        logger.info("["+this.commit+"]当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        logger.info("["+this.commit+"]当前页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+this.commit+"]当前页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+this.commit+"]当前页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }
 
@@ -205,9 +209,9 @@ public class BaseBrowser implements IBrowser {
         }
         ActionListenerProxy.getDispatcher().afterselectWindow();
         this.currentPage.setBrowser(this);
-        logger.info("["+this.commit+"]当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+this.commit+"]当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
-        logger.info("["+this.commit+"]当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        logger.info("["+this.commit+"]当前页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+this.commit+"]当前页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+this.commit+"]当前页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }
 
@@ -217,9 +221,9 @@ public class BaseBrowser implements IBrowser {
         this.driver.switchTo().window(windowhandle);
         logger.info("[" + this.commit + "]当前页面切换到了-------->" + this.driver.getTitle());
         this.currentPage.setBrowser(this);
-        logger.info("["+this.commit+"]当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+this.commit+"]当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
-        logger.info("["+this.commit+"]当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        logger.info("["+this.commit+"]当前页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+this.commit+"]当前页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+this.commit+"]当前页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }
 
@@ -234,11 +238,11 @@ public class BaseBrowser implements IBrowser {
                 break;
             }
         }
-        ActionListenerProxy.getDispatcher().afterselectWindow();
         this.currentPage.setBrowser(this);
-        logger.info("["+this.commit+"]当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+this.commit+"]当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
-        logger.info("["+this.commit+"]当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
+        logger.info("["+this.commit+"]当前页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+this.commit+"]当前页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+this.commit+"]当前页面信息：窗口句柄数--->"+this.getWindows().size());
+        ActionListenerProxy.getDispatcher().afterselectWindow();
         return this.currentPage;
     }
 
@@ -306,5 +310,9 @@ public class BaseBrowser implements IBrowser {
 
     public void setElementManager(ElementManager elementManager) {
         this.elementManager = elementManager;
+    }
+
+    public WindowSource getWindowSource() {
+        return windowSource;
     }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//import org.apache.log4j.Logger;
+import org.apache.log4j.Logger;
 import com.github.lmm.annotation.Browsers;
 import com.github.lmm.annotation.SingleBrowser;
 import com.github.lmm.browser.Browser;
@@ -14,7 +14,7 @@ import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 
 public class InterceptorStatement extends Statement{
-	//private static Logger logger = Logger.getLogger(InterceptorStatement.class);
+	private Logger logger = Logger.getLogger(InterceptorStatement.class);
 	private final FrameworkMethod testMethod;
     private Object target;
 	public InterceptorStatement(FrameworkMethod testMethod, Object target) {
@@ -25,7 +25,7 @@ public class InterceptorStatement extends Statement{
 
 	@Override
 	public void evaluate() throws Throwable {
-		addInterceptor(new ThreadLocalResetInterceptor());
+		logger.info("*******************测试用例"+testMethod.getName()+"开始执行*****************");
 		for(Interceptor interceptor:interceptors){
 			interceptor.interceptorBefore();
 		}
@@ -60,7 +60,7 @@ public class InterceptorStatement extends Statement{
 		for(Interceptor interceptor:interceptors){
 			interceptor.interceptorAfter();
 		}
-
+        logger.info("***************测试用例"+testMethod.getName()+"执行结束****************");
 	}
 	
 	

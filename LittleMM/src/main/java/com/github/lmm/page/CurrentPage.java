@@ -1,10 +1,7 @@
 package com.github.lmm.page;
 
 import com.github.lmm.browser.IBrowser;
-import com.github.lmm.element.Element;
-import com.github.lmm.element.ElementManager;
-import com.github.lmm.element.IElement;
-import com.github.lmm.element.TempElement;
+import com.github.lmm.element.*;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.runtime.RuntimeMethod;
 import com.github.lmm.source.Source;
@@ -28,7 +25,7 @@ public class CurrentPage implements ICurrentPage {
     private Logger logger = Logger.getLogger(CurrentPage.class);
     private String url;
     private String title;
-    private static Object page;
+    private static Object currentpage;
     private String name;
     public WebDriver getCurrentwindow() {
         return currentwindow;
@@ -55,6 +52,16 @@ public class CurrentPage implements ICurrentPage {
     public void setBrowser(IBrowser browser){
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
+    }
+
+    @Override
+    public <T> T frame(Class<T> clazz) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public ElementManager getElementManager() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
 
@@ -89,10 +96,10 @@ public class CurrentPage implements ICurrentPage {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    public static <T> T load(Class<T> clazz) {
-        CurrentPage.page=null;
+    public static <T> T page(Class<T> clazz) {
+        CurrentPage.currentpage=null;
         try {
-            page=Class.forName(clazz.getName()).newInstance();
+            currentpage=Class.forName(clazz.getName()).newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
             throw new RuntimeException("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
@@ -101,7 +108,7 @@ public class CurrentPage implements ICurrentPage {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
         }
-        return (T)page;
+        return (T)currentpage;
     }
 
 
@@ -130,12 +137,8 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public IElement element(String id) {
         TempElement tempElement=this.elementManager.getTempElement(id);
-        if(!tempElement.isFrameElement()){
-            this.browser.selectDefaultWindow();
-            return new Element(this.browser,tempElement);
-        }else{
-            return null;
-        }
+        return new Element(this.browser,tempElement);
+
     }
 
     @Override
@@ -150,6 +153,272 @@ public class CurrentPage implements ICurrentPage {
         Element element = new Element(this.browser);
         element.addLocator(by,index);
         return element;
+    }
+
+    @Override
+    public Table table() {
+        return new Table(this.browser);
+    }
+
+    @Override
+    public Table table(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        return new Table(this.browser,tempElement);
+    }
+
+    @Override
+    public Table table(By by) {
+        Table table = new Table(this.browser);
+        table.addLocator(by);
+        return table;
+    }
+
+    @Override
+    public Table table(By by, Integer index) {
+        Table table = new Table(this.browser);
+        table.addLocator(by,index);
+        return table;
+    }
+
+    @Override
+    public Button button() {
+        Button button=new Button(this.browser);
+        return button;
+    }
+
+    @Override
+    public Button button(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        Button button=new Button(this.browser,tempElement);
+        return button;
+    }
+
+    @Override
+    public Button button(By by) {
+        Button button=new Button(this.browser);
+        button.addLocator(by);
+        return button;
+    }
+
+    @Override
+    public Button button(By by, Integer index) {
+        Button button=new Button(this.browser);
+        button.addLocator(by,index);
+        return button;
+    }
+
+    @Override
+    public CheckBox checkBox() {
+        return new CheckBox(this.browser);
+    }
+
+    @Override
+    public CheckBox checkBox(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        CheckBox checkBox=new CheckBox(this.browser,tempElement);
+        return checkBox;
+    }
+
+    @Override
+    public CheckBox checkBox(By by) {
+        CheckBox checkBox=new CheckBox(this.browser);
+        checkBox.addLocator(by);
+        return checkBox;
+    }
+
+    @Override
+    public CheckBox checkBox(By by, Integer index) {
+        CheckBox checkBox=new CheckBox(this.browser);
+        checkBox.addLocator(by,index);
+        return checkBox;
+    }
+
+    @Override
+    public Form form() {
+        return new Form(this.browser);
+    }
+
+    @Override
+    public Form form(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        Form form=new Form(this.browser,tempElement);
+        return form;
+    }
+
+    @Override
+    public Form form(By by) {
+        Form form=new Form(this.browser);
+        form.addLocator(by);
+        return form;
+    }
+
+    @Override
+    public Form form(By by, Integer index) {
+        Form form=new Form(this.browser);
+        form.addLocator(by,index);
+        return form;
+    }
+
+    @Override
+    public Image image() {
+        return new Image(this.browser);
+    }
+
+    @Override
+    public Image image(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        Image image=new Image(this.browser,tempElement);
+        return image;
+    }
+
+    @Override
+    public Image image(By by) {
+        Image image=new Image(this.browser);
+        image.addLocator(by);
+        return image;
+    }
+
+    @Override
+    public Image image(By by, Integer index) {
+        Image image=new Image(this.browser);
+        image.addLocator(by, index);
+        return image;
+    }
+
+    @Override
+    public Link link() {
+        Link link = new Link(this.browser);
+        return link;
+    }
+
+    @Override
+    public Link link(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        Link link=new Link(this.browser,tempElement);
+        return link;
+    }
+
+    @Override
+    public Link link(By by) {
+        Link link=new Link(this.browser);
+        link.addLocator(by);
+        return link;
+    }
+
+    @Override
+    public Link link(By by, Integer index) {
+        Link link=new Link(this.browser);
+        link.addLocator(by, index);
+        return link;
+    }
+
+    @Override
+    public RadioButton radioButton() {
+        return new RadioButton(this.browser);
+    }
+
+    @Override
+    public RadioButton radioButton(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        RadioButton radioButton=new RadioButton(this.browser,tempElement);
+        return radioButton;
+    }
+
+    @Override
+    public RadioButton radioButton(By by) {
+        RadioButton radioButton=new RadioButton(this.browser);
+        radioButton.addLocator(by);
+        return radioButton;
+    }
+
+    @Override
+    public RadioButton radioButton(By by, Integer index) {
+        RadioButton radioButton=new RadioButton(this.browser);
+        radioButton.addLocator(by);
+        return radioButton;
+    }
+
+    @Override
+    public RichTextField richTextField() {
+        return new RichTextField(this.browser);
+    }
+
+    @Override
+    public RichTextField richTextField(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        RichTextField richTextField=new RichTextField(this.browser,tempElement);
+        return richTextField;
+    }
+
+    @Override
+    public RichTextField richTextField(By by) {
+        RichTextField richTextField=new RichTextField(this.browser);
+        richTextField.addLocator(by);
+        return richTextField;
+    }
+
+    @Override
+    public RichTextField richTextField(By by, Integer index) {
+        RichTextField richTextField=new RichTextField(this.browser);
+        richTextField.addLocator(by, index);
+        return richTextField;
+    }
+
+    @Override
+    public Select select() {
+        return new Select(this.browser);
+    }
+
+    @Override
+    public Select select(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        Select select=new Select(this.browser,tempElement);
+        return select;
+    }
+
+    @Override
+    public Select select(By by) {
+        Select select = new Select(this.browser);
+        select.addLocator(by);
+        return select;
+    }
+
+    @Override
+    public Select select(By by, Integer index) {
+        Select select=new Select(this.browser);
+        select.addLocator(by, index);
+        return select;
+    }
+
+    @Override
+    public TextField textField() {
+        return new TextField(this.browser);
+    }
+
+    @Override
+    public TextField textField(String id) {
+        TempElement tempElement=this.elementManager.getTempElement(id);
+        TextField textField= new TextField(this.browser,tempElement);
+        return textField;
+    }
+
+    @Override
+    public TextField textField(By by) {
+        TextField textField=new TextField(this.browser);
+        textField.addLocator(by);
+        return textField;
+    }
+
+    @Override
+    public TextField textField(By by, Integer index) {
+        TextField textField=new TextField(this.browser);
+        textField().addLocator(by,index);
+        return textField;
+    }
+
+    @Override
+    public <T> T selfConfigElement(T clazz) {
+        return clazz;
     }
 
     @Override
@@ -315,12 +584,14 @@ public class CurrentPage implements ICurrentPage {
 
     @Override
     public ICurrentPage openNewWindow(String url) {
-        runJavaScript("window.open(\"\",\"_blank\")");
+        runJavaScript("window.open(\""+url+"\")");
+        logger.info("在新的窗口打开了链接"+url);
         try {
-            Thread.sleep(1);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        //this.browser.getWindowSource().getWindowsCollecter().updateWindows();
         this.browser.selectLastOpenedPage();
         return this.browser.getCurrentPage();
     }

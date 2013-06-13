@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:2.33.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-android-driver:2.33.0" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:2.33.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:2.31.0" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib-nodep:2.1_3" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20080701" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:2.33.0" level="project" />
@@ -88,6 +88,7 @@
     <orderEntry type="library" name="Maven: org.databene:contiperf:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.9" level="project" />
     <orderEntry type="library" name="Maven: jaxen:jaxen:1.1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.github.detro.ghostdriver:phantomjsdriver:1.0.3" level="project" />
   </component>
 </module>
 

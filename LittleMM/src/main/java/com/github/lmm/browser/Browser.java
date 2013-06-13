@@ -3,16 +3,15 @@ package com.github.lmm.browser;
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.opera.core.systems.OperaDriver;
 import java.net.URL;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,6 +21,17 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public enum Browser{
+    PhantomJS(){
+        @Override
+        protected PhantomJSDriver browser() {
+            return new PhantomJSDriver(new DesiredCapabilities());
+        }
+
+        @Override
+        protected RemoteWebDriver browser(URL url) {
+            return new RemoteWebDriver(url,DesiredCapabilities.phantomjs());
+        }
+    },
     IE(){
         public InternetExplorerDriver browser(){
             return new InternetExplorerDriver();

@@ -6,6 +6,7 @@ import com.github.lmm.runtime.RuntimeMethod;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
+import com.github.lmm.page.Frame;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
@@ -14,51 +15,49 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
- * Date: 13-5-29
- * Time: 下午1:29
+ * Date: 13-6-13
+ * Time: 上午11:19
  * To change this template use File | Settings | File Templates.
  */
-public class Element implements IElement {
-    private Logger logger = Logger.getLogger(Element.class);
-    private IBrowser browser;
+public class FrameElement implements IElement {
+    private Logger logger = Logger.getLogger(FrameElement.class);
+    private WebDriver currentFrame;
+    private Frame frame;
     private WebElement element;
-    private TempElement tempElement;
-    private Actions actions;
     private String id;
-    private WebDriver currentwindow;
+    private String commit;
+    private Actions actions;
+    private TempElement tempElement;
     private String value;
     private String by;
     private Integer index;
     private By locator;
-    private String commit;
-    public Element(IBrowser browser,TempElement tempElement){
-        this.browser=browser;
-        this.currentwindow=browser.getCurrentBrowserDriver();
-        actions=new Actions(this.currentwindow);
-        commit="["+RuntimeMethod.getName()+"]";
-        this.tempElement= tempElement;
+    public FrameElement(Frame frame,TempElement tempElement){
+        this.frame=frame;
+        this.currentFrame=frame.getCurrentFrame();
+        actions=new Actions(this.currentFrame);
+        commit="["+ RuntimeMethod.getName()+"]";
+        this.tempElement=tempElement;
         this.locator=tempElement.getLocator();
         this.value=tempElement.getValue();
         this.id=tempElement.getId();
         this.index=tempElement.getIndex();
-        List<WebElement> list=this.currentwindow.findElements(this.locator);
+        List<WebElement> list=this.currentFrame.findElements(this.locator);
         if(list.size()>0){
             this.element=list.get(this.index);
         }else{
             logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
             throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
         }
-
     }
-
-
-    public Element(IBrowser browser){
-        this.browser=browser;
-        this.currentwindow=browser.getCurrentBrowserDriver();
-        actions=new Actions(this.currentwindow);
+    public FrameElement(Frame frame){
+        this.frame=frame;
+        this.currentFrame=frame.getCurrentFrame();
+        actions=new Actions(this.currentFrame);
         commit="["+RuntimeMethod.getName()+"]";
-        this.id="Element";
+        this.id="FrameElement";
     }
+
     @Override
     public void click() {
         ActionListenerProxy.getDispatcher().beforeClickOn();
@@ -70,7 +69,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，点击失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，点击失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterClickOn();
     }
 
@@ -84,7 +83,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，双击击失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，双击失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterdoubleClick();
 
     }
@@ -99,7 +98,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，按下按键["+key+"]失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，按下按钮["+key+"]失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterkeyDown();
     }
 
@@ -113,7 +112,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，松开按键"+key+"失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，松开按键"+key+"失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterkeyUp();
     }
 
@@ -218,6 +217,7 @@ public class Element implements IElement {
             logger.error(this.commit + "[" + id + "]元素查找失败，可能这个元素不存在，清空失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，清空失败！");
         }
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterclear();
     }
 
@@ -238,7 +238,7 @@ public class Element implements IElement {
     @Override
     public void focus() {
         this.element.sendKeys("");
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
     }
 
     @Override
@@ -301,10 +301,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptions(String tagname) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.tagName(tagname));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.tagName(tagname));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -313,10 +313,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsById(String id) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.id(id));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.id(id));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -325,10 +325,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsByXpath(String xpath) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.xpath(xpath));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.xpath(xpath));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -337,10 +337,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsByName(String name) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.name(name));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.name(name));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -349,10 +349,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsByClassName(String classname) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.className(classname));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.className(classname));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -361,10 +361,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsByLinkText(String linktext) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.linkText(linktext));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.linkText(linktext));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -373,10 +373,10 @@ public class Element implements IElement {
 
     @Override
     public ListElements getOptionsByCss(String css) {
-        List<Element> elist = new ArrayList<Element>();
-        List<WebElement> welist = this.currentwindow.findElements(By.cssSelector(css));
+        List<IElement> elist = new ArrayList<IElement>();
+        List<WebElement> welist = this.currentFrame.findElements(By.cssSelector(css));
         for(WebElement we:welist){
-            Element e=new Element(this.browser);
+            FrameElement e=new FrameElement(this.frame);
             e.element=we;
             elist.add(e);
         }
@@ -415,12 +415,13 @@ public class Element implements IElement {
             Point point=getLocation();
             int x=point.getX();
             int y=point.getY();
-            this.browser.runJavaScript("window.scrollTo("+x+","+y+")");
+            this.frame.getPage().getBrowser().runJavaScript("window.scrollTo("+x+","+y+")");
             logger.info(this.commit+"["+id+"]视角移动到了["+x+","+y+"]的位置");
         }else{
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，移动视角失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，移动视角失败！");
         }
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterscroll();
     }
 
@@ -434,7 +435,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，鼠标悬浮失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，鼠标悬浮失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterMouseOver();
     }
 
@@ -448,7 +449,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，提交表单失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，提交表单失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().aftersubmit();
     }
 
@@ -493,7 +494,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素拖拽失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素拖拽失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterdragAndDrop();
     }
 
@@ -507,7 +508,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素拖拽失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素拖拽失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterdragAndDrop();
     }
 
@@ -521,7 +522,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素处按住左键失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素处按住左键失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterleftDown();
     }
 
@@ -535,7 +536,7 @@ public class Element implements IElement {
             logger.error(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素处松开左键失败！");
             throw new NoSuchElementException(this.commit+"["+id+"]元素查找失败，可能这个元素不存在，元素处按住松开失败！");
         }
-        this.browser.getWindowSource().windowsCheck();
+        this.frame.getPage().getBrowser().getWindowSource().windowsCheck();
         ActionListenerProxy.getDispatcher().afterleftUp();
     }
 
@@ -549,43 +550,39 @@ public class Element implements IElement {
 
     }
 
-    public Element addLocator(Locator style,String value){
-        this.element=this.currentwindow.findElement(style.getLocator(value));
-        this.id=style.getLocator(value).toString();
+    public FrameElement addLocator(Locator style,String value){
+        this.element=this.currentFrame.findElement(style.getLocator(value));
         return this;
     }
 
-    public Element addLocator(Locator style,String value,Integer eindex){
-        List<WebElement> webElementList =this.currentwindow.findElements(style.getLocator(value));
+    public FrameElement addLocator(Locator style,String value,Integer eindex){
+        List<WebElement> webElementList =this.currentFrame.findElements(style.getLocator(value));
         if(webElementList.size()==0){
             logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
             throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
         }else{
             this.element= webElementList.get(eindex);
         }
-        this.id=style.getLocator(value).toString()+",index->"+eindex;
         return this;
     }
 
     public IBrowser getBrowser() {
-        return browser;
+        return this.frame.getPage().getBrowser();
     }
 
-    public Element addLocator(By byLocator){
-        this.element=this.currentwindow.findElement(byLocator);
-        this.id=byLocator.toString();
+    public FrameElement addLocator(By byLocator){
+        this.element=this.currentFrame.findElement(byLocator);
         return this;
     }
 
-    public Element addLocator(By byLocator,Integer eindex){
-        List<WebElement> webElementList=this.currentwindow.findElements(byLocator);
+    public FrameElement addLocator(By byLocator,Integer eindex){
+        List<WebElement> webElementList=this.currentFrame.findElements(byLocator);
         if(webElementList.size()==0){
             logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
             throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
         }else{
             this.element= webElementList.get(eindex);
         }
-        this.id=byLocator.toString()+",index->"+eindex+1;
         return this;
     }
 

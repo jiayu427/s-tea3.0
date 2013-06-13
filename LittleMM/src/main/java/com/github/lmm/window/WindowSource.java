@@ -47,25 +47,12 @@ public class WindowSource {
         this.repository.remove(windowsListener);
     }
 
-    public void WindowsCheck(){
-        new Thread(new Runnable(){
-            @Override
-            public void run() {
-                while(isRun()){
-                    boolean bool=false;
-                    if(windowsCollecter.windowNums==browser.getWindows().size()){
-                        try {
-                            Thread.currentThread().sleep(1000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }else{
-                        notifyWindowsCollecter(windowsCollecter);
-                    }
-                }
-            }
-        }).start();
+    public void windowsCheck(){
+        if(windowsCollecter.windowNums==browser.getWindows().size()){
+             notifyWindowsCollecter(windowsCollecter);
+        }
     }
+
 
     public WindowSource(IBrowser browser){
         this.browser=browser;

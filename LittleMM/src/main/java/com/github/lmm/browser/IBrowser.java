@@ -2,6 +2,7 @@ package com.github.lmm.browser;
 
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.page.ICurrentPage;
+import com.github.lmm.window.WindowSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import java.util.Set;
@@ -65,4 +66,6 @@ public interface IBrowser {
     public ElementManager getElementManager();
 
     public void setElementManager(ElementManager elementManager);
+
+    public WindowSource getWindowSource();
 }

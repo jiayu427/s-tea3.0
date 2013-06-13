@@ -15,7 +15,6 @@ import com.github.lmm.source.*;
 public class XMLChainElement extends TempChainElement {
     private boolean isFrameElement=false;
     private PageInfo pageInfo;
-    private FrameInfoManager frameInfoManager;
     private ElementInfo elementInfo;
     public Dom4jTools dom4jTools;
     public XMLChainElement(Dom4jTools dom4jTools,String id){
@@ -23,7 +22,7 @@ public class XMLChainElement extends TempChainElement {
         stack=new Stack<Element>();
         this.pageInfo=new PageInfo();
         this.elementInfo=new ElementInfo();
-        this.frameInfoManager=new FrameInfoManager();
+        //this.frameInfoManager=new FrameInfoManager();
         init(id);
     }
     private Stack<Element> stack;
@@ -38,26 +37,26 @@ public class XMLChainElement extends TempChainElement {
             if(e.getName().equals("element")){
                 this.elementInfo=this.dom4jTools.elementToElementInfo(e);
             }
-            if(e.getName().equals("frame")){
-                this.isFrameElement=true;
-                FrameInfo frameInfo = new FrameInfo();
-                String keyname=e.attributeValue("commit");
-                String evalue = e.attributeValue("value");
-                String eby = e.attributeValue("by");
-                if(e.attributeValue("frameIndex")!=null){
-                    Integer frameindex=Integer.parseInt(e.attributeValue("frameIndex"));
-                    frameInfo.setFrameIndex(frameindex);
-                }
-                Integer eindex =0;
-                if(e.attributeValue("index")!=null){
-                    eindex=Integer.parseInt(e.attributeValue("index"));
-                }
-                frameInfo.setIndex(eindex);
-                frameInfo.setValue(evalue);
-                frameInfo.setBy(eby);
-                frameInfo.setKeyname("classname");
-                frameInfoManager.addFrameInfo(frameInfo);
-            }
+//            if(e.getName().equals("frame")){
+//                this.isFrameElement=true;
+//                FrameInfo frameInfo = new FrameInfo();
+//                String keyname=e.attributeValue("commit");
+//                String evalue = e.attributeValue("value");
+//                String eby = e.attributeValue("by");
+//                if(e.attributeValue("frameIndex")!=null){
+//                    Integer frameindex=Integer.parseInt(e.attributeValue("frameIndex"));
+//                    frameInfo.setFrameIndex(frameindex);
+//                }
+//                Integer eindex =0;
+//                if(e.attributeValue("index")!=null){
+//                    eindex=Integer.parseInt(e.attributeValue("index"));
+//                }
+//                frameInfo.setIndex(eindex);
+//                frameInfo.setValue(evalue);
+//                frameInfo.setBy(eby);
+//                frameInfo.setKeyname("classname");
+//                frameInfoManager.addFrameInfo(frameInfo);
+//            }
             if(e.getName().equals("page")){
                 String keyname=e.attributeValue("commit");
                 pageInfo.setKeyname(keyname);
@@ -78,14 +77,6 @@ public class XMLChainElement extends TempChainElement {
 
     public void setPageInfo(PageInfo pageInfo) {
         this.pageInfo = pageInfo;
-    }
-
-    public FrameInfoManager getFrameInfoManager() {
-        return frameInfoManager;
-    }
-
-    public void setFrameInfoManager(FrameInfoManager frameInfoManager) {
-        this.frameInfoManager = frameInfoManager;
     }
 
     public ElementInfo getElementInfo() {

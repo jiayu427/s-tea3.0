@@ -13,7 +13,7 @@ import com.github.lmm.source.xml.DefaultXMLSource;
  */
 public class DefaultSourcePage extends SourcePage{
 
-    public DefaultSourcePage(String commit){
-        super(Auto.browser(),commit,new DefaultXMLSource());
+    public DefaultSourcePage(){
+        super(Auto.browser(),new DefaultXMLSource());
     }
 }

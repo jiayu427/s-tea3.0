@@ -1,16 +1,13 @@
 package com.github.lmm.page;
 
-import com.github.lmm.annotation.FrameLocator;
-import com.github.lmm.browser.BaseBrowser;
-import com.github.lmm.browser.Browser;
+import com.github.lmm.annotation.Commit;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.ElementManager;
 import com.github.lmm.element.TempElement;
 import com.github.lmm.source.Source;
 import com.github.lmm.element.Element;
 import java.lang.reflect.Field;
-import java.util.HashMap;
-import java.util.Map;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
@@ -22,21 +19,17 @@ public class SourcePage extends CurrentPage {
     private ElementManager elementManager;
     private Source source;
     private String pageCommit;
-    public SourcePage(IBrowser browser,String pageCommit) {
+    public SourcePage(IBrowser browser) {
         super(browser);
-        this.pageCommit=pageCommit;
+        this.pageCommit=this.getClass().getAnnotation(Commit.class).value();
         this.elementManager=new ElementManager();
     }
 
-    public SourcePage(IBrowser browser,String pageCommit,Source source){
+    public SourcePage(IBrowser browser,Source source){
         super(browser);
         this.elementManager=new ElementManager();
         loadSource(source);
     }
-
-//    public SourcePage(IBrowser browser){
-//        super(browser);
-//    }
 
     private void loadSource(Source source){
         this.source=source;
@@ -71,31 +64,5 @@ public class SourcePage extends CurrentPage {
         this.pageCommit = pageCommit;
     }
 
-    public TempElement getFrameLocator(String commit){
-        return null;
-    }
 
-    public void frameLocator(String commit){
-        Field[] fields=this.getClass().getDeclaredFields();
-        for(Field field:fields){
-            if(field.getType()==Frame.class){
-                try {
-                    if(((Frame)field.get(this)).getCommit().equals(commit)){
-                        System.out.println("Yes");
-                    }
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-                }
-            }
-
-        }
-    }
-
-//    Frame newFrame = new Frame(this.getBrowser(),"good",this) {
-//
-//    };
-//
-//    public static void main(String[] args){
-//        new SourcePage(new BaseBrowser(Browser.FIREFOX),"xiaohua").frameLocator("good");
-//    }
 }

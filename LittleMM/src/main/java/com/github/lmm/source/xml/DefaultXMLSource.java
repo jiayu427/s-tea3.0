@@ -20,7 +20,7 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class DefaultXMLSource implements Source {
-    List<String> filelist;
+    private List<String> filelist;
     public DefaultXMLSource(){
         MyFile myFile=new MyFile();
         filelist=myFile.listFile(new File("source"),"xml",true);

@@ -145,7 +145,6 @@ public class Auto {
     };
 
     public static class Firefox extends Auto {
-
         public static ICurrentPage open(String url){
             require(Browser.FIREFOX);
             return Auto.open(url);
@@ -204,4 +203,12 @@ public class Auto {
             Auto.require(browser);
         }
     }
+    public static class PhantomJS extends Auto{
+        public static ICurrentPage open(String url){
+            require(Browser.PhantomJS);
+            return Auto.open(url);
+        }
+    }
+
+
 }

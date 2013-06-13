@@ -35,12 +35,6 @@ public interface TempElement {
 
     public void setBy(String by);
 
-    public FrameInfoManager getFrameInfoManager();
-
-    public void setFrameInfoManager(FrameInfoManager frameInfoManager);
-
     public By getLocator();
-
-    public boolean isFrameElement();
 
 }

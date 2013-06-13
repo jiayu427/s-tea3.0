@@ -1,6 +1,7 @@
 package com.github.lmm.window;
 
 import com.github.lmm.browser.IBrowser;
+import com.github.lmm.runtime.RuntimeMethod;
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -26,11 +27,10 @@ public class WindowsCollecter extends EventObject {
         this.windowInfoMap=new HashMap<String, WindowInfo>();
         this.windowInfourlMap = new HashMap<String,WindowInfo>();
         this.windowInfoList=new ArrayList<WindowInfo>();
-        this.windowNums=browser.getWindows().size();
-        this.windowhandles=browser.getWindows();
-        logger.info("当前初始化页面信息：URL--->"+this.browser.getCurrentPage().getUrl());
-        logger.info("当前初始化页面信息：Title--->"+this.browser.getCurrentPage().getTitle());
-        logger.info("当前初始化页面信息：窗口句柄数--->"+this.browser.getWindows().size());
+        this.windowNums=0;
+        //this.windowhandles=browser.getWindows();
+        this.windowhandles=new HashSet<String>();
+
     }
 
     public void updateWindows(){
@@ -39,21 +39,22 @@ public class WindowsCollecter extends EventObject {
         }
         Set<String> handles=browser.getWindows();
         if(handles.size()>this.windowNums){
-            logger.info("窗口的句柄数增多，进行句柄收集操作");
+            logger.info("["+ RuntimeMethod.getName()+"]"+"窗口的句柄数增多，进行句柄收集操作");
             String currentWindowHandle=browser.getCurrentBrowserDriver().getWindowHandle();
-            for(String windowhandle:windowhandles){
+            for(String windowhandle:handles){
                 if(this.windowhandles.contains(windowhandle)){
                     continue;
                 }else{
                     browser.getCurrentBrowserDriver().switchTo().window(windowhandle);
-                    String url=browser.getCurrentPage().getUrl();
-                    String title=browser.getCurrentPage().getTitle();
+                    String url=browser.getCurrentBrowserDriver().getCurrentUrl();
+                    String title=browser.getCurrentBrowserDriver().getTitle();
                     WindowInfo windowInfo = new WindowInfo(browser,url,windowhandle,title);
                     windowInfoMap.put(title,windowInfo);
                     windowInfourlMap.put(url,windowInfo);
                     windowInfoList.add(windowInfo);
                     this.windowNums=handles.size();
-                    logger.info("添加了新的窗口信息->"+title);
+                    this.windowhandles=handles;
+                    logger.info("["+ RuntimeMethod.getName()+"]"+"添加了新的窗口信息->"+title);
                 }
 
             }
@@ -70,10 +71,20 @@ public class WindowsCollecter extends EventObject {
                     windowInfoMap.remove(title);
                     windowInfourlMap.remove(browser.getCurrentPage().getUrl());
                     this.windowNums=handles.size();
-                    logger.info("更新了窗口信息，窗口->"+title+"被删除了");
+                    logger.info("["+ RuntimeMethod.getName()+"]"+"更新了窗口信息，窗口->"+title+"被删除了");
                 }
             }
             browser.getCurrentBrowserDriver().switchTo().window(currentWindowHandle);
+        }else if(handles.size()==this.windowNums&&isCurrentPageChanged()){
+            String title=this.browser.getCurrentBrowserDriver().getTitle();
+            String currentUrl=this.browser.getCurrentBrowserDriver().getCurrentUrl();
+            String windownhandle=this.browser.getCurrentBrowserDriver().getWindowHandle();
+            WindowInfo windowInfo=new WindowInfo(this.browser,currentUrl,windownhandle,title);
+            this.windowInfoMap.put(title,windowInfo);
+            this.windowInfourlMap.put(currentUrl,windowInfo);
+            this.windowInfoList.remove(this.windowInfoList.get(windowInfoList.size()-1));
+            this.windowInfoList.add(windowInfo);
+            logger.info("["+ RuntimeMethod.getName()+"]"+"当前页面发生了变化，切换到了新的页面--->"+title);
         }
 
     }
@@ -97,6 +108,17 @@ public class WindowsCollecter extends EventObject {
         return windowInfo.getWindowHandle();
     }
 
-
+    private boolean isCurrentPageChanged(){
+        String currentWindowHandle = this.browser.getCurrentBrowserDriver().getWindowHandle();
+        for(WindowInfo windowInfo:this.windowInfoList){
+            if(windowInfo.getWindowHandle().equals(currentWindowHandle)){
+                if(!windowInfo.getTitle().equals(this.browser.getCurrentBrowserDriver().getTitle())
+                        ||!windowInfo.getUrl().equals(this.browser.getCurrentBrowserDriver().getCurrentUrl())){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
 }
