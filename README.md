@@ -11,16 +11,12 @@ s-tea3.0
 。提供了基于JUnit的基础运行器，支持参数化和失败重试等功能，目前的版本中会加入一个结果过滤器，在针对测试结果中基于程序的异
 常，会自动的划归为error结果中，并且支持测试失败的case结果，这些失败的case会划归为fail结果中。
 
-	目前的s-tea3.0的开发工作值做完了部分核心功能。并没有过深的涉及结果分析阶段，并且s-tea3.0在着力于针对接口和http的
+  	目前的s-tea3.0的开发工作值做完了部分核心功能。并没有过深的涉及结果分析阶段，并且s-tea3.0在着力于针对接口和http的
 交互为主要实现。鉴于java和js的交互复杂性，可能会提供了一个基于javascript的Http的浏览器版本。这个版本主要用来测试Http方面
 或者请求方面的处理，现在的处理方式是通过phantomjs来提供脚本，通过java来解析结果来实现HAR的规范解析。来获取自动化过程中的
 连贯性和持续集成性。
 
 s-tea3.0的风格：
-
-@RunWith(JUnitBaseRunner.class)
-@ThreadRunner(threads = 1)
-public class PhantomjsRunJSTest {
 
     @Test
     public void runjsTest(){
