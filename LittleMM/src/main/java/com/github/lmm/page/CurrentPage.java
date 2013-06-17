@@ -591,7 +591,6 @@ public class CurrentPage implements ICurrentPage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //this.browser.getWindowSource().getWindowsCollecter().updateWindows();
         this.browser.selectLastOpenedPage();
         return this.browser.getCurrentPage();
     }

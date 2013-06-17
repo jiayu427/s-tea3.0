@@ -34,7 +34,6 @@ public class BaseBrowser implements IBrowser {
     private WindowsCollectorListener windowsCollectorListener;
     private WindowSource windowSource;
     private ICurrentPage currentPage;
-    //public LinkedHashMap<String,String> collection;
     private WebDriver driver;
     private String commit;
     private URL url;
@@ -48,8 +47,6 @@ public class BaseBrowser implements IBrowser {
         this.windowSource=new WindowSource(this);
         this.windowsCollectorListener=new WindowsCollectorListener();
         this.windowSource.addWindowsListener(this.windowsCollectorListener);
-        //this.windowSource.WindowsCheck();
-        //this.windowSource.getWindowsCollecter().updateWindows();
         logger.info("["+this.commit+"]初始化了浏览器"+browser.toString()+"来进行自动化测试");
     }
 
@@ -68,8 +65,6 @@ public class BaseBrowser implements IBrowser {
         this.windowSource=new WindowSource(this);
         this.windowsCollectorListener=new WindowsCollectorListener();
         this.windowSource.addWindowsListener(this.windowsCollectorListener);
-        //this.windowSource.WindowsCheck();
-        //this.windowSource.getWindowsCollecter().updateWindows();
         logger.info("["+this.commit+"]初始化了浏览器"+browser.toString()+"来进行自动化测试");
     }
 
@@ -261,7 +256,7 @@ public class BaseBrowser implements IBrowser {
     public Object runJavaScript(String js, Object... objects) {
         ActionListenerProxy.getDispatcher().beforerunJS();
         Object obj= ((JavascriptExecutor)this.driver).executeScript(js,objects);
-        logger.info("["+this.commit+"]浏览器执行了javascript"+js);
+        logger.info("["+this.commit+"]浏览器执行了javascript--> "+js);
         ActionListenerProxy.getDispatcher().afterrunJS();
         return obj;
     }
@@ -270,7 +265,7 @@ public class BaseBrowser implements IBrowser {
     public Object runAsynJavaScript(String js, Object... objects) {
         ActionListenerProxy.getDispatcher().beforerunJS();
         Object obj= ((JavascriptExecutor)this.driver).executeAsyncScript(js, objects);
-        logger.info("["+this.commit+"]浏览器执行了异步javascript"+js);
+        logger.info("["+this.commit+"]浏览器执行了异步javascript--> "+js);
         ActionListenerProxy.getDispatcher().afterrunJS();
         return obj;
     }

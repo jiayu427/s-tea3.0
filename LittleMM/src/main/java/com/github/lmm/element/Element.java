@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebElement;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,7 @@ public class Element implements IElement {
     private Integer index;
     private By locator;
     private String commit;
+    private List<WebElement> frameElements;
     public Element(IBrowser browser,TempElement tempElement){
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
@@ -41,23 +43,54 @@ public class Element implements IElement {
         this.value=tempElement.getValue();
         this.id=tempElement.getId();
         this.index=tempElement.getIndex();
+        this.frameElements=this.browser.getCurrentBrowserDriver().findElements(By.tagName("iframe"));
+        //System.out.println(frameElements.size());
+        this.frameElements.addAll(this.browser.getCurrentBrowserDriver().findElements(By.tagName("frame")));
         List<WebElement> list=this.currentwindow.findElements(this.locator);
         if(list.size()>0){
             this.element=list.get(this.index);
         }else{
-            logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
-            throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
+            locatorFrameElement(list, this.locator);
+            if(this.element==null){
+                logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
+                throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
+            }
         }
-
     }
 
-
+    private void locatorFrameElement(List<WebElement> frameElements,By selectby){
+        this.locatorFrameElement(frameElements, selectby,0);
+    }
+    private void locatorFrameElement(List<WebElement> frameElements,By selectby,Integer findex){
+        boolean isout=false;
+        for(WebElement webElement:frameElements){
+            if(isout){
+                break;
+            }
+            this.currentwindow.switchTo().frame(webElement);
+            this.actions=new Actions(this.currentwindow);
+            List<WebElement> elements=this.currentwindow.findElements(selectby);
+            if(elements.size()==0){
+                List<WebElement> framelist=this.currentwindow.findElements(By.tagName("iframe"));
+                framelist.addAll(this.currentwindow.findElements(By.tagName("frame")));
+                locatorFrameElement(framelist,selectby,findex);
+            }else{
+                this.element=elements.get(findex);
+                isout=true;
+                break;
+            }
+        }
+    }
     public Element(IBrowser browser){
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
         actions=new Actions(this.currentwindow);
         commit="["+RuntimeMethod.getName()+"]";
         this.id="Element";
+        this.frameElements=this.currentwindow.findElements(By.tagName("iframe"));
+        //System.out.println(frameElements.size());
+        this.frameElements.addAll(this.currentwindow.findElements(By.tagName("frame")));
+        this.element=new RemoteWebElement();
     }
     @Override
     public void click() {
@@ -550,7 +583,15 @@ public class Element implements IElement {
     }
 
     public Element addLocator(Locator style,String value){
-        this.element=this.currentwindow.findElement(style.getLocator(value));
+        try{
+            this.element=this.currentwindow.findElement(style.getLocator(value));
+        }catch (NoSuchElementException e){
+            locatorFrameElement(this.frameElements,style.getLocator(value));
+            if(element==null){
+                logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
+                throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            }
+        }
         this.id=style.getLocator(value).toString();
         return this;
     }
@@ -558,8 +599,11 @@ public class Element implements IElement {
     public Element addLocator(Locator style,String value,Integer eindex){
         List<WebElement> webElementList =this.currentwindow.findElements(style.getLocator(value));
         if(webElementList.size()==0){
-            logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
-            throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            locatorFrameElement(this.frameElements,style.getLocator(value));
+            if(this.element==null){
+                logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
+                throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            }
         }else{
             this.element= webElementList.get(eindex);
         }
@@ -572,7 +616,16 @@ public class Element implements IElement {
     }
 
     public Element addLocator(By byLocator){
-        this.element=this.currentwindow.findElement(byLocator);
+        try{
+            this.element=this.currentwindow.findElement(byLocator);
+        }catch (NoSuchElementException e){
+            //System.out.println("没有路过这么？");
+            locatorFrameElement(this.frameElements,byLocator);
+            if(this.element==null){
+                logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
+                throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            }
+        }
         this.id=byLocator.toString();
         return this;
     }
@@ -580,8 +633,11 @@ public class Element implements IElement {
     public Element addLocator(By byLocator,Integer eindex){
         List<WebElement> webElementList=this.currentwindow.findElements(byLocator);
         if(webElementList.size()==0){
-            logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
-            throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            locatorFrameElement(this.frameElements, byLocator);
+            if(this.element==null){
+                logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
+                throw new NoSuchElementException("元素加载定位器的时候出现了错误！没有指定位置的元素");
+            }
         }else{
             this.element= webElementList.get(eindex);
         }

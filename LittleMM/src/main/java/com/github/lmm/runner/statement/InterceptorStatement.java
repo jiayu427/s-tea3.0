@@ -60,7 +60,7 @@ public class InterceptorStatement extends Statement{
 		for(Interceptor interceptor:interceptors){
 			interceptor.interceptorAfter();
 		}
-        logger.info("***************测试用例"+testMethod.getName()+"执行结束****************");
+        logger.info("*******************测试用例"+testMethod.getName()+"执行结束****************");
 	}
 	
 	
