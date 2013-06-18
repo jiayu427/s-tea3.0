@@ -35,9 +35,11 @@ public class Dom4jTools {
             document=sr.read(new File(file));
             document.setXMLEncoding("UTF-8");
             this.root=document.getRootElement();
+            //logger.info("XML的资源的根元素是"+this.root.getName());
             List<Element> pages = this.root.elements("page");
             for(Element e:pages){
                 pagecommit.add(e.attributeValue("commit"));
+                logger.info("收集了页面["+e.attributeValue("commit")+"]的元素资源");
             }
         } catch (DocumentException e) {
             logger.error("程序加载文件的时候出现了错误，请查看文件是否被损坏！");
@@ -74,7 +76,7 @@ public class Dom4jTools {
     public List<Element> getChildElments(Element e){
         List<Element> clist = new ArrayList<Element>();
         Element element=e;
-        while(e.element("childElement")!=null){
+        while(element.element("childElement")!=null){
             clist.add(e.element("childElement"));
             element=e.element("childElement");
         }
@@ -122,7 +124,7 @@ public class Dom4jTools {
     }
 
     public List<Element> getAllElements(){
-        List<Element> elementList=this.document.selectNodes("//element[@id]");
+        List<Element> elementList=this.document.selectNodes("//s-tea:element");
         return elementList;
     }
 
@@ -155,10 +157,12 @@ public class Dom4jTools {
                     XMLChainElement xc = iter.next();
                     if(xc.getPageInfo().getKeyname().equals(pc)){
                         elementManager.addElement(xc);
+                        logger.info("收集了Page["+pc+"]元素->"+xc.getElementInfo().getId());
                         iter.remove();
                     }
                     if(xc.getPageInfo().getKeyname()==null){
                         browserManager.addElement(xc);
+                        logger.info("收集了Browser["+pc+"]元素->"+xc.getElementInfo().getId());
                         iter.remove();
                     }
                 }

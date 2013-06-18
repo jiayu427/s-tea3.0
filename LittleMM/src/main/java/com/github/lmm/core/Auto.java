@@ -21,6 +21,7 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class Auto {
+    private static Object page;
     public static ThreadLocal<Set<Browser>> browserSet=new ThreadLocal<Set<Browser>>(){
         public Set<Browser> initialValue(){
             return new HashSet<Browser>();
@@ -208,6 +209,21 @@ public class Auto {
             require(Browser.PhantomJS);
             return Auto.open(url);
         }
+    }
+
+    public static <T> T page(Class<T> clazz) {
+        Auto.page=null;
+        try {
+            page=Class.forName(clazz.getName()).newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+            throw new RuntimeException("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
+        }
+        return (T)page;
     }
 
 

@@ -96,7 +96,7 @@ public class ElementInfo {
             return By.partialLinkText(value);
         }else if(by.toLowerCase().equals("css")){
             return By.cssSelector(value);
-        }else if(by.toLowerCase().equals("tagName")){
+        }else if(by.toLowerCase().equals("tagname")){
             return By.tagName(value);
         }
         logger.error(by+"这种定位方式不存在，请选择正确的定位方式");

@@ -3,6 +3,7 @@ package com.github.lmm.element;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.runtime.RuntimeMethod;
+import com.github.lmm.source.xml.ChildElementInfo;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -13,11 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-5-29
- * Time: 下午1:29
- * To change this template use File | Settings | File Templates.
+ *@author 王天庆
+ * 这是一个元素类，单纯封装的一个元素类
  */
 public class Element implements IElement {
     private Logger logger = Logger.getLogger(Element.class);
@@ -43,14 +41,15 @@ public class Element implements IElement {
         this.value=tempElement.getValue();
         this.id=tempElement.getId();
         this.index=tempElement.getIndex();
-        this.frameElements=this.browser.getCurrentBrowserDriver().findElements(By.tagName("iframe"));
-        //System.out.println(frameElements.size());
-        this.frameElements.addAll(this.browser.getCurrentBrowserDriver().findElements(By.tagName("frame")));
         List<WebElement> list=this.currentwindow.findElements(this.locator);
         if(list.size()>0){
             this.element=list.get(this.index);
+            selectElementWithChild(this.tempElement);
         }else{
-            locatorFrameElement(list, this.locator);
+            this.frameElements=this.browser.getCurrentBrowserDriver().findElements(By.tagName("iframe"));
+            this.frameElements.addAll(this.browser.getCurrentBrowserDriver().findElements(By.tagName("frame")));
+            locatorFrameElement(list, this.locator,this.index);
+            selectElementWithChild(this.tempElement);
             if(this.element==null){
                 logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
                 throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
@@ -62,6 +61,7 @@ public class Element implements IElement {
         this.locatorFrameElement(frameElements, selectby,0);
     }
     private void locatorFrameElement(List<WebElement> frameElements,By selectby,Integer findex){
+        long start=System.currentTimeMillis();
         boolean isout=false;
         for(WebElement webElement:frameElements){
             if(isout){
@@ -80,6 +80,9 @@ public class Element implements IElement {
                 break;
             }
         }
+        long times=System.currentTimeMillis()-start;
+        logger.info("解析frame元素消费了-->"+times+"毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，" +
+                "消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行");
     }
     public Element(IBrowser browser){
         this.browser=browser;
@@ -664,4 +667,15 @@ public class Element implements IElement {
     public By getLocator() {
         return locator;
     }
+    /**如果临时元素还有子元素的话，会继续遍历找到元素为止*/
+    private void selectElementWithChild(TempElement tempElement){
+        if(tempElement.getElementInfo().getChileElementInfo().size()!=0){
+            List<ChildElementInfo> childElementInfos=tempElement.getElementInfo().getChileElementInfo();
+            for(int i=0;i<childElementInfos.size();i++){
+                this.element=this.element.findElements(childElementInfos.get(i).getLocator()).get(childElementInfos.get(i).getIndex());
+            }
+        }
+
+    }
+
 }

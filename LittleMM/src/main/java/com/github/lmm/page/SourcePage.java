@@ -1,11 +1,15 @@
 package com.github.lmm.page;
 
 import com.github.lmm.annotation.Commit;
+import com.github.lmm.annotation.ElementLocator;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.ElementManager;
-import com.github.lmm.element.TempElement;
+import com.github.lmm.element.Locator;
+import com.github.lmm.source.ElementInfo;
 import com.github.lmm.source.Source;
 import com.github.lmm.element.Element;
+import com.github.lmm.source.TempChainElement;
+
 import java.lang.reflect.Field;
 
 /**
@@ -23,12 +27,46 @@ public class SourcePage extends CurrentPage {
         super(browser);
         this.pageCommit=this.getClass().getAnnotation(Commit.class).value();
         this.elementManager=new ElementManager();
+        Field[] fields=this.getClass().getDeclaredFields();
+        for(Field field:fields){
+            if(field.isAnnotationPresent(ElementLocator.class)){
+                ElementInfo elementInfo=new ElementInfo();
+                ElementLocator elementLocator=field.getAnnotation(ElementLocator.class);
+                String commit = elementLocator.commit();
+                Locator locator=elementLocator.locator();
+                String value=elementLocator.value();
+                Integer index=elementLocator.index();
+                elementInfo.setLocator(locator.getLocator(value));
+                elementInfo.setId(commit);
+                elementInfo.setIndex(index);
+                TempChainElement tempChainElement=new TempChainElement(elementInfo);
+                this.elementManager.addElement(tempChainElement);
+            }
+        }
+
     }
 
     public SourcePage(IBrowser browser,Source source){
         super(browser);
+        this.pageCommit=this.getClass().getAnnotation(Commit.class).value();
         this.elementManager=new ElementManager();
         loadSource(source);
+        Field[] fields=this.getClass().getDeclaredFields();
+        for(Field field:fields){
+            if(field.isAnnotationPresent(ElementLocator.class)){
+                ElementInfo elementInfo=new ElementInfo();
+                ElementLocator elementLocator=field.getAnnotation(ElementLocator.class);
+                String commit = elementLocator.commit();
+                Locator locator=elementLocator.locator();
+                String value=elementLocator.value();
+                Integer index=elementLocator.index();
+                elementInfo.setLocator(locator.getLocator(value));
+                elementInfo.setId(commit);
+                elementInfo.setIndex(index);
+                TempChainElement tempChainElement=new TempChainElement(elementInfo);
+                this.elementManager.addElement(tempChainElement);
+            }
+        }
     }
 
     private void loadSource(Source source){

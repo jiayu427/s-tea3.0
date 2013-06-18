@@ -2,23 +2,13 @@ package com.github.lmm.source;
 
 import com.github.lmm.element.TempElement;
 import org.openqa.selenium.By;
-
-import java.util.List;
-
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-6-8
- * Time: 上午9:20
- * To change this template use File | Settings | File Templates.
- */
+ * @author 王天庆
+ * */
 public class TempChainElement implements TempElement {
-    //private PageInfo pageInfo;
-    //private FrameInfoManager frameInfoManager;
     private ElementInfo elementInfo;
     public TempChainElement(ElementInfo elementInfo){
         this.elementInfo=elementInfo;
-        //this.frameInfoManager=new FrameInfoManager();
     }
 
     public TempChainElement(){

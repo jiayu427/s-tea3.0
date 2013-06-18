@@ -5,13 +5,13 @@ import com.github.lmm.exception.SameIDSourceError;
 import org.dom4j.Element;
 import java.util.List;
 import com.github.lmm.source.*;
+import org.openqa.selenium.By;
+
+
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-6-7
- * Time: 下午3:26
- * To change this template use File | Settings | File Templates.
- */
+ * 这个类的作用是默认的元素加载的临时元素类
+ * @author 王天庆
+ * */
 public class XMLChainElement extends TempChainElement {
     private boolean isFrameElement=false;
     private PageInfo pageInfo;
@@ -27,13 +27,13 @@ public class XMLChainElement extends TempChainElement {
     }
     private Stack<Element> stack;
     private Stack<Element> init(String id){
-        List<Element> elist = dom4jTools.getDocument().selectNodes("//element[@id='"+id+"']");
+        List<Element> elist = dom4jTools.getDocument().selectNodes("//s-tea:element[@id='"+id+"']");
         if(elist.size()>1){
             throw new SameIDSourceError("资源中有重名的ID，请检查资源定义或者规范资源定义规则");
         }
         Element e= elist.get(0);
         stack.add(e);
-        while(!e.getParent().isRootElement()){
+        while(!e.isRootElement()){
             if(e.getName().equals("element")){
                 this.elementInfo=this.dom4jTools.elementToElementInfo(e);
             }
@@ -101,5 +101,24 @@ public class XMLChainElement extends TempChainElement {
 
     public void setStack(Stack<Element> stack) {
         this.stack = stack;
+    }
+
+    public String getId(){
+        return this.elementInfo.getId();
+    }
+
+    public String getBy(){
+        return this.elementInfo.getBy();
+    }
+    public By getLocator(){
+        return this.elementInfo.getLocator();
+    }
+
+    public Integer getIndex(){
+        return this.elementInfo.getIndex();
+    }
+
+    public String getValue(){
+        return this.elementInfo.getValue();
     }
 }

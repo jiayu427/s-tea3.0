@@ -1,4 +1,4 @@
-package com.github.lmm.element.test;
+package com.github.lmm.page.test;
 
 import com.github.lmm.annotation.ThreadRunner;
 import com.github.lmm.browser.Browser;
@@ -6,26 +6,23 @@ import com.github.lmm.core.Auto;
 import com.github.lmm.runner.JUnitBaseRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
 
 /**
  * Created with IntelliJ IDEA.
  * User: ouamaqing
  * Date: 13-6-17
- * Time: 上午11:29
+ * Time: 下午5:15
  * To change this template use File | Settings | File Templates.
  */
 @RunWith(JUnitBaseRunner.class)
 @ThreadRunner(threads = 1)
-public class ElementFrameFunctionTest {
+public class BaiduPageTest {
 
     @Test
-    public void frameFunctionTest(){
-        Auto.require(Browser.PhantomJS);
-        Auto.open("http://product.it168.com/list/b/0301_1.shtml");
-        //Auto.browser().selectFrame(0);
-        //Auto.browser().selectFrame(0);
-        Auto.currentage().element().addLocator(By.xpath(".//*[@id='title4']")).click();
+    public void testpage(){
+        Auto.require(Browser.FIREFOX);
+        Auto.open("http://www.baidu.com");
+        Auto.page(BaiduPage.class).search();
         Auto.closeAllWindows();
     }
 }

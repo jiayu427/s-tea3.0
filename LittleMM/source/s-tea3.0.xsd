@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/page" xmlns:s-tea="http://www.example.org/page" elementFormDefault="qualified">
+
+    <element name="page" type="s-tea:page"/>
+    
+    
+    <element name="element" type="s-tea:element"/>
+    
+    <element name="childElement" type="s-tea:childelement"/>
+    
+    <complexType name="page">
+    	<sequence maxOccurs="unbounded" minOccurs="0">
+    		<element ref="s-tea:element" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    	</sequence>
+    	<attribute name="commit" type="string" use="required"/>
+    </complexType>
+
+    <complexType name="element">
+    	<sequence maxOccurs="1" minOccurs="0">
+    		<element ref="s-tea:childElement" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    	</sequence>
+    	<attribute name="id" type="string" use="required"/>
+    	<attribute name="by" use="required">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="id"/>
+    				<enumeration value="xpath"/>
+    				<enumeration value="name"/>
+    				<enumeration value="linkText"/>
+    				<enumeration value="css"/>
+    				<enumeration value="partialLinkText"/>
+    				<enumeration value="class"/>
+    				<enumeration value="tagname"/>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="value" type="string" use="required"/>
+    	<attribute name="index" type="string" default="0"
+    		use="optional">
+    	</attribute>
+    	<attribute name="type" use="optional" default="element">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="element"/>
+    				<enumeration value="button"/>
+    				<enumeration value="checkBox"/>
+    				<enumeration value="comoboBox"/>
+    				<enumeration value="image"/>
+    				<enumeration value="label"/>
+    				<enumeration value="link"/>
+    				<enumeration value="listElement"/>
+    				<enumeration value="radioButton"/>
+    				<enumeration value="richTextField"/>
+    				<enumeration value="table"/>
+    				<enumeration value="textField"/>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="childelement">
+    	<sequence maxOccurs="1" minOccurs="0">
+    		<element ref="s-tea:childElement"/>
+    	</sequence>
+    	<attribute name="by" use="required">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="id"/>
+    				<enumeration value="css"/>
+    				<enumeration value="class"/>
+    				<enumeration value="tagName"/>
+    				<enumeration value="linkText"/>
+    				<enumeration value="name"/>
+    				<enumeration value="partialLinkText"/>
+    				<enumeration value="xpath"/>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="index" type="string" default="0" use="optional"/>
+    	<attribute name="value" type="string" use="required"/>
+    </complexType>   
+    <element name="browser" type="s-tea:browser"/>
+    
+
+    <complexType name="browser">
+    	<sequence maxOccurs="unbounded" minOccurs="0">
+    		<element name="page" type="s-tea:page" maxOccurs="unbounded"
+                     minOccurs="0"/>
+    		<element name="element" type="s-tea:element" maxOccurs="unbounded"
+                     minOccurs="0"/>
+    	</sequence>
+    </complexType>
+</schema>

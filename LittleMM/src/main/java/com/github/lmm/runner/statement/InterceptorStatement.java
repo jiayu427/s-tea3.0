@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import com.github.lmm.annotation.Retry;
+import com.github.lmm.exception.TestFailedError;
 import org.apache.log4j.Logger;
 import com.github.lmm.annotation.Browsers;
-import com.github.lmm.annotation.SingleBrowser;
 import com.github.lmm.browser.Browser;
 import com.github.lmm.core.Auto;
 import com.github.lmm.runtime.RuntimeMethod;
@@ -17,6 +18,7 @@ public class InterceptorStatement extends Statement{
 	private Logger logger = Logger.getLogger(InterceptorStatement.class);
 	private final FrameworkMethod testMethod;
     private Object target;
+    private int times=0;
 	public InterceptorStatement(FrameworkMethod testMethod, Object target) {
 		this.testMethod=testMethod;
 		this.target=target;
@@ -25,13 +27,23 @@ public class InterceptorStatement extends Statement{
 
 	@Override
 	public void evaluate() throws Throwable {
-		logger.info("*******************测试用例"+testMethod.getName()+"开始执行*****************");
-		for(Interceptor interceptor:interceptors){
-			interceptor.interceptorBefore();
-		}
-            String className=testMethod.getMethod().getClass().getName();
-            String name="Case:"+className.substring(className.lastIndexOf(".")+1, className.length())+"=>"+testMethod.getName();
-            RuntimeMethod.setName(name);
+        for(Interceptor interceptor:interceptors){
+            interceptor.interceptorBefore();
+        }
+        if(this.testMethod.getMethod().isAnnotationPresent(Retry.class)){
+            times=this.testMethod.getMethod().getAnnotation(Retry.class).value();
+            logger.info(">>>>>>"+this.testMethod.getName()+">>>这个case执行失败的话会被重新执行"+times+"次");
+            //System.out.println(this.testMethod.getMethod().getDeclaringClass().getName());
+        }else if(this.testMethod.getMethod().getDeclaringClass().isAnnotationPresent(Retry.class)){
+            times=this.testMethod.getMethod().getDeclaringClass().getAnnotation(Retry.class).value();
+            logger.info(">>>>>>["+this.testMethod.getName()+"]>>>这个case执行失败的话会被重新执行"+times+"次");
+        }else{
+            this.times=0;
+        }
+		logger.info("*******************测试用例["+testMethod.getName()+"]开始执行*****************");
+        String className=testMethod.getMethod().getClass().getName();
+        String name="Case:"+className.substring(className.lastIndexOf(".")+1, className.length())+"=>"+testMethod.getName();
+        RuntimeMethod.setName(name);
         if(testMethod.getMethod().isAnnotationPresent(Browsers.class)){
             Browsers browsers=testMethod.getMethod().getAnnotation(Browsers.class);
             Browser[] bs=browsers.value();
@@ -42,28 +54,52 @@ public class InterceptorStatement extends Statement{
                 while(iterator.hasNext()){
                     Browser browser=iterator.next();
                     Auto.require(browser);
-                    testMethod.invokeExplosively(target);
+                    for(int i=0;i<=times;i++){
+                        try{
+                            testMethod.invokeExplosively(target);
+                            break;
+                        }catch(Exception e){
+                            logger.error("用例执行失败了,异常信息->"+e.getMessage());
+                            if(i==times){
+                                throw new TestFailedError(this.testMethod.getName()+"用例执行失败了！",e);
+                            }else{
+                                logger.info("用例执行失败，重新执行失败的方法-->"+testMethod.getName());
+                            }
+                        }
+                    }
                 }
                 Auto.local.get().setBrowser(null);
             }else{
                 throw new RuntimeException("["+RuntimeMethod.getName()+"]注解中给定的浏览器数据不正确！");
             }
-        }else if(testMethod.getMethod().isAnnotationPresent(SingleBrowser.class)){
-            SingleBrowser b = testMethod.getMethod().getAnnotation(SingleBrowser.class);
-            Browser browser=b.value();
-            Auto.require(browser);
-            testMethod.invokeExplosively(target);
         }else{
-            testMethod.invokeExplosively(target);
+            for(int i=0;i<=times;i++){
+                try{
+                    testMethod.invokeExplosively(target);
+                    break;
+                }catch(Exception e){
+                    logger.error("用例执行失败了,异常信息->"+e.getMessage());
+                    if(i==times){
+                        throw new TestFailedError(this.testMethod.getName()+"用例执行失败了！",e);
+                    }else{
+                        logger.info("用例执行失败，重新执行失败的方法-->"+testMethod.getName());
+                    }
+                }
+            }
         }
         RuntimeMethod.setName(null);
 		for(Interceptor interceptor:interceptors){
 			interceptor.interceptorAfter();
 		}
-        logger.info("*******************测试用例"+testMethod.getName()+"执行结束****************");
+        logger.info("*******************测试用例["+testMethod.getName()+"]执行结束****************");
 	}
 	
 	
 	public void addInterceptor(Interceptor interceptor){
+        interceptors.add(interceptor);
 	}
+
+    public void removeInterceptor(Interceptor interceptor){
+        interceptors.remove(interceptor);
+    }
 }

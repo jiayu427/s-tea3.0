@@ -6,14 +6,11 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-6-13
- * Time: 下午1:25
- * To change this template use File | Settings | File Templates.
- */
+ * 这个注解的作用是给自定义的page类定义一个名字标识
+ * @author 王天庆
+ * */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target({ElementType.TYPE,ElementType.FIELD})
 public @interface Commit {
     String value() default "";
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s-tea:browser xmlns:s-tea="http://www.example.org/page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.example.org/page s-tea3.0.xsd " >
+    <s-tea:page commit="百度首页">
+        <s-tea:element id="百度首页-搜索框" value="form" by="tagname">
+            <s-tea:childElement by="id" value="kw"/>
+        </s-tea:element>
+        <s-tea:element id="百度首页-搜索按钮" by="id" value="su"/>
+    </s-tea:page>
+</s-tea:browser>

@@ -1,7 +1,12 @@
 package com.github.lmm.runner;
 
 
+import com.github.lmm.intrumentation.ClassPool;
+import com.github.lmm.proxy.ActionListenerProxy;
+import com.github.lmm.proxy.RunnerListenerProxy;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.runner.notification.RunListener;
+import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.model.InitializationError;
 import org.apache.log4j.Logger;
 import org.databene.feed4junit.Feeder;
@@ -10,6 +15,7 @@ import org.junit.runners.model.RunnerScheduler;
 import org.junit.runners.model.Statement;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Set;
 import java.util.concurrent.CompletionService;
 import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.ExecutorService;
@@ -20,12 +26,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import com.github.lmm.annotation.*;
 import com.github.lmm.runner.statement.*;
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-5-29
- * Time: 下午3:33
- * To change this template use File | Settings | File Templates.
- */
+ * @author 王天庆
+ * */
 public class JUnitBaseRunner extends Feeder{
     private Logger logger = Logger.getLogger(JUnitBaseRunner.class);
     public JUnitBaseRunner(final Class<?> klass)
@@ -94,4 +96,36 @@ public class JUnitBaseRunner extends Feeder{
         }
         return statement;
     }
+
+    public void run(RunNotifier runNotifier){
+        Set<Class<?>> cls = ClassPool.getClassPool();
+        for(Class<?>clazz : cls){
+            if(clazz.isAnnotationPresent(Register.class)){
+                try {
+                    ActionListenerProxy.register(clazz);
+                    logger.info("扫描到了动作级别的监听器"+clazz.getName());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            if(clazz.isAnnotationPresent(RunnerListener.class)){
+                try {
+                    RunnerListenerProxy.register((RunListener)clazz.newInstance());
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                    throw new RuntimeException("在加载运行级别监听器的时候出现了错误！");
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                    throw new RuntimeException("在加载运行级别监听器的时候出现了错误！");
+                }
+            }
+        }
+        if(RunnerListenerProxy.dispatcher().size()!=0){
+            for(RunListener rl:RunnerListenerProxy.dispatcher()){
+                runNotifier.addListener(rl);
+            }
+        }
+        super.run(runNotifier);
+    }
+
 }
