@@ -32,7 +32,7 @@ s-tea3.0的风格：
 现在提交的s-tea3.0的代码中，提供的功能相对于webdriver自身有几点优化：
 1、不需要自定义frame元素，现在实现的方式是现在当前页面中查找，找不到的话会自动的去frame中查找元素。
 
-2、提供了xml的定位元素的方式，里面只有三个元素<browser>,<page>,<element>。browser代表当前浏览器下的元素，<page>内的元素会
+2、提供了xml的定位元素的方式，里面只有三个元素&lt; browser&gt; ,&lt; page&gt; ,&lt; element&gt; 。browser代表当前浏览器下的元素，<page>内的元素会
 通过page的commit属性来自动的归档到page类中。无需手动加载资源。提供了全注解的元素定义方式。可以把元素定义在page类中，可以不
 使用xml来定义。
 
