@@ -28,4 +28,16 @@ s-tea3.0的风格：
         Auto.browser().runJavaScript("alert(\"hello,world\")");
         Auto.closeAllWindows();
     }
-}
+
+现在提交的s-tea3.0的代码中，提供的功能相对于webdriver自身有几点优化：
+1、不需要自定义frame元素，现在实现的方式是现在当前页面中查找，找不到的话会自动的去frame中查找元素。
+2、提供了xml的定位元素的方式，里面只有三个元素<browser>,<page>,<element>。browser代表当前浏览器下的元素，<page>内的元素会
+通过page的commit属性来自动的归档到page类中。无需手动加载资源。提供了全注解的元素定义方式。可以把元素定义在page类中，可以不
+使用xml来定义。
+3、提供了JUnit的运行器，JUnitBaseRunner,这个运行器可以运行多线程，参数化，以及失败重试的功能。多线程需要借助@ThreadRunner注解
+失败重试需要借助@Retry的注解，参数化需要借助@Source的注解。
+4、s-tea3.0支持Phantomjs来运行我们的case，phantomjs是一个js编写的webkit的内核浏览器，没有界面，但是支持CSS3和HTML5，它要比
+htmlunit的功能更加的强大。
+5、s-tea3.0支持动作监听功能，它能够监听我们一般经常操作的鼠标和键盘操作。在操作前和操作后进行一些监听功能。
+6、s-tea3.0提供了一个窗口自动监听的系统。它会分析当前页面的窗口是否变化，如果有变化会有提示。便于我们通过日志能够更清晰的
+了解程序运行的过程。并且可以通过索引来进行窗口之间的切换。
