@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  *@author 王天庆
@@ -34,6 +35,7 @@ public class Element implements IElement {
     public Element(IBrowser browser,TempElement tempElement){
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
+        this.currentwindow.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         actions=new Actions(this.currentwindow);
         commit="["+RuntimeMethod.getName()+"]";
         this.tempElement= tempElement;
@@ -46,12 +48,14 @@ public class Element implements IElement {
             this.element=list.get(this.index);
             selectElementWithChild(this.tempElement);
         }else{
+            this.currentwindow.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
             this.frameElements=this.browser.getCurrentBrowserDriver().findElements(By.tagName("iframe"));
             this.frameElements.addAll(this.browser.getCurrentBrowserDriver().findElements(By.tagName("frame")));
             locatorFrameElement(list, this.locator,this.index);
             selectElementWithChild(this.tempElement);
             if(this.element==null){
                 logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
+                logger.error("临时元素信息->"+this.tempElement.getId()+":"+this.tempElement.getLocator().toString());
                 throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
             }
         }
@@ -87,6 +91,7 @@ public class Element implements IElement {
     public Element(IBrowser browser){
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
+        //this.currentwindow.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         actions=new Actions(this.currentwindow);
         commit="["+RuntimeMethod.getName()+"]";
         this.id="Element";
@@ -225,22 +230,26 @@ public class Element implements IElement {
 
     @Override
     public IElement childElement(By by) {
-        return this.addLocator(by);
+        this.element=this.element.findElement(by);
+        return this;
     }
 
     @Override
     public IElement childElement(By by, Integer integer) {
-        return this.addLocator(by,integer);
+        this.element=this.element.findElements(by).get(integer);
+        return this;
     }
 
     @Override
     public IElement childElement(Locator locator, String value) {
-        return this.addLocator(locator,value);
+        this.element=this.element.findElement(locator.getLocator(value));
+        return this;
     }
 
     @Override
     public IElement childElement(Locator locator, String value, Integer integer) {
-        return this.addLocator(locator,value,integer);
+        this.element=this.element.findElements(locator.getLocator(value)).get(integer);
+        return this;
     }
 
     @Override
@@ -587,8 +596,10 @@ public class Element implements IElement {
 
     public Element addLocator(Locator style,String value){
         try{
+            this.currentwindow.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
             this.element=this.currentwindow.findElement(style.getLocator(value));
         }catch (NoSuchElementException e){
+            this.currentwindow.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
             locatorFrameElement(this.frameElements,style.getLocator(value));
             if(element==null){
                 logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
@@ -600,8 +611,10 @@ public class Element implements IElement {
     }
 
     public Element addLocator(Locator style,String value,Integer eindex){
+        this.currentwindow.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
         List<WebElement> webElementList =this.currentwindow.findElements(style.getLocator(value));
         if(webElementList.size()==0){
+            this.currentwindow.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
             locatorFrameElement(this.frameElements,style.getLocator(value));
             if(this.element==null){
                 logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
@@ -620,8 +633,10 @@ public class Element implements IElement {
 
     public Element addLocator(By byLocator){
         try{
+            this.currentwindow.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
             this.element=this.currentwindow.findElement(byLocator);
         }catch (NoSuchElementException e){
+            this.currentwindow.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
             //System.out.println("没有路过这么？");
             locatorFrameElement(this.frameElements,byLocator);
             if(this.element==null){
@@ -634,8 +649,10 @@ public class Element implements IElement {
     }
 
     public Element addLocator(By byLocator,Integer eindex){
+        this.currentwindow.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
         List<WebElement> webElementList=this.currentwindow.findElements(byLocator);
         if(webElementList.size()==0){
+            this.currentwindow.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
             locatorFrameElement(this.frameElements, byLocator);
             if(this.element==null){
                 logger.error("定位器位置的元素不存在，没有获取到任何元素，请检查定义的元素");
@@ -677,5 +694,4 @@ public class Element implements IElement {
         }
 
     }
-
 }

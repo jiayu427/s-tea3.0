@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -56,12 +57,43 @@ public class CurrentPage implements ICurrentPage {
 
     @Override
     public <T> T frame(Class<T> clazz) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        try {
+            return clazz.getDeclaredConstructor(ICurrentPage.class).newInstance(this);
+        } catch (InstantiationException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return null;
     }
 
     @Override
     public ElementManager getElementManager() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public Frame frame(int index) {
+        return new DefaultFrame(this,index);
+    }
+
+    @Override
+    public Frame frame(String nameOrId) {
+        return new DefaultFrame(this,nameOrId);
+    }
+
+    @Override
+    public Frame frame(By by) {
+        return new DefaultFrame(this,by);
+    }
+
+    @Override
+    public Frame frame(By by, int index) {
+        return new DefaultFrame(this,by,index);
     }
 
 

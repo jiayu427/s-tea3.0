@@ -44,6 +44,7 @@ public class FrameElement implements IElement {
             this.element=list.get(this.index);
         }else{
             logger.error("在转化元素的时候出现了错误，给出的临时元素并不能够转化为网页的元素，请仔细检查元素的定义");
+            logger.error("临时元素信息->"+this.tempElement.getId()+":"+this.tempElement.getLocator().toString());
             throw new NoSuchElementException("没有找到定义的元素，请仔细检查元素是否定义正确");
         }
     }
@@ -185,22 +186,26 @@ public class FrameElement implements IElement {
 
     @Override
     public IElement childElement(By by) {
-        return this.addLocator(by);
+        this.element=this.element.findElement(by);
+        return this;
     }
 
     @Override
     public IElement childElement(By by, Integer integer) {
-        return this.addLocator(by,integer);
+        this.element=this.element.findElements(by).get(integer);
+        return this;
     }
 
     @Override
     public IElement childElement(Locator locator, String value) {
-        return this.addLocator(locator,value);
+        this.element=this.element.findElement(locator.getLocator(value));
+        return this;
     }
 
     @Override
     public IElement childElement(Locator locator, String value, Integer integer) {
-        return this.addLocator(locator,value,integer);
+        this.element=this.element.findElements(locator.getLocator(value)).get(integer);
+        return this;
     }
 
     @Override
@@ -563,10 +568,6 @@ public class FrameElement implements IElement {
         return this;
     }
 
-    public IBrowser getBrowser() {
-        return this.frame.getPage().getBrowser();
-    }
-
     public FrameElement addLocator(By byLocator){
         this.element=this.currentFrame.findElement(byLocator);
         return this;
@@ -606,4 +607,6 @@ public class FrameElement implements IElement {
     public TempElement getTempElement() {
         return tempElement;
     }
+
+
 }

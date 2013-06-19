@@ -17,7 +17,7 @@ import java.util.Set;
  */
 public class PageManager {
     private static Map<String,Class<?>> pageMap=new HashMap<String, Class<?>>();
-    private void collectPageInfomation(){
+    public static void collectPageInfomation(){
         if(pageMap.size()!=0){
             Set<Class<?>> cls= ClassPool.getClassPool();
             for(Class<?>clazz:cls){
@@ -28,7 +28,7 @@ public class PageManager {
         }
     }
 
-    private Class<?> getPageOrFrameClass(String commit){
+    public static Class<?> getPageClass(String commit){
         return pageMap.get(commit);
     }
 

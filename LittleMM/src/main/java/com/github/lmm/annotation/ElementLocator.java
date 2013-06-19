@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
  * To change this template use File | Settings | File Templates.
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target(ElementType.FIELD)
 public @interface ElementLocator {
     Locator locator() default Locator.ID;
     String value() default "";

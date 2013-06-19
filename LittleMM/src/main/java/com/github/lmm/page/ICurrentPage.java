@@ -163,5 +163,12 @@ public interface ICurrentPage extends IPage {
 
     public ElementManager getElementManager();
 
+    public Frame frame(int index);
+
+    public Frame frame(String nameOrId);
+
+    public Frame frame(By by);
+
+    public Frame frame(By by,int index);
 
 }

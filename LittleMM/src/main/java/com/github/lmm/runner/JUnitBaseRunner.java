@@ -1,6 +1,7 @@
 package com.github.lmm.runner;
 
 
+import com.github.lmm.core.PageManager;
 import com.github.lmm.intrumentation.ClassPool;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.proxy.RunnerListenerProxy;
@@ -99,6 +100,7 @@ public class JUnitBaseRunner extends Feeder{
 
     public void run(RunNotifier runNotifier){
         Set<Class<?>> cls = ClassPool.getClassPool();
+        //PageManager.collectPageInfomation();
         for(Class<?>clazz : cls){
             if(clazz.isAnnotationPresent(Register.class)){
                 try {

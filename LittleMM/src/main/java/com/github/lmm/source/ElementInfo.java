@@ -33,6 +33,7 @@ public class ElementInfo {
         this.locator=getByLocatorFromTempElement();
     }
     public ElementInfo(){
+        this.clist=new ArrayList<ChildElementInfo>();
     }
 
     public String getId() {

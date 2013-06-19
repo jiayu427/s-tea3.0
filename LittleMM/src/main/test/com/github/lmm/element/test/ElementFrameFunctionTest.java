@@ -28,4 +28,12 @@ public class ElementFrameFunctionTest {
         Auto.currentage().element().addLocator(By.xpath(".//*[@id='title4']")).click();
         Auto.closeAllWindows();
     }
+
+    @Test
+    public void frameMethodTest(){
+        Auto.require(Browser.FIREFOX);
+        Auto.open("http://product.it168.com/list/b/0301_1.shtml");
+        Auto.currentage().frame(0).frame(0).element().addLocator(By.xpath(".//*[@id='title4']")).click();
+        Auto.closeAllWindows();
+    }
 }

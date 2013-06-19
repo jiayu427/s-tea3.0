@@ -226,5 +226,10 @@ public class Auto {
         return (T)page;
     }
 
+//    public static Class<?> commit(String commit){
+//        return  PageManager.getPageClass(commit);
+//    }
+
+
 
 }

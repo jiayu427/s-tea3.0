@@ -2,6 +2,7 @@ package com.github.lmm.page;
 
 import com.github.lmm.annotation.Commit;
 import com.github.lmm.annotation.FrameLocator;
+import com.github.lmm.browser.IBrowser;
 import com.github.lmm.element.*;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -18,38 +19,83 @@ import java.lang.reflect.InvocationTargetException;
  *
  */
 public abstract class Frame{
-    private static Object frame;
     private Logger logger = Logger.getLogger(Frame.class);
     private WebDriver currentFrame;
     private String commit;
     private ICurrentPage page;
     private ElementManager elementManager;
+    public Frame(Frame frame,By by){
+        this.currentFrame=frame.getCurrentFrame().switchTo().frame(page.getCurrentWindow().findElement(by));
+        this.page=frame.getPage();
+        this.elementManager=frame.getElementManager();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
+    }
+    public Frame(Frame frame,By by,int index){
+        this.currentFrame=frame.getCurrentFrame().switchTo().frame(page.getCurrentWindow().findElements(by).get(index));
+        this.page=frame.getPage();
+        this.elementManager=frame.getElementManager();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
+    }
 
+    public Frame(Frame frame,Integer frameindex){
+        this.currentFrame=frame.getCurrentFrame().switchTo().frame(frameindex);
+        this.page=frame.getPage();
+        this.elementManager=frame.getElementManager();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
+    }
+
+    public Frame(Frame frame,String nameorId){
+
+        this.currentFrame=frame.getCurrentFrame().switchTo().frame(nameorId);
+        this.page=frame.getPage();
+        this.elementManager=frame.getElementManager();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
+    }
+    public Frame(Frame frame,TempElement element){
+        this(frame,element.getLocator(),element.getIndex());
+    }
     public Frame(ICurrentPage page,By by){
         this.page=page;
         this.currentFrame=page.getCurrentWindow().switchTo().frame(page.getCurrentWindow().findElement(by));
         this.elementManager=page.getElementManager();
-        this.commit=this.getClass().getAnnotation(Commit.class).value();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
     }
     public Frame(ICurrentPage page,By by,int index){
         this.page=page;
         this.currentFrame=page.getCurrentWindow().switchTo().frame(page.getCurrentWindow().findElements(by).get(index));
         this.elementManager=page.getElementManager();
-        this.commit=this.getClass().getAnnotation(Commit.class).value();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
     }
 
     public Frame(ICurrentPage  page,Integer frameindex){
         this.page=page;
         this.currentFrame=page.getCurrentWindow().switchTo().frame(frameindex);
         this.elementManager=page.getElementManager();
-        this.commit=this.getClass().getAnnotation(Commit.class).value();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
+
     }
 
     public Frame(ICurrentPage page,String nameorId){
         this.page=page;
         this.currentFrame=page.getCurrentWindow().switchTo().frame(nameorId);
         this.elementManager=page.getElementManager();
-        this.commit=this.getClass().getAnnotation(Commit.class).value();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
     }
     public Frame(ICurrentPage page,TempElement element){
         this(page,element.getLocator(),element.getIndex());
@@ -64,7 +110,9 @@ public abstract class Frame{
             this.currentFrame=page.getCurrentWindow().switchTo().frame(page.getCurrentWindow().findElements(getLocator()).get(getIndex()));
         }
         this.elementManager=page.getElementManager();
-        this.commit=this.getClass().getAnnotation(Commit.class).value();
+        if(this.getClass().isAnnotationPresent(Commit.class)){
+            this.commit=this.getClass().getAnnotation(Commit.class).value();
+        }
 
     }
 
@@ -101,10 +149,9 @@ public abstract class Frame{
     }
 
     public <T>T frame(Class<T>clazz){
-
-        Frame.frame=null;
+        Object frame=null;
         try {
-            Constructor<T> constructor=clazz.getConstructor(ICurrentPage.class);
+            Constructor<T> constructor=clazz.getConstructor(Frame.class);
             frame=constructor.newInstance(this);
         } catch (NoSuchMethodException e) {
             throw new  NoSuchMethodError("没有找到这个class类"+clazz.getName()+",请检查类是否被加载或者类名是否正确");
@@ -448,6 +495,26 @@ public abstract class Frame{
     
     public <T> T selfConfigElement(T clazz) {
         return clazz;
+    }
+
+
+    public Frame frame(int index) {
+        return new DefaultFrame(this,index);
+    }
+
+
+    public Frame frame(String nameOrId) {
+        return new DefaultFrame(this,nameOrId);
+    }
+
+
+    public Frame frame(By by) {
+        return new DefaultFrame(this,by);
+    }
+
+
+    public Frame frame(By by, int index) {
+        return new DefaultFrame(this,by,index);
     }
 
 }
