@@ -1,9 +1,7 @@
 package com.github.lmm.element;
 
-import com.github.lmm.browser.IBrowser;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.runtime.RuntimeMethod;
-import com.github.lmm.source.TempChainElement;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -33,7 +31,7 @@ public class FrameElement implements IElement {
         this.frame=frame;
         this.currentFrame=frame.getCurrentFrame();
         actions=new Actions(this.currentFrame);
-        commit="["+ RuntimeMethod.getName()+"]";
+        commit="["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]";
         this.tempElement=tempElement;
         this.locator=tempElement.getLocator();
         this.value=tempElement.getValue();
@@ -52,7 +50,7 @@ public class FrameElement implements IElement {
         this.frame=frame;
         this.currentFrame=frame.getCurrentFrame();
         actions=new Actions(this.currentFrame);
-        commit="["+RuntimeMethod.getName()+"]";
+        commit="["+ RuntimeMethod.getName()+"]";
         this.id="FrameElement";
     }
 

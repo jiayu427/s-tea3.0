@@ -14,8 +14,8 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.regex.Pattern;
 
-import org.apache.log4j.Logger;
 import com.github.lmm.runtime.RuntimeMethod;
+import org.apache.log4j.Logger;
 
 
 public class ClassPathScanHandler {
@@ -68,10 +68,10 @@ public class ClassPathScanHandler {
 				String protocol = url.getProtocol();
 				if("file".equals(protocol)){
 					String filePath = URLDecoder.decode(url.getFile(),"UTF-8");
-					logger.info("["+RuntimeMethod.getName()+"]"+"扫描file类型的class文件...");
+					logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"扫描file类型的class文件...");
 					doScanPackageClassesByFile(classes, baseName, filePath,recursive);
 				}else if("jar".equals(protocol)){
-					logger.info("["+RuntimeMethod.getName()+"]"+"扫描jar文件中的类...");
+					logger.info("["+ RuntimeMethod.getName()+"]"+"扫描jar文件中的类...");
 					doScanPackageClassesByJAR(baseName, url, recursive, classes);
 				}
 			}

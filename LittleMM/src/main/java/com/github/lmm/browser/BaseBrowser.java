@@ -39,7 +39,7 @@ public class BaseBrowser implements IBrowser {
     private URL url;
     private ElementManager elementManager;
     public BaseBrowser(Browser browser){
-        this.commit=RuntimeMethod.getName();
+        this.commit= com.github.lmm.runtime.RuntimeMethod.getName();
         this.driver=browser.browser();
         maxWindow();
         this.elementManager=new ElementManager();
@@ -51,7 +51,7 @@ public class BaseBrowser implements IBrowser {
     }
 
     public BaseBrowser(Browser browser,URL url){
-        this.commit=RuntimeMethod.getName();
+        this.commit= com.github.lmm.runtime.RuntimeMethod.getName();
         this.url=url;
         if(url==null){
             this.driver=browser.browser();
@@ -80,8 +80,8 @@ public class BaseBrowser implements IBrowser {
         //logger.info("打开了http地址"+url);
         this.currentPage.setBrowser(this);
         this.windowSource.getWindowsCollecter().updateWindows();
-        logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
-        logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
+        logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前初始化页面信息：URL--->"+this.getCurrentPage().getUrl());
+        logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前初始化页面信息：Title--->"+this.getCurrentPage().getTitle());
         logger.info("["+ RuntimeMethod.getName()+"]"+"当前初始化页面信息：窗口句柄数--->"+this.getWindows().size());
         return this.currentPage;
     }

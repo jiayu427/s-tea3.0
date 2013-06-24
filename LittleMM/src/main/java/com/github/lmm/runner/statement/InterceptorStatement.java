@@ -6,11 +6,11 @@ import java.util.List;
 
 import com.github.lmm.annotation.Retry;
 import com.github.lmm.exception.TestFailedError;
+import com.github.lmm.runtime.RuntimeMethod;
 import org.apache.log4j.Logger;
 import com.github.lmm.annotation.Browsers;
 import com.github.lmm.browser.Browser;
 import com.github.lmm.core.Auto;
-import com.github.lmm.runtime.RuntimeMethod;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 
@@ -29,21 +29,21 @@ public class InterceptorStatement extends Statement{
 	public void evaluate() throws Throwable {
         String className=testMethod.getMethod().getClass().getName();
         String name="Case:"+className.substring(className.lastIndexOf(".")+1, className.length())+"=>"+testMethod.getName();
-        RuntimeMethod.setName(name);
+        com.github.lmm.runtime.RuntimeMethod.setName(name);
         for(Interceptor interceptor:interceptors){
             interceptor.interceptorBefore();
         }
         if(this.testMethod.getMethod().isAnnotationPresent(Retry.class)){
             times=this.testMethod.getMethod().getAnnotation(Retry.class).value();
-            logger.info("["+RuntimeMethod.getName()+"]>>>>>>"+this.testMethod.getName()+">>>这个case执行失败的话会被重新执行"+times+"次");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]>>>>>>"+this.testMethod.getName()+">>>这个case执行失败的话会被重新执行"+times+"次");
             //System.out.println(this.testMethod.getMethod().getDeclaringClass().getName());
         }else if(this.testMethod.getMethod().getDeclaringClass().isAnnotationPresent(Retry.class)){
             times=this.testMethod.getMethod().getDeclaringClass().getAnnotation(Retry.class).value();
-            logger.info("["+RuntimeMethod.getName()+"]>>>>>>["+this.testMethod.getName()+"]>>>这个case执行失败的话会被重新执行"+times+"次");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]>>>>>>["+this.testMethod.getName()+"]>>>这个case执行失败的话会被重新执行"+times+"次");
         }else{
             this.times=0;
         }
-		logger.info("["+RuntimeMethod.getName()+"]*******************测试用例["+testMethod.getName()+"]开始执行*****************");
+		logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]*******************测试用例["+testMethod.getName()+"]开始执行*****************");
 
         if(testMethod.getMethod().isAnnotationPresent(Browsers.class)){
             Browsers browsers=testMethod.getMethod().getAnnotation(Browsers.class);
@@ -60,18 +60,18 @@ public class InterceptorStatement extends Statement{
                             testMethod.invokeExplosively(target);
                             break;
                         }catch(Exception e){
-                            logger.error("["+RuntimeMethod.getName()+"]用例执行失败了,异常信息->"+e.getMessage());
+                            logger.error("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]用例执行失败了,异常信息->"+e.getMessage());
                             if(i==times){
                                 throw new TestFailedError(this.testMethod.getName()+"]用例执行失败了！",e);
                             }else{
-                                logger.info("["+RuntimeMethod.getName()+"]用例执行失败，重新执行失败的方法-->"+testMethod.getName());
+                                logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]用例执行失败，重新执行失败的方法-->"+testMethod.getName());
                             }
                         }
                     }
                 }
                 Auto.local.get().setBrowser(null);
             }else{
-                throw new RuntimeException("["+RuntimeMethod.getName()+"]注解中给定的浏览器数据不正确！");
+                throw new RuntimeException("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]注解中给定的浏览器数据不正确！");
             }
         }else{
             for(int i=0;i<=times;i++){
@@ -79,11 +79,11 @@ public class InterceptorStatement extends Statement{
                     testMethod.invokeExplosively(target);
                     break;
                 }catch(Exception e){
-                    logger.error("["+RuntimeMethod.getName()+"]用例执行失败了,异常信息->"+e.getMessage());
+                    logger.error("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]用例执行失败了,异常信息->"+e.getMessage());
                     if(i==times){
                         throw new TestFailedError(this.testMethod.getName()+"]用例执行失败了！",e);
                     }else{
-                        logger.info("["+RuntimeMethod.getName()+"]用例执行失败，重新执行失败的方法-->"+testMethod.getName());
+                        logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]用例执行失败，重新执行失败的方法-->"+testMethod.getName());
                     }
                 }
             }
@@ -92,7 +92,7 @@ public class InterceptorStatement extends Statement{
 		for(Interceptor interceptor:interceptors){
 			interceptor.interceptorAfter();
 		}
-        logger.info("["+RuntimeMethod.getName()+"]*******************测试用例["+testMethod.getName()+"]执行结束****************");
+        logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]*******************测试用例["+testMethod.getName()+"]执行结束****************");
         RuntimeMethod.setName(null);
 	}
 	

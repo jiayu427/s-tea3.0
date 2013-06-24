@@ -37,7 +37,7 @@ public class Element implements IElement {
         this.currentwindow=browser.getCurrentBrowserDriver();
         this.currentwindow.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         actions=new Actions(this.currentwindow);
-        commit="["+RuntimeMethod.getName()+"]";
+        commit="["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]";
         this.tempElement= tempElement;
         this.locator=tempElement.getLocator();
         this.value=tempElement.getValue();
@@ -93,7 +93,7 @@ public class Element implements IElement {
         this.currentwindow=browser.getCurrentBrowserDriver();
         //this.currentwindow.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         actions=new Actions(this.currentwindow);
-        commit="["+RuntimeMethod.getName()+"]";
+        commit="["+ RuntimeMethod.getName()+"]";
         this.id="Element";
         this.frameElements=this.currentwindow.findElements(By.tagName("iframe"));
         //System.out.println(frameElements.size());

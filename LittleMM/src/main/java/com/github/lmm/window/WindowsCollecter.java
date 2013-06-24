@@ -39,7 +39,7 @@ public class WindowsCollecter extends EventObject {
         }
         Set<String> handles=browser.getWindows();
         if(handles.size()>this.windowNums){
-            logger.info("["+ RuntimeMethod.getName()+"]"+"窗口的句柄数增多，进行句柄收集操作");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"窗口的句柄数增多，进行句柄收集操作");
             String currentWindowHandle=browser.getCurrentBrowserDriver().getWindowHandle();
             for(String windowhandle:handles){
                 if(this.windowhandles.contains(windowhandle)){
@@ -54,7 +54,7 @@ public class WindowsCollecter extends EventObject {
                     windowInfoList.add(windowInfo);
                     this.windowNums=handles.size();
                     this.windowhandles=handles;
-                    logger.info("["+ RuntimeMethod.getName()+"]"+"添加了新的窗口信息->"+title);
+                    logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"添加了新的窗口信息->"+title);
                 }
 
             }
@@ -71,7 +71,7 @@ public class WindowsCollecter extends EventObject {
                     windowInfoMap.remove(title);
                     windowInfourlMap.remove(browser.getCurrentPage().getUrl());
                     this.windowNums=handles.size();
-                    logger.info("["+ RuntimeMethod.getName()+"]"+"更新了窗口信息，窗口->"+title+"被删除了");
+                    logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"更新了窗口信息，窗口->"+title+"被删除了");
                 }
             }
             browser.getCurrentBrowserDriver().switchTo().window(currentWindowHandle);

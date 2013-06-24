@@ -40,7 +40,7 @@ public class CurrentPage implements ICurrentPage {
 
     private IBrowser browser;
     public CurrentPage(IBrowser browser){
-        this.name=RuntimeMethod.getName();
+        this.name= com.github.lmm.runtime.RuntimeMethod.getName();
         this.browser=browser;
         this.currentwindow=browser.getCurrentBrowserDriver();
         elementManager=new ElementManager();
@@ -457,9 +457,9 @@ public class CurrentPage implements ICurrentPage {
     public void assertAlert() {
         try{
             this.browser.getCurrentBrowserDriver().switchTo().alert();
-            logger.info("["+ RuntimeMethod.getName()+"]"+"当前页面找到了alert，校验成功！");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面找到了alert，校验成功！");
         }catch (NoAlertPresentException e){
-            logger.error("["+ RuntimeMethod.getName()+"]"+"当前页面没有找到了alert，校验失败！");
+            logger.error("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面没有找到了alert，校验失败！");
             Assert.fail();
         }
     }
@@ -467,9 +467,9 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public void assertTextNotPresent(String text) {
         if(getPageSource().contains(text)){
-            logger.info("["+ RuntimeMethod.getName()+"]"+"当前页面找到指定的内容，校验成功！");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面找到指定的内容，校验成功！");
         }else{
-            logger.error("["+ RuntimeMethod.getName()+"]"+"当前页面没有找到指定内容"+text+"，校验失败！");
+            logger.error("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面没有找到指定内容"+text+"，校验失败！");
             Assert.fail();
         }
     }
@@ -477,9 +477,9 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public void assertTitle(String title) {
         if(getTitle().equals(title)){
-            logger.info("["+ RuntimeMethod.getName()+"]"+"当前页面的title值["+title+"]校验成功，校验成功！");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面的title值["+title+"]校验成功，校验成功！");
         }else{
-            logger.error("["+ RuntimeMethod.getName()+"]"+"当前页面title值["+title+"]校验失败，校验成功！");
+            logger.error("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面title值["+title+"]校验失败，校验成功！");
             Assert.fail();
         }
     }
@@ -487,7 +487,7 @@ public class CurrentPage implements ICurrentPage {
     @Override
     public void assertTextPresent(String text) {
         if(getPageSource().contains(text)){
-            logger.info("["+ RuntimeMethod.getName()+"]"+"当前页面没有找到指定的内容，校验成功！");
+            logger.info("["+ com.github.lmm.runtime.RuntimeMethod.getName()+"]"+"当前页面没有找到指定的内容，校验成功！");
         }else{
             logger.error("["+ RuntimeMethod.getName()+"]"+"当前页面找到了指定内容"+text+"，校验失败！");
             Assert.fail();
