@@ -1,0 +1,1000 @@
+2013-06-06 11:21:24 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 11:21:41 INFO  页面跳转到了页面http://www.baidu.com
+2013-06-06 11:21:41 INFO  打开了http地址http://www.baidu.com
+2013-06-06 11:21:41 INFO  [Case:BrowserTest=>test][Element]输入[北京]值操作成功
+2013-06-06 11:21:42 INFO  [Case:BrowserTest=>test][Element]点击操作成功
+2013-06-06 11:26:34 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 11:26:47 INFO  页面跳转到了页面http://www.baidu.com
+2013-06-06 11:26:49 INFO  [Case:BrowserTest=>test][Element]输入[北京]值操作成功
+2013-06-06 11:26:50 INFO  [Case:BrowserTest=>test][Element]点击操作成功
+2013-06-06 11:29:47 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 11:29:47 INFO  当前初始化页面信息：Title--->
+2013-06-06 11:29:47 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 11:29:47 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 11:30:00 INFO  页面跳转到了页面http://www.baidu.com
+2013-06-06 11:30:00 INFO  [Case:BrowserTest=>test][Element]输入[北京]值操作成功
+2013-06-06 11:30:01 INFO  [Case:BrowserTest=>test][Element]点击操作成功
+2013-06-06 12:15:25 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 12:15:25 INFO  当前初始化页面信息：Title--->
+2013-06-06 12:15:25 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 12:15:26 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 12:15:37 INFO  页面跳转到了页面http://www.baidu.com
+2013-06-06 12:15:37 INFO  [Case:JUnitStarter=>main][Element]输入[北京]值操作成功
+2013-06-06 12:15:38 INFO  [Case:JUnitStarter=>main][Element]点击操作成功
+2013-06-06 12:15:39 INFO  窗口的句柄数增多，进行句柄收集操作
+2013-06-06 12:18:01 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 12:18:01 INFO  当前初始化页面信息：Title--->
+2013-06-06 12:18:01 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 12:18:01 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 12:18:02 INFO  页面跳转到了页面http://www.baidu.com
+2013-06-06 12:18:02 INFO  [Case:JUnitStarter=>main][Element]输入[北京]值操作成功
+2013-06-06 12:18:03 INFO  [Case:JUnitStarter=>main][Element]点击操作成功
+2013-06-06 12:42:38 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 12:42:38 INFO  当前初始化页面信息：Title--->
+2013-06-06 12:42:38 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 12:42:38 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 12:42:43 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 12:44:13 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 12:44:13 INFO  当前初始化页面信息：Title--->
+2013-06-06 12:44:13 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 12:44:13 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 12:44:19 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 12:44:19 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 12:47:42 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 12:47:42 INFO  当前初始化页面信息：Title--->
+2013-06-06 12:47:42 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 12:47:42 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 12:47:48 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:03:20 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:03:20 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:03:20 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:03:20 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:06:54 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:06:54 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:06:54 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:06:54 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:07:00 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:07:00 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:07:00 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:07:00 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:07:11 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:07:17 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:07:19 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:07:19 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:07:19 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:07:19 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:09:20 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:09:20 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:09:20 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:09:20 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:09:23 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:09:23 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:09:23 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:09:23 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:09:32 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:09:35 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:10:09 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:09 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:09 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:09 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:12 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:12 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:12 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:12 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:18 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:10:20 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:20 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:20 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:20 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:21 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:10:24 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:24 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:24 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:25 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:28 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:29 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:29 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:29 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:32 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:10:32 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:10:32 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:10:32 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:10:38 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:10:38 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:10:38 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:10:48 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:13:36 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:13:36 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:13:36 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:13:36 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:13:56 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:13:57 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:13:57 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:13:57 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:13:57 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:14:02 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:14:03 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:14:04 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:14:04 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:14:04 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:14:06 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:14:06 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:14:06 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:14:06 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:14:14 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:14:15 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:20:04 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:20:04 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:20:04 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:20:04 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:20:08 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:20:08 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:20:08 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:20:08 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:20:18 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:20:18 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:20:19 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:20:20 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:20:27 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:20:33 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 13:20:36 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:20:36 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:20:36 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:20:36 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:20:37 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:20:48 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:27:07 INFO  当前初始化页面信息：URL--->data:text/html;charset=utf-8,
+2013-06-06 13:27:07 INFO  当前初始化页面信息：Title--->data:text/html;charset=utf-8,
+2013-06-06 13:27:07 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:27:07 INFO  初始化了浏览器Chrome来进行自动化测试
+2013-06-06 13:27:10 INFO  当前初始化页面信息：URL--->data:text/html;charset=utf-8,
+2013-06-06 13:27:10 INFO  当前初始化页面信息：Title--->data:text/html;charset=utf-8,
+2013-06-06 13:27:10 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:27:10 INFO  初始化了浏览器Chrome来进行自动化测试
+2013-06-06 13:27:24 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:27:26 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:27:27 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:27:28 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:28:17 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:28:20 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:28:24 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:28:24 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:28:25 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:28:25 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:28:25 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:28:42 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 13:28:42 INFO  当前初始化页面信息：Title--->
+2013-06-06 13:28:42 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 13:28:42 INFO  初始化了浏览器Firefox来进行自动化测试
+2013-06-06 13:28:47 INFO  页面跳转到了页面http://www.it168.com
+2013-06-06 13:28:47 INFO  页面跳转到了页面http://www.sohu.com
+2013-06-06 15:44:35 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:44:35 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:44:35 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:44:35 INFO  Case:JUnitStarter=>main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:44:45 INFO  Case:JUnitStarter=>main页面跳转到了页面http://www.baidu.com
+2013-06-06 15:44:46 INFO  [Case:JUnitStarter=>main][Element]输入[北京]值操作成功
+2013-06-06 15:44:47 INFO  [Case:JUnitStarter=>main][Element]点击操作成功
+2013-06-06 15:46:07 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:46:07 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:46:07 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:46:07 INFO  null初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:46:16 INFO  null页面跳转到了页面http://www.baidu.com
+2013-06-06 15:46:16 INFO  [null][Element]输入[北京]值操作成功
+2013-06-06 15:46:17 INFO  [null][Element]点击操作成功
+2013-06-06 15:52:40 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:52:40 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:52:40 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:52:40 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:52:49 INFO  [null]页面跳转到了页面http://www.baidu.com
+2013-06-06 15:52:49 INFO  [null][Element]输入[北京]值操作成功
+2013-06-06 15:52:51 INFO  [null][Element]点击操作成功
+2013-06-06 15:53:58 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:53:58 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:53:58 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:53:58 INFO  [Case:BrowserTest=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:54:07 INFO  [null]页面跳转到了页面http://www.baidu.com
+2013-06-06 15:54:08 INFO  [null][Element]输入[北京]值操作成功
+2013-06-06 15:54:09 INFO  [null][Element]点击操作成功
+2013-06-06 15:57:41 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:57:42 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:57:42 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:57:42 INFO  [Case:BrowserTest=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:57:53 INFO  [null]页面跳转到了页面http://www.baidu.com
+2013-06-06 15:57:53 INFO  [null][Element]输入[北京]值操作成功
+2013-06-06 15:57:55 INFO  [null][Element]点击操作成功
+2013-06-06 15:57:55 INFO  [Case:BrowserTest=>test]关闭了浏览器
+2013-06-06 15:59:45 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 15:59:45 INFO  当前初始化页面信息：Title--->
+2013-06-06 15:59:45 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 15:59:45 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 15:59:45 INFO  [null]页面跳转到了页面http://www.baidu.com
+2013-06-06 15:59:57 INFO  [null][Element]输入[北京]值操作成功
+2013-06-06 15:59:58 INFO  [null][Element]点击操作成功
+2013-06-06 15:59:59 INFO  [null]关闭了浏览器
+2013-06-06 16:05:49 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:05:49 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:05:49 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:05:49 INFO  [Main]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:05:58 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:05:58 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 16:06:00 INFO  [Main][Element]点击操作成功
+2013-06-06 16:06:03 INFO  [Main]关闭了浏览器
+2013-06-06 16:07:48 INFO  准备连接远程浏览器进行测试，地址为：
+2013-06-06 16:07:48 ERROR 没有连接到远程节点的服务器，远程浏览器引用失败！请检查环境配置是否正确！
+2013-06-06 16:08:00 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:08:00 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:08:00 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:08:00 INFO  [Main]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:08:11 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:08:12 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 16:08:13 INFO  [Main][Element]点击操作成功
+2013-06-06 16:08:13 INFO  [Main]关闭了浏览器
+2013-06-06 16:09:10 INFO  准备连接远程浏览器进行测试，地址为：
+2013-06-06 16:09:10 ERROR 没有连接到远程节点的服务器，远程浏览器引用失败！请检查环境配置是否正确！
+2013-06-06 16:09:37 INFO  准备连接远程浏览器进行测试，地址为：
+2013-06-06 16:09:37 ERROR 没有连接到远程节点的服务器，远程浏览器引用失败！请检查环境配置是否正确！
+2013-06-06 16:10:24 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:10:24 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:10:24 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:10:24 INFO  [Main]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:10:33 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:10:33 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 16:10:34 INFO  [Main][Element]点击操作成功
+2013-06-06 16:10:34 INFO  [Main]关闭了浏览器
+2013-06-06 16:14:08 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:14:08 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:14:08 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:14:08 INFO  [Main]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:14:18 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:14:18 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 16:14:19 INFO  [Main][Element]点击操作成功
+2013-06-06 16:14:19 INFO  [Main]关闭了浏览器
+2013-06-06 16:16:12 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:16:12 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:16:12 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:16:12 INFO  [Main]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:16:20 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:16:20 INFO  [Case:BrowserTest=>test][Element]输入[北京]值操作成功
+2013-06-06 16:16:21 INFO  [Case:BrowserTest=>test][Element]点击操作成功
+2013-06-06 16:16:21 INFO  [Main]关闭了浏览器
+2013-06-06 16:43:41 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 16:43:41 INFO  当前初始化页面信息：Title--->
+2013-06-06 16:43:41 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 16:43:41 INFO  Main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 16:43:50 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 16:43:50 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 16:43:51 INFO  [Main][Element]点击操作成功
+2013-06-06 16:43:51 INFO  [Main]关闭了浏览器
+2013-06-06 17:32:52 INFO  当前初始化页面信息：URL--->data:text/html;charset=utf-8,
+2013-06-06 17:32:52 INFO  当前初始化页面信息：Title--->data:text/html;charset=utf-8,
+2013-06-06 17:32:52 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 17:32:52 INFO  Main初始化了浏览器Chrome来进行自动化测试
+2013-06-06 17:33:00 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 17:50:10 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 17:50:11 INFO  当前初始化页面信息：Title--->
+2013-06-06 17:50:11 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 17:50:11 INFO  Main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 17:50:22 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 17:50:22 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 17:50:23 INFO  [Main][Element]点击操作成功
+2013-06-06 17:50:23 INFO  [Main]关闭了浏览器
+2013-06-06 17:51:14 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 17:51:14 INFO  当前初始化页面信息：Title--->
+2013-06-06 17:51:14 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 17:51:14 INFO  Main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 17:51:23 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 17:51:23 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 17:51:25 INFO  [Main][Element]点击操作成功
+2013-06-06 17:51:25 INFO  [Main]关闭了浏览器
+2013-06-06 17:52:04 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 17:52:04 INFO  当前初始化页面信息：Title--->
+2013-06-06 17:52:04 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 17:52:04 INFO  Main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 17:52:12 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 17:52:12 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 17:52:14 INFO  [Main][Element]点击操作成功
+2013-06-06 17:52:14 INFO  [Main]关闭了浏览器
+2013-06-06 17:58:01 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 17:58:01 INFO  当前初始化页面信息：Title--->
+2013-06-06 17:58:01 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 17:58:01 INFO  Main初始化了浏览器Firefox来进行自动化测试
+2013-06-06 17:58:12 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 17:58:13 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 17:58:14 INFO  [Main][Element]点击操作成功
+2013-06-06 17:58:14 INFO  [Main]关闭了浏览器
+2013-06-06 18:00:23 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:00:23 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:00:23 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:00:23 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:00:31 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:00:32 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 18:00:33 INFO  [Main][Element]点击操作成功
+2013-06-06 18:00:33 INFO  [null]关闭了浏览器
+2013-06-06 18:04:03 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:04:03 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:04:03 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:04:03 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:04:11 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:04:12 INFO  [Main][Element]输入[北京]值操作成功
+2013-06-06 18:04:13 INFO  [Main][Element]点击操作成功
+2013-06-06 18:04:13 INFO  [null]关闭了浏览器
+2013-06-06 18:28:02 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:28:02 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:28:02 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:28:03 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:28:03 INFO  [Main]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:32:57 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:32:57 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:32:57 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:32:57 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:33:08 INFO  [test]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:33:08 INFO  [test][Element]输入[北京]值操作成功
+2013-06-06 18:33:09 INFO  [test][Element]点击操作成功
+2013-06-06 18:33:09 INFO  [null]关闭了浏览器
+2013-06-06 18:35:12 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:35:12 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:35:12 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:35:12 INFO  [null]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:35:20 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:35:20 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 18:35:21 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 18:35:21 INFO  [null]关闭了浏览器
+2013-06-06 18:41:13 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 18:41:13 INFO  当前初始化页面信息：Title--->
+2013-06-06 18:41:13 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 18:41:13 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 18:41:25 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 18:41:25 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 18:41:26 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 18:41:27 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:22:59 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:22:59 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:23:23 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2500_1421_2487_1788_2548_2249_2542&t=1370517803340', but got 'baiduApp/json'.
+2013-06-06 19:23:23 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:23:23 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:24:43 INFO  I/O exception (java.net.SocketException) caught when processing request: Connection reset
+2013-06-06 19:24:43 INFO  Retrying request
+2013-06-06 19:24:43 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2492_2500_1458_1788_2548_2250_2543&t=1370517883717', but got 'baiduApp/json'.
+2013-06-06 19:24:44 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:24:44 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:27:18 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:27:19 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:34:32 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 19:34:32 INFO  当前初始化页面信息：Title--->
+2013-06-06 19:34:32 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 19:34:32 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 19:34:33 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2491_2500_2488_1788_2548_2250_2253&t=1370518473572', but got 'baiduApp/json'.
+2013-06-06 19:34:33 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:34:33 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:45:07 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 19:45:07 INFO  当前初始化页面信息：Title--->
+2013-06-06 19:45:07 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 19:45:07 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 19:45:09 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:45:09 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:45:10 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 19:45:10 INFO  当前初始化页面信息：Title--->
+2013-06-06 19:45:10 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 19:45:10 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 19:45:12 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2358_1455_1788_2549_2250&t=1370519112025', but got 'baiduApp/json'.
+2013-06-06 19:45:12 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:45:12 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:52:13 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 19:52:13 INFO  当前初始化页面信息：Title--->
+2013-06-06 19:52:13 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 19:52:13 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 19:52:23 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:52:23 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 19:52:24 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 19:52:24 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 19:52:25 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 19:52:25 INFO  当前初始化页面信息：Title--->
+2013-06-06 19:52:25 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 19:52:25 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 19:52:25 INFO  I/O exception (java.net.SocketException) caught when processing request: Connection reset
+2013-06-06 19:52:25 INFO  Retrying request
+2013-06-06 19:52:26 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1996_1443_1788_2548_2250&t=1370519546821', but got 'baiduApp/json'.
+2013-06-06 19:52:27 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 19:52:27 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 19:52:27 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 19:52:27 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:27 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 19:52:27 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:27 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 19:52:27 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 19:52:27 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 19:52:27 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 19:52:28 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:28 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 19:52:29 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 19:52:29 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 19:52:30 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1996_1443_1788_2548_2250&t=1370519550258', but got 'baiduApp/json'.
+2013-06-06 19:52:30 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:00 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:00 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:00 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:00 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:02:02 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:02 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 20:02:03 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:03 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:06 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:06 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:06 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:06 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:02:08 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1465_1788_2548_2249&t=1370520128446', but got 'baiduApp/json'.
+2013-06-06 20:02:09 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:09 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:09 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:09 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:09 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:02:09 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:09 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:02:09 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:09 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:02:09 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:02:10 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:10 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=18' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:02:11 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:12 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1465_1788_2548_2249&t=1370520132365', but got 'baiduApp/json'.
+2013-06-06 20:02:12 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:16 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:16 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:16 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:16 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:02:37 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:37 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:02:39 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:39 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:39 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:39 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:39 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:39 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:02:39 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2501_1446_1788_2548_2250&t=1370520159523', but got 'baiduApp/json'.
+2013-06-06 20:02:39 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:39 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:39 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:39 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:39 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:02:39 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:39 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:02:39 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:39 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:02:39 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:02:40 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:40 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=14' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:02:41 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:41 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:47 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:47 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:47 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:47 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:02:56 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:56 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:02:58 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:58 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:02:58 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:02:58 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:02:58 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:02:58 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:02:58 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1428_1788_2249&t=1370520178339', but got 'baiduApp/json'.
+2013-06-06 20:02:58 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:02:58 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:58 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:02:58 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:58 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:02:58 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:58 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:02:58 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:58 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:02:58 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:02:59 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:02:59 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:02:59 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1428_1788_2249&t=1370520179597', but got 'baiduApp/json'.
+2013-06-06 20:02:59 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:03:05 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:03:05 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:03:05 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:03:05 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:03:06 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:03:42 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:03:42 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:03:42 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:03:42 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:03:50 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:03:50 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:03:50 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:03:50 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:04:06 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:04:07 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:04:23 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:04:25 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:04:34 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:04:35 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:04:40 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:04:41 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:04:42 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:04:42 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:04:42 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:04:42 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:04:43 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2490_2501_1426_1788_2548_2250&t=1370520283836', but got 'baiduApp/json'.
+2013-06-06 20:04:44 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:04:44 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:04:44 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:04:45 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:45 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:04:45 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:45 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:04:45 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:04:45 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:04:45 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:04:46 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:04:46 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:04:47 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:04:47 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2490_2501_1426_1788_2548_2250&t=1370520287849', but got 'baiduApp/json'.
+2013-06-06 20:04:47 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:05:15 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:05:15 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:05:15 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:05:15 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:05:45 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:05:46 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:05:50 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:05:52 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:05:52 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:05:52 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:05:52 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:05:52 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:05:52 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1450_1788_2250_2542&t=1370520352542', but got 'baiduApp/json'.
+2013-06-06 20:05:52 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:05:52 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:05:52 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:05:52 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:52 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:05:52 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:52 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:05:52 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:05:52 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:05:52 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:05:53 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=8' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:05:53 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:05:53 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:06:03 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:06:03 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:06:03 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:06:03 INFO  [Case:Method=>test]初始化了浏览器Firefox来进行自动化测试
+2013-06-06 20:06:11 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:06:12 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:06:13 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:06:13 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:06:13 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:06:13 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:06:13 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:06:13 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:06:13 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1440_2488_1788_2548_2250&t=1370520373830', but got 'baiduApp/json'.
+2013-06-06 20:06:13 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:06:13 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:06:13 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:06:13 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:13 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:06:13 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:13 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:06:13 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:06:13 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:06:13 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:06:14 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=13' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:06:14 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:06:15 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1440_2488_1788_2548_2250&t=1370520375113', but got 'baiduApp/json'.
+2013-06-06 20:06:15 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:06:59 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:06:59 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:06:59 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:06:59 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:06:59 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:06:59 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:06:59 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:06:59 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:07:00 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2587_1458_1788_2250&t=1370520420607', but got 'baiduApp/json'.
+2013-06-06 20:07:00 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2587_1458_1788_2250&t=1370520420607', but got 'baiduApp/json'.
+2013-06-06 20:07:01 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:07:01 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:01 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:07:01 INFO  [Case:Method=>test][Element]输入[北京]值操作成功
+2013-06-06 20:07:01 INFO  [Case:Method=>test][Element]输入[上海]值操作成功
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:07:02 WARN  CSS error: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:02 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=35' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:07:03 WARN  CSS error: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:03 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=49' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:07:06 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:07:06 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:07:06 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:07:06 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:07:06 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:07:06 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:07:06 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:07:06 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2587_1458_1788_2250&t=1370520426678', but got 'baiduApp/json'.
+2013-06-06 20:07:06 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:07:06 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2574_1448_1788_2250_2254&t=1370520426830', but got 'baiduApp/json'.
+2013-06-06 20:07:07 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:07 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=20' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:07:07 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:07:08 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=2574_1448_1788_2250_2254&t=1370520428071', but got 'baiduApp/json'.
+2013-06-06 20:07:08 INFO  [Case:Method=>test]关闭了浏览器
+2013-06-06 20:07:08 INFO  当前初始化页面信息：URL--->about:blank
+2013-06-06 20:07:08 INFO  当前初始化页面信息：Title--->
+2013-06-06 20:07:08 INFO  当前初始化页面信息：窗口句柄数--->1
+2013-06-06 20:07:08 INFO  [Case:Method=>test]初始化了浏览器HtmlUnit来进行自动化测试
+2013-06-06 20:07:08 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1460_2487_1788_2548_2249&t=1370520428265', but got 'baiduApp/json'.
+2013-06-06 20:07:08 INFO  [Case:Method=>test]页面跳转到了页面http://www.baidu.com
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/' [1:81] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/' [1:331] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <HASH>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "-".)
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/' [1:1400] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/' [1:1400] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/' [1:1624] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/' [1:1624] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/' [1:2228] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/' [1:2228] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 INFO  [Case:Method=>test][Element]输入[重庆]值操作成功
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1807] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1807] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:2879] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:2879] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:4932] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:4932] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:6561] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:6561] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:6973] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:6973] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7324] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7324] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7629] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7629] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7864] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:7864] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:8696] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:8696] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [49:16] Error in style rule. (Invalid token ":". Was expecting one of: <EOF>, <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, <PLUS>, <COMMA>, <HASH>, <IMPORTANT_SYM>, <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <PERCENTAGE>, <DIMENSION>, <URI>, <FUNCTION>, "}", ";", "/", "-".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [49:16] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [80:5] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [80:5] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:922] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:922] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:690] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:690] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:840] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:840] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1056] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1056] Ignoring the following declarations in this rule.
+2013-06-06 20:07:08 WARN  CSS error: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1469] Error in style rule. (Invalid token "*". Was expecting one of: <EOF>, <S>, <IDENT>, "}", ";".)
+2013-06-06 20:07:08 WARN  CSS warning: 'http://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&inputT=9' [1:1469] Ignoring the following declarations in this rule.
+2013-06-06 20:07:09 INFO  [Case:Method=>test][Element]点击操作成功
+2013-06-06 20:07:09 WARN  Expected content type of 'application/javascript' or 'application/ecmascript' for remotely loaded JavaScript element at 'http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=1460_2487_1788_2548_2249&t=1370520429525', but got 'baiduApp/json'.
+2013-06-06 20:07:09 INFO  [Case:Method=>test]关闭了浏览器
