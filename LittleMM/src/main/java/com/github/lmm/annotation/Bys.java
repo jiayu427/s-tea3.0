@@ -16,11 +16,10 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface ElementLocator {
-    Locator locator() default Locator.ID;
-    String value() default "";
-    int index() default 0;
-    String[] locators() default "";
-    String commit();
+public @interface Bys {
 
+    Locator locator();
+    String  value();
+    int index() default 0;
+    String commit();
 }

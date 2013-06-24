@@ -1,7 +1,7 @@
 package com.github.lmm.page;
 
+import com.github.lmm.annotation.Bys;
 import com.github.lmm.annotation.Commit;
-import com.github.lmm.annotation.ElementLocator;
 import com.github.lmm.browser.IBrowser;
 import com.github.lmm.core.Auto;
 import com.github.lmm.element.ElementManager;
@@ -15,11 +15,7 @@ import org.apache.log4j.Logger;
 import java.lang.reflect.Field;
 
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-5-30
- * Time: 上午10:08
- * To change this template use File | Settings | File Templates.
+ * @author 王天庆
  */
 public class SourcePage extends CurrentPage {
     private Logger logger = Logger.getLogger(SourcePage.class);
@@ -34,9 +30,9 @@ public class SourcePage extends CurrentPage {
         this.elementManager=new ElementManager();
         Field[] fields=this.getClass().getDeclaredFields();
         for(Field field:fields){
-            if(field.isAnnotationPresent(ElementLocator.class)){
+            if(field.isAnnotationPresent(Bys.class)){
                 ElementInfo elementInfo=new ElementInfo();
-                ElementLocator elementLocator=field.getAnnotation(ElementLocator.class);
+                Bys elementLocator=field.getAnnotation(Bys.class);
                 String commit = elementLocator.commit();
                 Locator locator=elementLocator.locator();
                 String value=elementLocator.value();
@@ -62,16 +58,15 @@ public class SourcePage extends CurrentPage {
         loadSource(source);
         Field[] fields=this.getClass().getDeclaredFields();
         for(Field field:fields){
-            if(field.isAnnotationPresent(ElementLocator.class)){
+            if(field.isAnnotationPresent(Bys.class)){
                 ElementInfo elementInfo=new ElementInfo();
-                ElementLocator elementLocator=field.getAnnotation(ElementLocator.class);
-                String commit = elementLocator.commit();
-                Locator locator=elementLocator.locator();
-                String value=elementLocator.value();
-                Integer index=elementLocator.index();
-                elementInfo.setLocator(locator.getLocator(value));
-                elementInfo.setId(commit);
+                Bys bys=field.getAnnotation(Bys.class);
+                Locator locator=bys.locator();
+                int index = bys.index();
+                String commit=bys.commit();
+                String value = bys.value();
                 elementInfo.setIndex(index);
+                elementInfo.setLocator(locator.getLocator(value));
                 TempChainElement tempChainElement=new TempChainElement(elementInfo);
                 this.elementManager.addElement(tempChainElement);
                 logger.info("收集了当前页面的注解属性元素"+commit);
