@@ -3,12 +3,8 @@ package com.github.lmm.runtime;
 import java.lang.reflect.Method;
 import org.junit.Test;
 /**
- * Created with IntelliJ IDEA.
- * User: ouamaqing
- * Date: 13-5-31
- * Time: 下午2:48
- * To change this template use File | Settings | File Templates.
- */
+ * @author 王天庆
+ * */
 public class RuntimeMethod {
     static ThreadLocal<String> mname = new ThreadLocal<String>(){
         String name="Main";
@@ -16,7 +12,6 @@ public class RuntimeMethod {
             return name;
         };
     };
-    //static String name="Main";
     public static String getMethodName(){
         StackTraceElement[] stacks = Thread.currentThread().getStackTrace();
         for(int i=0;i<stacks.length;i++){

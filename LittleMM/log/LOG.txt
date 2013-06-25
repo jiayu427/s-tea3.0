@@ -1,386 +1,144 @@
-2013-06-19 09:38:04 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:38:04 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:38:19 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:38:31 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:38:31 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:38:31 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:38:31 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:38:31 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:38:32 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:38:32 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:38:32 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:38:32 INFO  [Case:Method=>testpage][By.id: kw]输入[北京]值操作成功
-2013-06-19 09:38:33 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 09:38:33 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
-2013-06-19 09:38:34 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 09:38:34 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 09:38:43 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:38:43 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:38:54 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:38:56 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:38:56 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:38:56 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:38:56 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:38:56 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:38:57 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:38:57 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:38:57 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:38:58 INFO  [Case:Method=>testpage][By.id: kw]输入[北京]值操作成功
-2013-06-19 09:39:00 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 09:39:00 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
-2013-06-19 09:39:00 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 09:39:00 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 09:39:40 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:39:40 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:39:51 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:40:00 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:40:00 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:40:00 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:40:00 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:40:00 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:40:00 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:40:00 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:40:00 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:40:01 INFO  [Case:Method=>testpage][By.id: kw]输入[北京]值操作成功
-2013-06-19 09:40:03 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 09:40:03 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
-2013-06-19 09:40:03 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 09:40:03 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 09:40:15 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:40:15 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:40:28 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:40:39 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:40:39 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:40:39 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:40:39 INFO  [Case:Method=>testpage][By.id: kw]输入[北京]值操作成功
-2013-06-19 09:40:40 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 09:40:41 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
-2013-06-19 09:40:41 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 09:40:41 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 09:49:59 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:49:59 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:50:14 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:50:31 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:50:31 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:50:31 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:50:31 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:50:31 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:50:31 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:50:31 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:50:31 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:50:42 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 09:50:42 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 09:50:42 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 09:53:08 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:53:08 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:53:21 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:53:31 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:53:31 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:53:31 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:53:31 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:53:31 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:53:31 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:53:32 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:53:32 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:53:47 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 5.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: edd97faa-2174-1946-8432-20ab7569f269
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 09:53:47 INFO  [Case:Method=>testpage]用例执行失败，重新执行失败的方法-->testpage
-2013-06-19 09:53:47 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:53:47 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:53:47 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:53:47 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:53:47 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:53:47 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:54:02 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 5.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: edd97faa-2174-1946-8432-20ab7569f269
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 09:54:02 INFO  [Case:Method=>testpage]用例执行失败，重新执行失败的方法-->testpage
-2013-06-19 09:54:03 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:54:03 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:54:03 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:54:03 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:54:03 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:54:03 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:54:18 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 5.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: edd97faa-2174-1946-8432-20ab7569f269
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 09:55:32 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 09:55:32 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 09:55:46 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 09:55:55 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 09:55:55 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 09:55:55 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:55:55 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:55:56 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:55:56 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:55:56 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:55:56 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:55:56 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 16 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: d5baba90-dacf-434c-9386-5bf2ca638461
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 09:55:56 INFO  [Case:Method=>testpage]用例执行失败，重新执行失败的方法-->testpage
-2013-06-19 09:55:56 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:55:56 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:55:56 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:55:56 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:55:56 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:55:56 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:55:57 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 17 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: d5baba90-dacf-434c-9386-5bf2ca638461
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 09:55:57 INFO  [Case:Method=>testpage]用例执行失败，重新执行失败的方法-->testpage
-2013-06-19 09:55:57 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 09:55:57 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 09:55:57 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 09:55:57 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 09:55:57 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 09:55:57 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 09:55:57 ERROR [Case:Method=>testpage]用例执行失败了,异常信息->Unable to locate element: {"method":"id","selector":"北京"}
-Command duration or timeout: 16 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: d5baba90-dacf-434c-9386-5bf2ca638461
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 10:01:15 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
-2013-06-19 10:01:15 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
-2013-06-19 10:01:30 INFO  [Case:Method=>testpage]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:01:42 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:01:42 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
-2013-06-19 10:01:42 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
-2013-06-19 10:01:42 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
-2013-06-19 10:01:42 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:01:43 INFO  收集了页面[百度首页]的元素资源
-2013-06-19 10:01:43 INFO  收集了Page[百度首页]元素->百度首页-搜索框
-2013-06-19 10:01:43 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
-2013-06-19 10:01:43 INFO  [Case:Method=>testpage][By.tagName: form]输入[北京]值操作成功
-2013-06-19 10:01:45 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
-2013-06-19 10:01:45 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
-2013-06-19 10:01:45 INFO  [Case:Method=>testpage]关闭了浏览器
-2013-06-19 10:01:45 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
-2013-06-19 10:07:48 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:07:52 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:07:53 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:07:53 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:07:53 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:07:53 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:07:53 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:07:56 INFO  解析frame元素消费了-->18毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:07:56 INFO  解析frame元素消费了-->69毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:07:58 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:07:58 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:07:58 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:07:58 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:08:11 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:08:24 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:08:24 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:08:24 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:08:24 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:08:24 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:08:24 ERROR [Case:Method=>frameMethodTest]用例执行失败了,异常信息->Unable to locate frame: 1
-Command duration or timeout: 15 milliseconds
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: 979b4b43-e2a1-2f47-b291-8b1888a6f5c5
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 10:08:53 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:08:56 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:08:58 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:08:58 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:08:58 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:08:58 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:08:58 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:09:01 INFO  解析frame元素消费了-->17毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:09:01 INFO  解析frame元素消费了-->64毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:09:02 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:09:03 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:09:03 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:09:03 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:09:14 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:09:26 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:09:26 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:09:26 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:09:26 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:09:26 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:09:26 ERROR [Case:Method=>frameMethodTest]用例执行失败了,异常信息->null
-2013-06-19 10:27:37 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:27:41 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:27:42 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:27:42 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:27:42 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:27:42 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:27:42 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:27:45 INFO  解析frame元素消费了-->17毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:27:45 INFO  解析frame元素消费了-->68毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:27:46 ERROR [Case:Method=>frameFunctionTest]用例执行失败了,异常信息->Error Message => 'Element is not currently visible and may not be manipulated'
- caused by Request => {"headers":{"Accept":"application/json, image/png","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:8971"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1371608865345\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/d0e24310-d887-11e2-a4ee-bf2f72e503e8/element/%3Awdc%3A1371608865345/click"}
-Command duration or timeout: 1.47 seconds
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: d0e24310-d887-11e2-a4ee-bf2f72e503e8
-Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
-Capabilities [{platform=MAC, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.0.3, locationContextEnabled=false, version=1.9.1, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=false, browserConnectionEnabled=false, proxy={proxyType=direct}, webStorageEnabled=false, nativeEvents=true, driverName=ghostdriver, applicationCacheEnabled=false, takesScreenshot=true}]
-2013-06-19 10:27:46 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:28:00 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:28:14 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:28:14 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:28:14 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:28:14 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:28:14 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:28:14 ERROR [Case:Method=>frameMethodTest]用例执行失败了,异常信息->The given selector ".//*[@id='title4']" is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Unable to locate an element with the xpath expression ".//*[@id='title4']" because of the following error:
-[Exception... "The expression cannot be converted to return the specified type."  code: "0" nsresult: "0x805b0034 (TypeError)"  location: "file:///var/folders/2k/kvmdr6n547v3ccwfhv1xffpr0000gn/T/anonymous6731858182163715485webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 5806"]
-Command duration or timeout: 12 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: 2da1830a-1037-d948-ba7a-9c268b79cfe1
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=21.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-2013-06-19 10:30:03 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:30:07 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:30:08 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:30:08 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:30:08 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:30:08 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:30:08 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:30:10 INFO  解析frame元素消费了-->18毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:30:10 INFO  解析frame元素消费了-->69毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:30:12 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:30:12 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:30:12 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:30:12 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:30:23 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:30:37 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:30:37 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:30:37 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:30:37 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:30:37 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:30:38 INFO  [Case:Method=>frameMethodTest][FrameElement]点击操作成功
-2013-06-19 10:30:38 ERROR [Case:Method=>frameMethodTest]用例执行失败了,异常信息->null
-2013-06-19 10:41:51 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:41:54 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:41:57 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:41:57 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:41:57 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:41:57 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:41:57 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:42:00 INFO  解析frame元素消费了-->18毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:42:00 INFO  解析frame元素消费了-->70毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:42:01 ERROR [Case:Method=>frameFunctionTest]用例执行失败了,异常信息->Error Message => 'Element is not currently visible and may not be manipulated'
- caused by Request => {"headers":{"Accept":"application/json, image/png","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:9423"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1371609720146\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/cd93f080-d889-11e2-b861-090eb73fe400/element/%3Awdc%3A1371609720146/click"}
-Command duration or timeout: 1.40 seconds
-Build info: version: '2.33.0', revision: '4ecaf82108b2a6cc6f006aae81961236eba93358', time: '2013-05-22 12:00:17'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.6.0_45'
-Session ID: cd93f080-d889-11e2-b861-090eb73fe400
-Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
-Capabilities [{platform=MAC, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.0.3, locationContextEnabled=false, version=1.9.1, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=false, browserConnectionEnabled=false, proxy={proxyType=direct}, webStorageEnabled=false, nativeEvents=true, driverName=ghostdriver, applicationCacheEnabled=false, takesScreenshot=true}]
-2013-06-19 10:42:01 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:42:18 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:42:32 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:42:33 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:42:33 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:42:33 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:42:33 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:42:35 INFO  [Case:Method=>frameMethodTest][FrameElement]点击操作成功
-2013-06-19 10:42:35 INFO  [Case:Method=>frameMethodTest]关闭了浏览器
-2013-06-19 10:42:35 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]执行结束****************
-2013-06-19 10:44:08 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:44:12 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:44:14 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:44:14 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:44:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:44:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:44:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:44:37 INFO  解析frame元素消费了-->17毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:44:37 INFO  解析frame元素消费了-->10102毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:44:39 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:44:39 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:44:39 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:44:39 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:44:51 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:45:01 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:45:01 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:45:01 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:45:01 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:45:01 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:45:02 INFO  [Case:Method=>frameMethodTest][FrameElement]点击操作成功
-2013-06-19 10:45:02 INFO  [Case:Method=>frameMethodTest]关闭了浏览器
-2013-06-19 10:45:02 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]执行结束****************
-2013-06-19 10:47:07 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:47:11 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:47:14 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:47:14 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:47:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:47:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:47:14 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:47:32 INFO  解析frame元素消费了-->23毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:47:32 INFO  解析frame元素消费了-->10109毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:47:33 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:47:34 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:47:34 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:47:34 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:47:44 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:47:47 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:47:47 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:47:47 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:47:47 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:47:47 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:47:48 INFO  [Case:Method=>frameMethodTest][FrameElement]点击操作成功
-2013-06-19 10:47:49 INFO  [Case:Method=>frameMethodTest]关闭了浏览器
-2013-06-19 10:47:49 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]执行结束****************
-2013-06-19 10:49:21 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]开始执行*****************
-2013-06-19 10:49:24 INFO  [Case:Method=>frameFunctionTest]初始化了浏览器PhantomJS来进行自动化测试
-2013-06-19 10:49:25 INFO  [Case:Method=>frameFunctionTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:49:25 INFO  [Case:Method=>frameFunctionTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:49:25 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:49:25 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:49:25 INFO  [Case:Method=>frameFunctionTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:49:33 INFO  解析frame元素消费了-->18毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:49:33 INFO  解析frame元素消费了-->64毫秒,每次打印的时间意味着此方法访问了一次frame，在此过程中会通过递归的方式来进行查找元素，消费的总时间应该是所有的消费时间的总和。此日志的记录是为了防止因为访问frame性能影响脚本运行
-2013-06-19 10:49:34 INFO  [Case:Method=>frameFunctionTest][By.xpath: .//*[@id='title4']]点击操作成功
-2013-06-19 10:49:35 INFO  [Case:Method=>frameFunctionTest]关闭了浏览器
-2013-06-19 10:49:35 INFO  [Case:Method=>frameFunctionTest]*******************测试用例[frameFunctionTest]执行结束****************
-2013-06-19 10:49:35 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]开始执行*****************
-2013-06-19 10:49:45 INFO  [Case:Method=>frameMethodTest]初始化了浏览器FIREFOX来进行自动化测试
-2013-06-19 10:49:54 INFO  [Case:Method=>frameMethodTest]窗口的句柄数增多，进行句柄收集操作
-2013-06-19 10:49:54 INFO  [Case:Method=>frameMethodTest]添加了新的窗口信息->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:49:54 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：URL--->http://product.it168.com/list/b/0301_1.shtml
-2013-06-19 10:49:54 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：Title--->笔记本报价,笔记本推荐,笔记本哪个牌子好-IT168产品报价
-2013-06-19 10:49:55 INFO  [Case:Method=>frameMethodTest]当前初始化页面信息：窗口句柄数--->1
-2013-06-19 10:49:55 INFO  [Case:Method=>frameMethodTest][FrameElement]点击操作成功
-2013-06-19 10:49:56 INFO  [Case:Method=>frameMethodTest]关闭了浏览器
-2013-06-19 10:49:56 INFO  [Case:Method=>frameMethodTest]*******************测试用例[frameMethodTest]执行结束****************
+2013-06-25 17:03:48 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:03:48 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:03:55 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:03:56 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:03:56 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:03:56 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:03:56 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:03:56 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:03:56 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:03:57 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:03:57 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:03:57 INFO  [Case:Method=>testpage][By.tagName: form]输入[北京]值操作成功
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:03:58 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:04:00 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:04:01 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:04:01 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:04:01 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:04:01 INFO  [Case:Method=>testpage][By.tagName: form]输入[上海]值操作成功
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->上海_百度搜索
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:04:02 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:04:05 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:04:06 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:04:06 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:04:06 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:04:06 INFO  [Case:Method=>testpage][By.tagName: form]输入[重庆]值操作成功
+2013-06-25 17:04:07 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:04:07 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->重庆_百度搜索
+2013-06-25 17:04:08 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:04:08 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:18:25 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:18:25 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:18:29 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:18:30 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:18:30 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:18:30 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:18:30 INFO  [Case:Method=>testpage][By.tagName: form]输入[北京]值操作成功
+2013-06-25 17:18:31 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:18:31 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
+2013-06-25 17:18:32 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:18:32 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:18:32 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:18:32 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:18:33 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:18:34 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:18:34 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:18:34 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:18:34 INFO  [Case:Method=>testpage][By.tagName: form]输入[上海]值操作成功
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->上海_百度搜索
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:18:35 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:18:37 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:18:38 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:18:38 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:18:38 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:18:38 INFO  [Case:Method=>testpage][By.tagName: form]输入[重庆]值操作成功
+2013-06-25 17:18:39 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:18:39 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->重庆_百度搜索
+2013-06-25 17:18:39 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:18:39 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:19:11 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:19:11 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:19:14 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:19:14 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:19:14 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:19:14 INFO  [Case:Method=>testpage][By.tagName: form]输入[北京]值操作成功
+2013-06-25 17:19:15 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:19:15 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->北京_百度搜索
+2013-06-25 17:19:16 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:19:16 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:19:16 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:19:16 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:19:18 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:19:18 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:19:18 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:19:18 INFO  [Case:Method=>testpage][By.tagName: form]输入[上海]值操作成功
+2013-06-25 17:19:19 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:19:19 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->上海_百度搜索
+2013-06-25 17:19:20 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:19:20 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************
+2013-06-25 17:19:20 INFO  [Case:Method=>testpage]>>>>>>[testpage]>>>这个case执行失败的话会被重新执行2次
+2013-06-25 17:19:20 INFO  [Case:Method=>testpage]*******************测试用例[testpage]开始执行*****************
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]初始化了浏览器PhantomJS来进行自动化测试
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]窗口的句柄数增多，进行句柄收集操作
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]添加了新的窗口信息->百度一下，你就知道
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]当前初始化页面信息：URL--->http://www.baidu.com/
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]当前初始化页面信息：Title--->百度一下，你就知道
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage]当前初始化页面信息：窗口句柄数--->1
+2013-06-25 17:19:22 INFO  收集了页面[百度首页]的元素资源
+2013-06-25 17:19:22 INFO  收集了Page[百度首页]元素->百度首页-搜索框
+2013-06-25 17:19:22 INFO  收集了Page[百度首页]元素->百度首页-搜索按钮
+2013-06-25 17:19:22 INFO  [Case:Method=>testpage][By.tagName: form]输入[重庆]值操作成功
+2013-06-25 17:19:23 INFO  [Case:Method=>testpage][百度首页-搜索按钮]点击操作成功
+2013-06-25 17:19:23 INFO  [Case:Method=>testpage]当前页面发生了变化，切换到了新的页面--->重庆_百度搜索
+2013-06-25 17:19:24 INFO  [Case:Method=>testpage]关闭了浏览器
+2013-06-25 17:19:24 INFO  [Case:Method=>testpage]*******************测试用例[testpage]执行结束****************

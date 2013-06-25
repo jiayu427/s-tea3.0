@@ -10,9 +10,9 @@ import org.openqa.selenium.By;
  * */
 @Commit("百度首页")
 public class BaiduPage extends DefaultSourcePage {
-    public void search(){
+    public void search(String text){
         //element().addLocator(By.id("kw")).input("北京");
-        element().addLocator(By.tagName("form")).childElement(By.id("kw")).input("北京");
+        element().addLocator(By.tagName("form")).childElement(By.id("kw")).input(text);
         element("百度首页-搜索按钮").click();
     }
 }

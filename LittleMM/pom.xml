@@ -76,20 +76,30 @@
           <artifactId>jsoup</artifactId>
           <version>1.7.2</version>
       </dependency>
-      <dependency>
+      <!--dependency>
           <groupId>org.databene</groupId>
           <artifactId>feed4junit</artifactId>
           <version>1.1.5</version>
-      </dependency>
+      </dependency-->
       <dependency>
           <groupId>jaxen</groupId>
           <artifactId>jaxen</artifactId>
           <version>1.1.4</version>
       </dependency>
       <dependency>
+          <groupId>org.databene</groupId>
+          <artifactId>databene-benerator</artifactId>
+          <version>0.7.7</version>
+      </dependency>
+      <dependency>
           <groupId>com.github.detro.ghostdriver</groupId>
           <artifactId>phantomjsdriver</artifactId>
           <version>1.0.3</version>
+      </dependency>
+      <dependency>
+          <groupId>org.databene</groupId>
+          <artifactId>databene-commons</artifactId>
+          <version>0.5.16</version>
       </dependency>
   </dependencies>
   </project>

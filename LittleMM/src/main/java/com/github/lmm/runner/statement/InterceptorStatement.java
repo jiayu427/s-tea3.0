@@ -104,4 +104,12 @@ public class InterceptorStatement extends Statement{
     public void removeInterceptor(Interceptor interceptor){
         interceptors.remove(interceptor);
     }
+
+    public FrameworkMethod getTestMethod() {
+        return testMethod;
+    }
+
+    public Object getTarget() {
+        return target;
+    }
 }

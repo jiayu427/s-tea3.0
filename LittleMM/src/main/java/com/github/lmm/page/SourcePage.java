@@ -45,7 +45,6 @@ public class SourcePage extends CurrentPage {
                 logger.info("收集了当前页面的注解属性元素"+commit);
             }
         }
-       // System.out.println(this.elementManager.size());
 
     }
 

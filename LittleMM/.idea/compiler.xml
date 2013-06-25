@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Little" />
+        <module name="LittleMM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -2,20 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc45414f-20e9-4951-add6-2fc7863b0e7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/intrumentation/ClassPathScanHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/intrumentation/ClassPathScanHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Element.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Element.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/FrameElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/element/FrameElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Algorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/AllPairList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/ChildRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Combination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/CombinationCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/CombinationList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/DefaultFeedScheduler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/DefaultInfoProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/ErrorReportingFrameworkMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feed4JUnitConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feed4JUnitGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feeder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/FrameworkMethodWithParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/FullCombinationAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/algorithm/FullCombinationAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Generator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/LineParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/OrdinalInfoProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/PairWiseAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Parameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/ParameterList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/ParameterValuePair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/PlainParallelScheduler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/PlatformDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/sgap/SGAP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Scheduler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/SerialScheduler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TXTParamters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/TestInfoProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TestPairWise.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_databene_feed4junit_1_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RunTimeMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RuntimeMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java" afterPath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java" afterPath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/statement/InterceptorStatement.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/statement/InterceptorStatement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/window/WindowsCollecter.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/window/WindowsCollecter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/LOG.txt" afterPath="$PROJECT_DIR$/log/LOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LittleMM.iml" afterPath="$PROJECT_DIR$/LittleMM.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LittleMM.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372037711925" ignored="false" />
-    <file path="/fragment.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371442286975" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372123525838" ignored="false" />
+    <file path="/fragment.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372152559865" ignored="false" />
     <file path="/Page.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369796301769" ignored="false" />
-    <file path="/pom.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370591131460" ignored="false" />
+    <file path="/pom.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372148851567" ignored="false" />
     <file path="/IPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370402661382" ignored="false" />
     <file path="/ICurrentPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371552889041" ignored="false" />
     <file path="/HtmlUnit.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370572116841" ignored="false" />
@@ -57,7 +101,7 @@
     <file path="/TempElementLocator.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369980480287" ignored="false" />
     <file path="/NotExistLocatorError.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369980193353" ignored="false" />
     <file path="/RunTimeMethod.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369984737300" ignored="false" />
-    <file path="/RuntimeMethod.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370514532344" ignored="false" />
+    <file path="/RuntimeMethod.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372123645835" ignored="false" />
     <file path="/XMLSource.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370400734542" ignored="false" />
     <file path="/TXTSource.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370425545614" ignored="false" />
     <file path="/ExcelSource.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369989489155" ignored="false" />
@@ -108,7 +152,7 @@
     <file path="/BaiduSearch.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370671755405" ignored="false" />
     <file path="/BaiduSearchTest.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370672236581" ignored="false" />
     <file path="/FrameLocator.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371088363367" ignored="false" />
-    <file path="/BaiduPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371607258966" ignored="false" />
+    <file path="/BaiduPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372148270755" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370932757913" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370932757913" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1370932757913" ignored="false" />
@@ -202,7 +246,7 @@
     <file path="/ElementLocator.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371612577879" ignored="false" />
     <file path="/source.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371543438630" ignored="false" />
     <file path="/s-tea3.0.xsd" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371543374113" ignored="false" />
-    <file path="/BaiduPageTest.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371547116914" ignored="false" />
+    <file path="/BaiduPageTest.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372152078295" ignored="false" />
     <file path="/NotFoundListenerException.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371540334042" ignored="false" />
     <file path="/RunnerListenerProxy.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371540311523" ignored="false" />
     <file path="/Retry.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371540385718" ignored="false" />
@@ -211,8 +255,12 @@
     <file path="/MailLoginPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371550416690" ignored="false" />
     <file path="/MailSendPage.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371557992170" ignored="false" />
     <file path="/MailTest.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371551068962" ignored="false" />
-    <file path="/Bys.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1371618713935" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372038007111" ignored="false" />
+    <file path="/Bys.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372123800934" ignored="false" />
+    <file path="/Feeder.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372153518228" ignored="false" />
+    <file path="/Feed4JUnitConfig.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372151592519" ignored="false" />
+    <file path="/FrameworkMethodWithParameters.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372150982856" ignored="false" />
+    <file path="/Pict.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372152279418" ignored="false" />
+    <file path="/TXTParamters.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372153048069" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,40 +350,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaiduPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java">
+      <file leaf-file-name="Pict.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bys.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SourcePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="43" selection-start="3886" selection-end="3886" vertical-scroll-proportion="0.0">
+            <state line="19" column="70" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuntimeMethod.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RuntimeMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.28037384">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -358,29 +379,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/MailTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/page/ICurrentPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/page/DefaultFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/MailSendPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/DefaultInfoProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/OrdinalInfoProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/FrameworkMethodWithParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/TestPairWise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Combination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/sgap/SGAP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/FullCombinationAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/AllPairList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/PairWiseAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/CombinationCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TestPairWise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/algorithm/FullCombinationAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TXTParamters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feeder.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/github/lmm/element/test/ElementFrameFunctionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/page/Frame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/element/FrameElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Element.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/element/Locator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/ElementLocator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="696" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -411,16 +432,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LittleMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -457,60 +468,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LittleMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LittleMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lmm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LittleMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LittleMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lmm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -531,9 +496,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -544,12 +509,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.lmm.sgap" />
+      <recent name="com.github.lmm.pairwise" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/javascript" />
-      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/resource" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/github/lmm/runner" />
+      <recent name="$PROJECT_DIR$/javascript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source" />
@@ -557,7 +526,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/github/lmm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementFrameFunctionTest.frameFunctionTest">
+  <component name="RunManager" selected="Application.TXTParamters">
     <configuration default="false" name="ElementFrameFunctionTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -572,34 +541,6 @@
       <option name="MAIN_CLASS_NAME" value="com.github.lmm.element.test.ElementFrameFunctionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaiduPageTest.testpage" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.lmm.page.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LittleMM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.github.lmm.page.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lmm.page.test.BaiduPageTest" />
-      <option name="METHOD_NAME" value="testpage" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -698,6 +639,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TXTParamters" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.lmm.pairwise.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.github.lmm.pairwise.generator.TXTParamters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LittleMM" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -710,19 +673,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -751,6 +701,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -843,18 +806,18 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.RetryTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.PhantomJSExecuter" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BaiduPageTest.testpage" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BaiduPageTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.MailTest.testSendMail" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest.frameFunctionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BaiduPageTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MailTest.testSendMail" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest.frameFunctionTest" />
+      <item index="6" class="java.lang.String" itemvalue="Application.TXTParamters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest.frameFunctionTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TXTParamters" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.BaiduPageTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MailTest.testSendMail" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BaiduPageTest.testpage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest.frameFunctionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MailTest.testSendMail" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementFrameFunctionTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -945,12 +908,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="696" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="700" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,20 +923,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32068965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1871961" sideWeight="0.6279864" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1871961" sideWeight="0.6793103" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.6279864" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37201366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1961102" sideWeight="0.62931037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37068966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.58965516" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1052,111 +1015,148 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.31.0/selenium-remote-driver-2.31.0-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="0" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.3322785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/ICurrentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="16" selection-start="3596" selection-end="3596" vertical-scroll-proportion="3.2310126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/runner/statement/InterceptorStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="118" selection-start="4559" selection-end="4559" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/browser/BaseBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="38" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.9264706">
+        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.10869565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/Frame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="34" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-15.788991">
+        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.054347824">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/element/FrameElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/CombinationCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="100" selection-start="15833" selection-end="15833" vertical-scroll-proportion="-6.279412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/element/test/ElementFrameFunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="783" selection-end="783" vertical-scroll-proportion="0.8029412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="340" selection-end="340" vertical-scroll-proportion="0.2647059" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Browsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34946236" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/element/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="648" column="81" selection-start="23684" selection-end="23684" vertical-scroll-proportion="16.816513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/CurrentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="12" selection-start="2597" selection-end="3012" vertical-scroll-proportion="1.0752689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/element/Locator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="402" selection-end="402" vertical-scroll-proportion="0.45698926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="43" selection-start="3886" selection-end="3886" vertical-scroll-proportion="0.0">
+        <state line="90" column="42" selection-start="3988" selection-end="4006" vertical-scroll-proportion="2.2282608">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RuntimeMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/sgap/SGAP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.28037384">
+        <state line="30" column="79" selection-start="763" selection-end="763" vertical-scroll-proportion="0.7880435">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/algorithm/FullCombinationAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="62" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.33236152">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#454#0" expanded="true" />
+            <element signature="e#518#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params/PICT-test.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TXTParamters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="49" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.7165605">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/PairWiseAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="46" selection-start="34" selection-end="80" vertical-scroll-proportion="-0.18694362">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TestPairWise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="817" selection-end="832" vertical-scroll-proportion="0.6793478">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#650#661#0" expanded="true" />
+            <element signature="e#1377#1388#0" expanded="true" />
+            <element signature="e#2454#2465#0" expanded="true" />
+            <element signature="e#3363#3374#0" expanded="true" />
+            <element signature="e#4271#4282#0" expanded="true" />
+            <element signature="e#5514#5525#0" expanded="true" />
+            <element signature="e#6245#6256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/FullCombinationAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="66" selection-start="813" selection-end="813" vertical-scroll-proportion="0.65217394">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#443#0" expanded="true" />
+            <element signature="e#507#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/element/test/ElementFrameFunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="520" selection-end="520" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="723" selection-end="723" vertical-scroll-proportion="0.5163044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.057142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="102" selection-start="5406" selection-end="5406" vertical-scroll-proportion="0.69573283">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6157#6251#0" expanded="true" />
+            <element signature="e#6246#6247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

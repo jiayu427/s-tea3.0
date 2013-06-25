@@ -1,7 +1,6 @@
 package com.github.lmm.runner;
 
 
-import com.github.lmm.core.PageManager;
 import com.github.lmm.intrumentation.ClassPool;
 import com.github.lmm.proxy.ActionListenerProxy;
 import com.github.lmm.proxy.RunnerListenerProxy;
@@ -10,7 +9,6 @@ import org.junit.runner.notification.RunListener;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.model.InitializationError;
 import org.apache.log4j.Logger;
-import org.databene.feed4junit.Feeder;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.RunnerScheduler;
 import org.junit.runners.model.Statement;
