@@ -2,61 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc45414f-20e9-4951-add6-2fc7863b0e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Algorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/AllPairList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/ChildRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Combination.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/CombinationCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/CombinationList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/DefaultFeedScheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/DefaultInfoProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/ErrorReportingFrameworkMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feed4JUnitConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feed4JUnitGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Feeder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/FrameworkMethodWithParameters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/FullCombinationAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/algorithm/FullCombinationAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Generator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/LineParameters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/info/OrdinalInfoProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/Pair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/PairWiseAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/Parameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/ParameterList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/core/ParameterValuePair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/PlainParallelScheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/PlatformDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/sgap/SGAP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/Scheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/scheduler/SerialScheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TXTParamters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/TestInfoProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/pairwise/generator/TestPairWise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_databene_feed4junit_1_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RunTimeMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runtime/RuntimeMethod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java" afterPath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java" afterPath="$PROJECT_DIR$/src/main/test/com/github/lmm/page/test/BaiduPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Bys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/statement/InterceptorStatement.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/statement/InterceptorStatement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/runner/JUnitBaseRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/LOG.txt" afterPath="$PROJECT_DIR$/log/LOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LittleMM.iml" afterPath="$PROJECT_DIR$/LittleMM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/lmm/page/SourcePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LittleMM.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372123525838" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372155352077" ignored="false" />
     <file path="/fragment.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372152559865" ignored="false" />
     <file path="/Page.java" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1369796301769" ignored="false" />
     <file path="/pom.xml" changelist="bc45414f-20e9-4951-add6-2fc7863b0e7a" time="1372148851567" ignored="false" />
@@ -353,7 +303,7 @@
       <file leaf-file-name="Pict.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="70" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
+            <state line="19" column="21" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -884,7 +834,11 @@
       <created>1372037729866</created>
       <updated>1372037729866</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修复了feed4junit的使用方法。增加了junit运行器的可扩展性，增加了pairwise算法。">
+      <created>1372155387587</created>
+      <updated>1372155387587</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -911,7 +865,7 @@
     <frame x="0" y="22" width="1280" height="700" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -930,7 +884,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1961102" sideWeight="0.62931037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1961102" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37068966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.58965516" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -981,7 +935,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了元素的时间默认加载，现在所有的元素在查找非默认元素的时候需要等待2s，如果自动查找frame内元素的话会不再等待加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了feed4junit的使用方法。增加了junit运行器的可扩展性，增加了pairwise算法。" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1006,6 +960,7 @@
     <MESSAGE value="增加了元素的一小部分方法" />
     <MESSAGE value="增加了junit失败后重试的功能，增加了frame的递归查找功能，但同时也提供了指定frame结构的查找方式。这个算是beta的测试版本" />
     <MESSAGE value="修复了元素的时间默认加载，现在所有的元素在查找非默认元素的时候需要等待2s，如果自动查找frame内元素的话会不再等待加载" />
+    <MESSAGE value="修复了feed4junit的使用方法。增加了junit运行器的可扩展性，增加了pairwise算法。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1153,7 +1108,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/lmm/annotation/Pict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
+        <state line="19" column="21" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5163044">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
