@@ -130,7 +130,7 @@ public class Feeder extends BlockJUnit4ClassRunner {
                     Pict pict = method.getAnnotation(Pict.class);
                     String path = pict.value();
                     PictToMethod pictToMethod = new PictToMethod(path);
-                    List<? extends FrameworkMethod> pictTestMethods=pictToMethod.generatorPICTMethod(method.getMethod());
+                    List<FrameworkMethodWithParameters> pictTestMethods=pictToMethod.generatorPICTMethod(method.getMethod());
                     children.addAll(pictTestMethods);
                 }else{
                         // parameterized Feed4JUnit generator method

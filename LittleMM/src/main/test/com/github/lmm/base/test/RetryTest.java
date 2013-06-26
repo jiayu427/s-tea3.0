@@ -22,11 +22,11 @@ import org.openqa.selenium.By;
 @Retry(2)
 public class RetryTest {
 
-    @Test
-    public void testRetry(){
-        System.out.println("Hello World");
-        //throw new RuntimeException("这是一个测试类的异常");
-    }
+//    @Test
+//    public void testRetry(){
+//        System.out.println("Hello World");
+//        //throw new RuntimeException("这是一个测试类的异常");
+//    }
 
 
     @Test

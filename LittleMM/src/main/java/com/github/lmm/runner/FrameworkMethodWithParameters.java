@@ -23,6 +23,7 @@ package com.github.lmm.runner;
 
 import java.lang.reflect.Method;
 
+import com.github.lmm.runner.info.DefaultInfoProvider;
 import org.databene.commons.ArrayFormat;
 import org.databene.commons.BeanUtil;
 import org.junit.runners.model.FrameworkMethod;
@@ -39,13 +40,16 @@ public class FrameworkMethodWithParameters extends FrameworkMethod {
 	protected Integer threadPoolSize;
 	protected long timeout;
 	protected String info;
-
 	public FrameworkMethodWithParameters(Method method, Object[] parameters, Integer threadPoolSize, long timeout, String info) {
 	    super(method);
 	    this.parameters = parameters;
 	    this.threadPoolSize = threadPoolSize;
 	    this.timeout = timeout;
 	    this.info = info;
+    }
+
+    public FrameworkMethodWithParameters(Method method,Object[] parameters,String info){
+        this(method,parameters,null,3000,info);
     }
 
 	public Integer getThreadPoolSize() {

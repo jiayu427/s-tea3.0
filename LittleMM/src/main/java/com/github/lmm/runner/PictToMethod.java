@@ -3,6 +3,7 @@ package com.github.lmm.runner;
 import com.github.lmm.commons.StringUtils;
 import com.github.lmm.pairwise.generator.LineParameters;
 import com.github.lmm.pairwise.generator.TXTParamters;
+import com.github.lmm.runner.info.DefaultInfoProvider;
 
 import java.io.*;
 import java.lang.reflect.Method;
@@ -32,8 +33,9 @@ public class PictToMethod {
         this(new File(path));
     }
 
-    public List<FrameworkMethodWithPict> generatorPICTMethod(Method method){
-        List<FrameworkMethodWithPict> result = new ArrayList<FrameworkMethodWithPict>();
+    public List<FrameworkMethodWithParameters> generatorPICTMethod(Method method){
+        DefaultInfoProvider infoProvider=new DefaultInfoProvider();
+        List<FrameworkMethodWithParameters> result = new ArrayList<FrameworkMethodWithParameters>();
         for(LineParameters lineParameters:getParams()){
             Object[] params = new Object[lineParameters.size()];
             int i=0;
@@ -64,8 +66,8 @@ public class PictToMethod {
                 }
                 i++;
             }
-            FrameworkMethodWithPict frameworkMethodWithPict=new FrameworkMethodWithPict(method,params);
-            result.add(frameworkMethodWithPict);
+            FrameworkMethodWithParameters fm=new FrameworkMethodWithParameters(method,params,infoProvider.testInfo(method,params));
+            result.add(fm);
 
         }
         return result;
