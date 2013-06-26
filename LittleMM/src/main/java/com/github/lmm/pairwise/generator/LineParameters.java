@@ -14,7 +14,13 @@ public class LineParameters {
 		this.parameters.addAll(Arrays.asList(strings));
 	}
 	public void addParameter(String e){
-		this.parameters.add(e);
+//        if(e.toLowerCase().equals("<Empty>")){
+//            this.parameters.add("");
+//        }else{
+//            this.parameters.add(e);
+//        }
+        this.parameters.add(e);
+
 	}
 	
 	public String toString(){
@@ -27,4 +33,8 @@ public class LineParameters {
 	public int size(){
 		return this.parameters.size();
 	}
+
+    public List<String> getParameters(){
+        return this.parameters;
+    }
 }

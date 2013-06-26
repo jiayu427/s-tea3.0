@@ -25,7 +25,7 @@ public class TXTParamters {
 		this.parameters= new ArrayList<Parameter>();
 		this.target=new FullCombinationAlgorithm();
 		if(path.contains(File.separator)){
-			this.sourceName=path.substring(path.lastIndexOf(File.separator));
+			this.sourceName=path.substring(path.lastIndexOf(File.separator)+1);
 			this.sourceName="PICT-"+sourceName;
 			try {
 				new File("params/"+sourceName).createNewFile();
@@ -41,7 +41,9 @@ public class TXTParamters {
 			}
 		}
 	}
-
+    public TXTParamters(File file){
+        this(file.getAbsolutePath());
+    }
 	protected void formatParameters(){
 		try {
 			FileReader filereader = new FileReader(file);
@@ -114,13 +116,13 @@ public class TXTParamters {
 		for(ParameterValuePair pvp:comb.getMap().values()){
 			this.paramNames.add(pvp.getParameterName());
 			lp.addParameter(pvp.getParameterValue());
-			System.out.println("添加了"+pvp.getParameterValue());
+			//System.out.println("添加了"+pvp.getParameterValue());
 		}
 		this.lineparams.add(lp);
 	}
 	
-	public static void main(String[] args) {
-		TXTParamters txt = new TXTParamters("test.txt");
-		txt.generateTXT();
-	}
+//	public static void main(String[] args) {
+//		TXTParamters txt = new TXTParamters("test.txt");
+//		txt.generateTXT();
+//	}
 }
