@@ -1,8 +1,10 @@
 package com.github.lmm.runner;
 
 import com.github.lmm.commons.StringUtils;
+import com.github.lmm.pairwise.generator.ExcelParameters;
 import com.github.lmm.pairwise.generator.LineParameters;
-import com.github.lmm.pairwise.generator.TXTParamters;
+import com.github.lmm.pairwise.generator.Parameters;
+import com.github.lmm.pairwise.generator.TXTParameters;
 import com.github.lmm.runner.info.DefaultInfoProvider;
 
 import java.io.*;
@@ -17,16 +19,20 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class PictToMethod {
-    private File file;
+    private Parameters parameters;
     //private Method method;
     public PictToMethod(File f){
-        if(!new File("params/PICT-"+f.getName()).exists()){
-            TXTParamters txtParamters=new TXTParamters(f);
-            txtParamters.generateTXT();
-            this.file=new File("params/PICT-"+f.getName());
-        }else{
-            this.file=new File("params/PICT-"+f.getName());
+        if(f.getName().endsWith(".xls")){
+            this.parameters=new ExcelParameters(f);
+            parameters.generate();
+        }else if(f.getName().endsWith(".txt")){
+            this.parameters=new TXTParameters(f);
+            parameters.generate();
         }
+    }
+
+    public PictToMethod(Parameters parameters){
+        this.parameters=parameters;
     }
 
     public PictToMethod(String path){
@@ -42,6 +48,9 @@ public class PictToMethod {
             for(String string:lineParameters.getParameters()){
                 Class<?> clazz = getMethodParameterTypes(method)[i];
                 if(clazz.getName().endsWith("Integer")){
+                    if(string.contains(".")){
+                        string=string.substring(0,string.indexOf("."));
+                    }
                     params[i]= StringUtils.toInteger(string);
                 }else if(clazz.getName().endsWith("Boolean")){
                     params[i]=StringUtils.toBoolean(string);
@@ -60,7 +69,6 @@ public class PictToMethod {
                 }else if(clazz.getName().endsWith("Long")){
                     params[i]=StringUtils.toLong(string);
                 }else{
-                    System.out.println(string);
                     throw new UnsupportedOperationException("暂时不支持非基础属性的参数形式，支持String,Integer,Boolean," +
                             "Double,Float,Long");
                 }
@@ -75,32 +83,8 @@ public class PictToMethod {
 
 
     public List<LineParameters> getParams(){
-        List<LineParameters> parameters=new ArrayList<LineParameters>();
-        try {
-            FileReader input=new FileReader(this.file);
-            BufferedReader br = new BufferedReader(input);
-            String linestr=br.readLine();
-            int i=0;
-            while(linestr!=null){
-                if(i==0){
-                    i++;
-                    linestr=br.readLine();
-                    continue;
-                }
-                LineParameters lineParameters=new LineParameters();
-                String[] params= linestr.split(",");
-                for(String param:params){
-                    lineParameters.addParameter(param);
-                }
-                parameters.add(lineParameters);
-                i++;
-                linestr=br.readLine();
-            }
-            br.close();
-            return parameters;
-        } catch (IOException e) {
-            throw new RuntimeException("获取PICT文件的参数的时候出现了错误！",e);
-        }
+
+        return this.parameters.getParameters();
     }
 
     public Class<?>[] getMethodParameterTypes(Method method){

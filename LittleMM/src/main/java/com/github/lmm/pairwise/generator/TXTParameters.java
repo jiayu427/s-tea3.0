@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TXTParamters {
+public class TXTParameters implements Parameters{
     static{
         if(!new File("params").exists()){
             new File("params").mkdir();
@@ -20,7 +20,7 @@ public class TXTParamters {
 	Algorithm target;
 	private List<String> paramNames;
 	private List<LineParameters> lineparams;
-	public TXTParamters(String path){
+	public TXTParameters(String path){
 		file=new File(path);
 		this.parameters= new ArrayList<Parameter>();
 		this.target=new FullCombinationAlgorithm();
@@ -41,7 +41,7 @@ public class TXTParamters {
 			}
 		}
 	}
-    public TXTParamters(File file){
+    public TXTParameters(File file){
         this(file.getAbsolutePath());
     }
 	protected void formatParameters(){
@@ -67,22 +67,15 @@ public class TXTParamters {
 		}
 	}
 
-	private CombinationList generate(){
+	private CombinationList generateParameters(){
 		formatParameters();
 		return this.target.generate(new ParameterList(this.parameters), -1);
 	}
 
-//	public static void main(String[] args) {
-//		TXTParamters txtParamters = new TXTParamters("generator.txt");
-//		txtParamters.formatParameters();
-//		CombinationList ct = txtParamters.generate();
-//		System.out.println(ct.toString());
-//	}
-
-	public void generateTXT(){
+	public void generate(){
 		try {
 			FileWriter output=new FileWriter(new File("params/"+this.sourceName));
-			CombinationList cList=generate();
+			CombinationList cList=generateParameters();
 			int i=0;
 			for(Combination comb:cList.getCombinations()){
 				formatCombination(comb);
@@ -120,9 +113,35 @@ public class TXTParamters {
 		}
 		this.lineparams.add(lp);
 	}
-	
-//	public static void main(String[] args) {
-//		TXTParamters txt = new TXTParamters("test.txt");
-//		txt.generateTXT();
-//	}
+
+
+
+    public List<LineParameters>  getParameters(){
+        List<LineParameters> parameters=new ArrayList<LineParameters>();
+        try {
+            FileReader input=new FileReader("params/PICT-"+this.file.getName());
+            BufferedReader br = new BufferedReader(input);
+            String linestr=br.readLine();
+            int i=0;
+            while(linestr!=null){
+                if(i==0){
+                    i++;
+                    linestr=br.readLine();
+                    continue;
+                }
+                LineParameters lineParameters=new LineParameters();
+                String[] params= linestr.split(",");
+                for(String param:params){
+                    lineParameters.addParameter(param);
+                }
+                parameters.add(lineParameters);
+                i++;
+                linestr=br.readLine();
+            }
+            br.close();
+            return parameters;
+        } catch (IOException e) {
+            throw new RuntimeException("获取PICT文件的参数的时候出现了错误！",e);
+        }
+    }
 }

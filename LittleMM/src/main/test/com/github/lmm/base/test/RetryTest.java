@@ -19,7 +19,6 @@ import org.openqa.selenium.By;
  */
 @RunWith(JUnitBaseRunner.class)
 @ThreadRunner(threads = 1)
-@Retry(2)
 public class RetryTest {
 
 //    @Test
@@ -30,12 +29,13 @@ public class RetryTest {
 
 
     @Test
-    @Pict("test.txt")
-    public void pictTest(Integer dianshi,String bingxiang){
-        Auto.require(Browser.PhantomJS);
-        Auto.open("http://www.baidu.com");
-        Auto.currentage().element(By.id("kw")).input(dianshi+bingxiang);
-        Auto.currentage().element(By.id("su")).click();
-        Auto.closeAllWindows();
+    @Pict("test.xls")
+    public void pictTest(Integer dianshi,String bingxiang,String yinhang){
+//        Auto.require(Browser.PhantomJS);
+//        Auto.open("http://www.baidu.com");
+//        Auto.currentage().element(By.id("kw")).input(dianshi+bingxiang);
+//        Auto.currentage().element(By.id("su")).click();
+//        Auto.closeAllWindows();
+        System.out.println(dianshi+bingxiang+yinhang);
     }
 }
